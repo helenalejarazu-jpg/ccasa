@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Conciliación corresponsable · CCASA 2025</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&family=Nunito+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--p:#7B2D8E;--m:#C62270;--o:#D85A30;--d:#2D2D2D;--g:#555;--l:#F8F5FA;--pl:#E8D5F0;--gn:#2E7D32;--gl:#E8F5E9;--w:#fff}
+*{box-sizing:border-box;margin:0;padding:0}body{font-family:'Nunito Sans','Segoe UI',sans-serif;color:var(--d);background:#f5f3f7;padding:20px}
+.wrap{max-width:880px;margin:0 auto;background:var(--w);border-radius:14px;box-shadow:0 4px 30px rgba(123,45,142,.08);overflow:hidden}
+.hdr{background:linear-gradient(135deg,var(--p) 0%,var(--m) 60%,var(--o) 100%);padding:28px 30px 24px;position:relative;overflow:hidden}
+.hdr .tag{color:rgba(255,255,255,.65);font-size:10px;font-weight:700;letter-spacing:2px;text-transform:uppercase}
+.hdr h1{font-family:'Comfortaa',sans-serif;color:#fff;font-size:21px;margin:4px 0 2px;font-weight:700}
+.hdr .sub{color:rgba(255,255,255,.85);font-size:13px}
+.cnt{padding:20px 28px 30px}
+.tabs{display:flex;gap:2px;border-bottom:2px solid var(--pl);margin-bottom:22px;flex-wrap:wrap}
+.tb{font-family:'Comfortaa',sans-serif;font-size:11px;font-weight:500;color:var(--g);background:0 0;border:none;padding:8px 14px;cursor:pointer;border-radius:6px 6px 0 0;border-bottom:2px solid transparent;margin-bottom:-2px;transition:.2s}
+.tb.a{font-weight:700;color:var(--p);background:var(--pl);border-bottom-color:var(--p)}
+.tp{display:none}.tp.a{display:block}
+.sec{margin-bottom:28px}.sec h3{font-family:'Comfortaa',sans-serif;font-size:16px;color:var(--p);font-weight:700;margin-bottom:2px}
+.sec .st{font-size:12px;color:var(--g);line-height:1.4;margin-bottom:14px}
+.mts{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:20px}
+.mt{border-radius:0 8px 8px 0;padding:12px 16px;flex:1;min-width:130}
+.mt .v{font-size:24px;font-weight:800;font-family:'Comfortaa',sans-serif;line-height:1}
+.mt .lb{font-size:11px;font-weight:600;margin-top:4px;color:var(--d)}.mt .sb{font-size:10px;color:var(--g);margin-top:2px}
+.mt.pu{background:rgba(123,45,142,.04);border-left:3px solid var(--p)}.mt.pu .v{color:var(--p)}
+.mt.ma{background:rgba(198,34,112,.04);border-left:3px solid var(--m)}.mt.ma .v{color:var(--m)}
+.mt.or{background:rgba(216,90,48,.04);border-left:3px solid var(--o)}.mt.or .v{color:var(--o)}
+.mt.gr{background:rgba(46,125,50,.04);border-left:3px solid var(--gn)}.mt.gr .v{color:var(--gn)}
+.acc{margin-bottom:10px;border:1px solid var(--pl);border-radius:8px;overflow:hidden}
+.acc-b{width:100%;display:flex;justify-content:space-between;align-items:center;background:var(--l);border:none;padding:12px 16px;cursor:pointer;text-align:left;transition:.2s}
+.acc-b.o{background:linear-gradient(135deg,rgba(123,45,142,.06),rgba(198,34,112,.06))}
+.acc-b span:first-child{font-family:'Comfortaa',sans-serif;font-size:13px;font-weight:700;color:var(--p)}
+.acc-b .ar{font-size:18px;color:var(--p);transition:transform .2s}.acc-b.o .ar{transform:rotate(180deg)}
+.acc-d{padding:16px 18px;font-size:13px;line-height:1.7;color:var(--d);display:none}.acc-d.o{display:block}
+.pr{font-size:13px;line-height:1.7;color:var(--d)}.pr p{margin-bottom:10px}
+.pr b,.pr strong{color:var(--p)}.bm{color:var(--m)!important}.bo{color:var(--o)!important}.bg{color:var(--gn)!important}
+.mc{background:var(--l);border-radius:8px;padding:12px 16px;margin-bottom:8px}
+.mc .mt2{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.8px}
+.mc .mt3{font-size:13px;font-weight:600;color:var(--d);margin:4px 0 6px}
+.mc .md{font-size:12px;color:var(--g);line-height:1.5;margin-bottom:3px;padding-left:10px;border-left:1px solid var(--pl)}
+.tbl{width:100%;border-collapse:collapse;font-size:11px;border:1px solid var(--pl);border-radius:8px;overflow:hidden}
+.tbl thead th{background:linear-gradient(135deg,var(--p),var(--m));color:#fff;padding:8px 10px;font-weight:700;font-size:10px;text-align:center}
+.tbl thead th:first-child{text-align:left}.tbl tbody td{padding:7px 10px;color:var(--d);text-align:center;border-bottom:1px solid rgba(232,213,240,.15)}
+.tbl tbody td:first-child{text-align:left;font-weight:600}.tbl tbody tr:nth-child(even){background:var(--l)}
+.att{border-radius:0 8px 8px 0;padding:12px 16px;margin-bottom:10px}
+.att .at{font-size:13px;font-weight:700;margin-bottom:4px}.att .ax{font-size:12.5px;line-height:1.6}
+canvas{max-width:100%}.cb{margin:14px 0}
+.ft{border-top:2px solid var(--pl);margin-top:28px;padding-top:10px;text-align:center}.ft p{font-size:9px;color:var(--g)}
+@media(max-width:600px){.mts{flex-direction:column}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<div class="hdr">
+<div class="tag">Red Kuorum · Asistencia Técnica Igualdad</div>
+<h1>Informe de conciliación corresponsable con perspectiva de género</h1>
+<div class="sub">CCASA · Datos 2025 · III Plan de Igualdad 2026-2029</div>
+</div>
+<div class="cnt">
+<div class="tabs" id="tabs">
+<button class="tb a" data-t="0">Introducción</button>
+<button class="tb" data-t="1">Visión general</button>
+<button class="tb" data-t="2">Flexibilidad</button>
+<button class="tb" data-t="3">Red. jornada</button>
+<button class="tb" data-t="4">Excedencias</button>
+<button class="tb" data-t="5">Teletrabajo</button>
+<button class="tb" data-t="6">Conclusiones</button>
+</div>
+<div class="tp a" id="p-0">
+<div class="sec"><h3>Contexto y antecedentes</h3>
+<div class="pr">
+<p>El seguimiento de las medidas de conciliación corresponsable desde la perspectiva de género constituye un ejercicio que CCASA viene realizando de manera sistemática desde el <strong>II Plan de Igualdad (2021-2024)</strong>. En el <strong class="bm">diagnóstico</strong> realizado en 2025 (con datos de 2024), se confirmaron patrones diferenciados en el uso de las medidas que revelaban la persistencia de roles tradicionales de género.</p>
+<p>El presente informe se elabora en <strong>2026</strong>, primer año de vigencia del <strong>III Plan de Igualdad (2026-2029)</strong>, y analiza los datos de <strong class="bm">2025</strong>. Se dispone así de una línea de base actualizada.</p>
+</div></div>
+<div class="sec"><h3>Encuadre en el III Plan</h3>
+<div class="pr"><p>El III Plan estructura la conciliación en el <strong>Área 6: Conciliación Corresponsable</strong>:</p></div>
+<div class="mc" style="border-left:3px solid var(--p)">
+<div class="mt2" style="color:var(--p)">Meta 6.1</div>
+<div class="mt3">Garantizar medidas de conciliación eficaces, evaluables, transparentes y adaptadas a las necesidades reales de la plantilla</div>
+<div class="md">6.1.1. Revisar y evaluar anualmente las medidas de conciliación y flexibilidad horaria.</div>
+<div class="md">6.1.2. Cuestionario de satisfacción sobre conciliación y corresponsabilidad (previsto 2026).</div>
+<div class="md">6.1.3. Difundir a toda la plantilla las medidas disponibles y los resultados de la evaluación.</div>
+</div>
+<div class="pr"><p>Este informe responde a la <strong class="bo">Medida 6.1.1</strong>.</p></div>
+</div>
+<div class="acc"><button class="acc-b" onclick="tog(this)"><span>La paradoja del diagnóstico</span><span class="ar">▾</span></button>
+<div class="acc-d"><div class="pr">
+<p>CCASA dispone de medidas avanzadas, pero su uso mostraba un patrón sexuado: las mujeres eran las únicas que solicitaban reducciones de jornada y excedencias por cuidado. Solo el <strong class="bm">35% de las mujeres</strong> creía que era posible conciliar sin penalizaciones, frente al <strong>84% de los hombres</strong>.</p>
+</div></div></div>
+</div>
+<div class="tp" id="p-1">
+<div class="mts">
+<div class="mt pu"><div class="v">138</div><div class="lb">Plantilla</div><div class="sb">82 H (59,4%) · 56 M (40,6%)</div></div>
+<div class="mt ma"><div class="v">4</div><div class="lb">Medidas analizadas</div><div class="sb">Flex · Red · Exc · Teletrabajo</div></div>
+<div class="mt gr"><div class="v">1er H</div><div class="lb">Excedencia cuidado</div><div class="sb">Primer hombre en los registros</div></div>
+</div>
+<div class="sec"><h3>Resumen: uso intragénero por medida</h3>
+<div class="cb"><canvas id="cRes" height="250"></canvas></div>
+</div>
+<div class="acc"><button class="acc-b" onclick="tog(this)"><span>Lectura de conjunto</span><span class="ar">▾</span></button>
+<div class="acc-d"><div class="pr">
+<p>Los datos confirman la paradoja del diagnóstico: medidas avanzadas, uso sexuado. La <strong class="bm">flexibilidad horaria</strong> muestra el cambio más preocupante: la brecha intragénero se amplía de 2,9 a 15,9 pp. La <strong class="bm">reducción de jornada</strong> sigue siendo exclusivamente femenina. Las <strong class="bg">excedencias</strong> registran un hito positivo con el primer hombre en cuidado. El <strong>teletrabajo</strong> se mantiene estable.</p>
+</div></div></div>
+</div>
+<div class="tp" id="p-2">
+<div class="mts">
+<div class="mt pu"><div class="v">28</div><div class="lb">Hombres</div><div class="sb">34,1% intragénero</div></div>
+<div class="mt ma"><div class="v">28</div><div class="lb">Mujeres</div><div class="sb">50,0% intragénero</div></div>
+<div class="mt or"><div class="v">15,9pp</div><div class="lb">Brecha intragénero</div><div class="sb">Era 2,9pp en 2024</div></div>
+</div>
+<table class="tbl"><thead><tr><th></th><th>Hombres</th><th>Mujeres</th><th>Total</th></tr></thead>
+<tbody><tr><td>Plantilla</td><td>82</td><td>56</td><td>138</td></tr>
+<tr><td>Con flexibilidad</td><td>28</td><td>28</td><td>56</td></tr>
+<tr><td>% intragénero</td><td>34,1%</td><td>50,0%</td><td>40,6%</td></tr></tbody></table>
+<div class="sec" style="margin-top:16px"><h3>Evolución intragénero 2024 → 2025</h3>
+<div class="cb"><canvas id="cFlex" height="260"></canvas></div></div>
+<div class="acc"><button class="acc-b" onclick="tog(this)"><span>Análisis (texto)</span><span class="ar">▾</span></button>
+<div class="acc-d"><div class="pr">
+<p>En términos absolutos la distribución es paritaria (28-28), pero el análisis intragénero revela que la <strong class="bm">mitad de las mujeres</strong> necesitan adaptar su horario, frente a un tercio de los hombres.</p>
+<p>El porcentaje masculino se mantiene estable (34,1%), mientras que el femenino pasa del 37,0% al <strong class="bm">50,0%</strong> (+13pp). La brecha se amplía de 2,9 a <strong class="bo">15,9 puntos</strong>.</p>
+<p>Puede reflejar más necesidades de cuidado o un déficit de corresponsabilidad masculina. En cualquier caso, señala un retroceso que merece seguimiento.</p>
+</div></div></div>
+</div>
+<div class="tp" id="p-3">
+<div class="mts">
+<div class="mt pu"><div class="v">0</div><div class="lb">Hombres</div><div class="sb">0% intragénero</div></div>
+<div class="mt ma"><div class="v">5</div><div class="lb">Mujeres</div><div class="sb">8,9% intragénero</div></div>
+<div class="mt or"><div class="v">100%</div><div class="lb">Exclusividad femenina</div><div class="sb">Sin cambio vs 2024</div></div>
+</div>
+<table class="tbl"><thead><tr><th>Nombre</th><th>Reducción</th></tr></thead>
+<tbody><tr><td>Leire Ibarzabal</td><td>1/4</td></tr><tr><td>Garbiñe López</td><td>1/3</td></tr>
+<tr><td>Elena López Luis</td><td>1/8</td></tr><tr><td>Irati Mancisidor</td><td>1/8</td></tr>
+<tr><td>Leire Martínez</td><td>1/8</td></tr></tbody></table>
+<div class="sec" style="margin-top:16px"><h3>Distribución por sexo</h3>
+<div class="cb"><canvas id="cRed" height="220"></canvas></div></div>
+<div class="acc"><button class="acc-b" onclick="tog(this)"><span>Análisis (texto)</span><span class="ar">▾</span></button>
+<div class="acc-d"><div class="pr">
+<p>Ningún hombre ha solicitado reducción de jornada. El patrón se mantiene inalterado: es la medida con <strong class="bo">mayor coste directo</strong> (pérdida salarial, cotizaciones, visibilidad) y la asumen exclusivamente mujeres.</p>
+<p>Las mujeres que reducen jornada asumen un coste económico y profesional que ningún hombre de la organización comparte, pese a que también tienen personas menores a su cargo (como evidencia el uso de la flexibilidad horaria).</p>
+</div></div></div>
+</div>
+<div class="tp" id="p-4">
+<div class="mts">
+<div class="mt pu"><div class="v">2H</div><div class="lb">Hombres</div><div class="sb">1 cuidado · 1 cambio empresa</div></div>
+<div class="mt ma"><div class="v">3M</div><div class="lb">Mujeres</div><div class="sb">2 cuidado · 1 cambio empresa</div></div>
+<div class="mt gr"><div class="v">1er H</div><div class="lb">Cuidado menores</div><div class="sb">Primer hombre en registros</div></div>
+</div>
+<table class="tbl"><thead><tr><th>Sexo</th><th>Nombre</th><th>Periodo</th><th>Motivo</th></tr></thead>
+<tbody><tr><td>M</td><td>Irati Mancisidor</td><td>Ene + Sep</td><td>Cuidado menores</td></tr>
+<tr><td>M</td><td>Leire Tazo</td><td>Jul-Sep</td><td>Cuidado menores</td></tr>
+<tr><td>H</td><td>Víctor Sancha</td><td>Ago-Sep</td><td>Cuidado menores</td></tr>
+<tr><td>H</td><td>Iñigo Ortiz de Gochicoa</td><td>Mar-Sep</td><td>Cambio empresa</td></tr>
+<tr><td>M</td><td>Leire Tazo</td><td>Sep en adelante</td><td>Cambio empresa</td></tr></tbody></table>
+<div class="sec" style="margin-top:16px"><h3>Excedencias por motivo y sexo</h3>
+<div class="cb"><canvas id="cExc" height="220"></canvas></div></div>
+<div class="acc"><button class="acc-b" onclick="tog(this)"><span>Análisis (texto)</span><span class="ar">▾</span></button>
+<div class="acc-d"><div class="pr">
+<p><strong class="bg">Por primera vez, un hombre solicita excedencia por cuidado de menores.</strong> Aunque se trata de un solo caso, rompe una tendencia de exclusividad femenina mantenida durante todo el periodo analizado.</p>
+<p>La proporción sigue siendo desigual (2M vs 1H). Además, Irati Mancisidor combina excedencia + reducción de jornada 1/8: acumulación de medidas siempre sobre las mismas personas, siempre mujeres.</p>
+</div></div></div>
+</div>
+<div class="tp" id="p-5">
+<div class="mts">
+<div class="mt pu"><div class="v">93,9%</div><div class="lb">Hombres</div><div class="sb">77 de 82</div></div>
+<div class="mt ma"><div class="v">98,2%</div><div class="lb">Mujeres</div><div class="sb">55 de 56</div></div>
+<div class="mt or"><div class="v">4,3pp</div><div class="lb">Brecha intragénero</div><div class="sb">Estable vs 2024</div></div>
+</div>
+<table class="tbl"><thead><tr><th></th><th>Hombres</th><th>Mujeres</th><th>Total</th></tr></thead>
+<tbody><tr><td>Solicitan</td><td>77</td><td>55</td><td>132</td></tr>
+<tr><td>No solicitan</td><td>5</td><td>1</td><td>6</td></tr>
+<tr><td>% intragénero</td><td>93,9%</td><td>98,2%</td><td>95,7%</td></tr></tbody></table>
+<div class="sec" style="margin-top:16px"><h3>Teletrabajo: % intragénero</h3>
+<div class="cb"><canvas id="cTel" height="220"></canvas></div></div>
+<div class="acc"><button class="acc-b" onclick="tog(this)"><span>Análisis (texto)</span><span class="ar">▾</span></button>
+<div class="acc-d"><div class="pr">
+<p>Datos prácticamente idénticos al diagnóstico. Para muchas mujeres, el teletrabajo funciona como recurso de compatibilización —no como redistribución de cargas—. Las 6 personas que no solicitan teletrabajo son 5 hombres y 1 mujer.</p>
+</div></div></div>
+</div>
+<div class="tp" id="p-6">
+<div class="sec"><h3>Conclusiones</h3><div class="pr">
+<p>El análisis confirma la <strong>persistencia de la paradoja</strong>: medidas avanzadas, uso sexuado.</p>
+</div></div>
+<div class="att" style="background:rgba(198,34,112,.05);border-left:3px solid var(--m)">
+<div class="at" style="color:var(--m)">Flexibilidad horaria: brecha ampliada</div>
+<div class="ax">De 2,9 a 15,9pp. El uso femenino crece del 37% al 50% mientras el masculino se mantiene en 34,1%.</div></div>
+<div class="att" style="background:rgba(216,90,48,.05);border-left:3px solid var(--o)">
+<div class="at" style="color:var(--o)">Reducción de jornada: exclusividad femenina</div>
+<div class="ax">5 mujeres, 0 hombres. La medida con mayor coste directo sigue sin uso masculino.</div></div>
+<div class="att" style="background:rgba(46,125,50,.05);border-left:3px solid var(--gn)">
+<div class="at" style="color:var(--gn)">Excedencias: primer precedente masculino</div>
+<div class="ax">Un hombre solicita excedencia por cuidado de menores por primera vez. Caso aislado pero significativo.</div></div>
+<div class="att" style="background:rgba(123,45,142,.05);border-left:3px solid var(--p)">
+<div class="at" style="color:var(--p)">Teletrabajo: estable</div>
+<div class="ax">Brecha de 4,3pp mantenida. Riesgo de conciliación reactiva persistente.</div></div>
+<div class="sec"><h3>Propuestas</h3><div class="pr">
+<p>Se propone <strong>contrastar los resultados del cuestionario realizado en 2025</strong> (diagnóstico, datos de 2024) con los datos de uso de medidas de este informe (datos de 2025), para identificar cuestiones no abordadas que los datos actuales revelan como relevantes. Este contraste permitirá diseñar el cuestionario previsto en la <strong class="bo">Medida 6.1.2</strong> (2026) con información nueva y accionable, sin reiterar preguntas ya formuladas.</p>
+<p>Se constata como dato positivo la primera excedencia por cuidado solicitada por un hombre, apertura que convendrá seguir observando.</p>
+</div></div>
+</div>
+<div class="ft"><p>Red Kuorum · Feminismo en red · Informe de conciliación CCASA 2025 · III Plan de Igualdad 2026-2029</p></div>
+</div></div>
+<script>
+const P='#7B2D8E',M='#C62270',O='#D85A30',G='#555',GN='#2E7D32';
+document.querySelectorAll('.tb').forEach(b=>{b.addEventListener('click',()=>{
+document.querySelectorAll('.tb').forEach(x=>x.classList.remove('a'));
+document.querySelectorAll('.tp').forEach(x=>x.classList.remove('a'));
+b.classList.add('a');document.getElementById('p-'+b.dataset.t).classList.add('a');
+if(b.dataset.t==='1')i1();if(b.dataset.t==='2')i2();if(b.dataset.t==='3')i3();if(b.dataset.t==='4')i4();if(b.dataset.t==='5')i5();
+})});
+function tog(b){b.classList.toggle('o');b.nextElementSibling.classList.toggle('o')}
+let f1=0,f2=0,f3=0,f4=0,f5=0;
+function i1(){if(f1)return;f1=1;new Chart(document.getElementById('cRes'),{type:'bar',data:{labels:['Flexibilidad\nhoraria','Reducción\njornada','Teletrabajo'],datasets:[{label:'Hombres (% intragénero)',data:[34.1,0,93.9],backgroundColor:P,borderRadius:4},{label:'Mujeres (% intragénero)',data:[50,8.9,98.2],backgroundColor:M,borderRadius:4}]},options:{responsive:true,plugins:{legend:{labels:{font:{size:10}}}},scales:{y:{beginAtZero:true,max:110,ticks:{callback:v=>v+'%',font:{size:10}}},x:{ticks:{font:{size:9}}}}}});}
+function i2(){if(f2)return;f2=1;new Chart(document.getElementById('cFlex'),{type:'bar',data:{labels:['2024 (diagnóstico)','2025'],datasets:[{label:'Hombres',data:[34.1,34.1],backgroundColor:P,borderRadius:4},{label:'Mujeres',data:[37,50],backgroundColor:M,borderRadius:4}]},options:{responsive:true,plugins:{legend:{labels:{font:{size:10}}},annotation:{}},scales:{y:{beginAtZero:true,max:60,ticks:{callback:v=>v+'%',font:{size:10}}},x:{ticks:{font:{size:12,weight:'bold'}}}}}});}
+function i3(){if(f3)return;f3=1;new Chart(document.getElementById('cRed'),{type:'bar',data:{labels:['Hombres','Mujeres'],datasets:[{data:[0,5],backgroundColor:[P,M],borderRadius:4}]},options:{responsive:true,plugins:{legend:{display:false}},scales:{y:{beginAtZero:true,max:7,ticks:{font:{size:10}}},x:{ticks:{font:{size:12,weight:'bold'}}}}}});}
+function i4(){if(f4)return;f4=1;new Chart(document.getElementById('cExc'),{type:'bar',data:{labels:['Cuidado menores','Cambio empresa'],datasets:[{label:'Hombres',data:[1,1],backgroundColor:P,borderRadius:4},{label:'Mujeres',data:[2,1],backgroundColor:M,borderRadius:4}]},options:{responsive:true,plugins:{legend:{labels:{font:{size:10}}}},scales:{y:{beginAtZero:true,max:3.5,ticks:{stepSize:1,font:{size:10}}},x:{ticks:{font:{size:11,weight:'bold'}}}}}});}
+function i5(){if(f5)return;f5=1;new Chart(document.getElementById('cTel'),{type:'bar',data:{labels:['Hombres','Mujeres'],datasets:[{label:'Solicitan',data:[93.9,98.2],backgroundColor:[P,M],borderRadius:4}]},options:{responsive:true,plugins:{legend:{display:false}},scales:{y:{min:85,max:100,ticks:{callback:v=>v+'%',font:{size:10}}},x:{ticks:{font:{size:12,weight:'bold'}}}}}});}
+</script>
+</body>
+</html>

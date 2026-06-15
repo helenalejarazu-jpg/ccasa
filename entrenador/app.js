@@ -719,6 +719,11 @@ async function init() {
   } catch (e) {
     console.error("No se pudo cargar:", e);
   }
+  // Datos de ejemplo precargados (solo si la app está vacía y hay semilla disponible).
+  if ((!state.clients || !state.clients.length) && typeof window !== "undefined" && window.__SEED__) {
+    state = window.__SEED__;
+    save();
+  }
   if (!state.clients) state.clients = [];
   if (!state.exercises) state.exercises = [];
   renderAll();

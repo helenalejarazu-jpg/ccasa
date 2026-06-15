@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gestor de Entrenamientos</title>
+  <link rel="stylesheet" href="styles.css" />
+  <!-- ExcelJS: lectura/escritura de Excel con imágenes -->
+  <script src="https://cdn.jsdelivr.net/npm/exceljs@4.4.0/dist/exceljs.min.js"></script>
+</head>
+<body>
+  <header class="topbar">
+    <h1>🏋️ Gestor de Entrenamientos</h1>
+    <nav class="tabs">
+      <button class="tab active" data-view="personas">Personas</button>
+      <button class="tab" data-view="ejercicios">Ejercicios</button>
+      <button class="tab" data-view="plan">Plan</button>
+      <button class="tab" data-view="importar">Importar Excel</button>
+      <button class="tab" data-view="exportar">Exportar Excel</button>
+      <button class="tab" data-view="datos">Copias</button>
+    </nav>
+  </header>
+
+  <main id="app">
+    <!-- PERSONAS -->
+    <section id="view-personas" class="view active">
+      <div class="view-head">
+        <h2>Personas</h2>
+        <div class="row">
+          <input id="nuevoClienteNombre" type="text" placeholder="Nombre de la persona" />
+          <button id="addCliente" class="btn primary">+ Añadir persona</button>
+        </div>
+      </div>
+      <div id="listaClientes" class="cards"></div>
+    </section>
+
+    <!-- EJERCICIOS (biblioteca) -->
+    <section id="view-ejercicios" class="view">
+      <div class="view-head">
+        <h2>Biblioteca de ejercicios</h2>
+        <div class="row">
+          <input id="nuevoEjercicioNombre" type="text" placeholder="Nombre del ejercicio" />
+          <button id="addEjercicio" class="btn primary">+ Añadir ejercicio</button>
+        </div>
+        <p class="hint">Cada ejercicio puede tener una foto que se reutiliza en todos los planes y aparece en el Excel exportado.</p>
+      </div>
+      <div id="listaEjercicios" class="grid-ejercicios"></div>
+    </section>
+
+    <!-- PLAN -->
+    <section id="view-plan" class="view">
+      <div class="view-head">
+        <h2>Plan de entrenamiento</h2>
+        <div class="row">
+          <label>Persona:</label>
+          <select id="planCliente"></select>
+          <button id="addSemana" class="btn">+ Semana</button>
+        </div>
+      </div>
+      <div id="planContenido"></div>
+    </section>
+
+    <!-- IMPORTAR -->
+    <section id="view-importar" class="view">
+      <div class="view-head">
+        <h2>Importar desde Excel</h2>
+        <p class="hint">Sube un Excel (.xlsx). La app leerá las filas y extraerá las imágenes incrustadas. Después eliges qué columna es cada cosa y a qué persona/semana asignarlo.</p>
+        <div class="row">
+          <input id="excelInput" type="file" accept=".xlsx" />
+        </div>
+      </div>
+      <div id="importResultado"></div>
+    </section>
+
+    <!-- EXPORTAR -->
+    <section id="view-exportar" class="view">
+      <div class="view-head">
+        <h2>Exportar entrenamiento semanal</h2>
+        <div class="row">
+          <label>Persona:</label>
+          <select id="expCliente"></select>
+          <label>Semana:</label>
+          <select id="expSemana"></select>
+          <button id="btnExportar" class="btn primary">⬇️ Descargar Excel con imágenes</button>
+        </div>
+        <p class="hint">Genera un Excel con cada día, los ejercicios, series/repeticiones/peso y la foto de cada ejercicio.</p>
+      </div>
+      <div id="expEstado"></div>
+    </section>
+
+    <!-- DATOS / COPIAS -->
+    <section id="view-datos" class="view">
+      <div class="view-head">
+        <h2>Copias de seguridad</h2>
+        <p class="hint">Tus datos se guardan en este navegador. Exporta una copia para no perderlos o para pasarlos a otro equipo.</p>
+        <div class="row">
+          <button id="btnBackup" class="btn">⬇️ Descargar copia (.json)</button>
+          <label class="btn">⬆️ Restaurar copia<input id="restoreInput" type="file" accept=".json" hidden /></label>
+          <button id="btnReset" class="btn danger">🗑️ Borrar todo</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="toast" class="toast"></div>
+
+  <script src="db.js"></script>
+  <script src="excel.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

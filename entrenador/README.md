@@ -45,6 +45,19 @@ Publicarla con **GitHub Pages**:
 > Importante: los datos viven en el navegador donde la uses. Para pasarlos a
 > otro equipo o móvil, usa **Copias → Descargar copia** y luego **Restaurar copia**.
 
+### Instalarla en el móvil y usarla SIN conexión
+
+La app es una **PWA**: se puede instalar en el móvil y funcionar offline.
+Primero hay que publicarla con GitHub Pages (opción B). Luego, en el móvil:
+
+- **Android (Chrome)**: abre la URL → menú **⋮** → **Añadir a pantalla de inicio** / **Instalar app**.
+- **iPhone (Safari)**: abre la URL → botón **Compartir** → **Añadir a pantalla de inicio**.
+
+La primera vez necesita internet (para guardarse). Después se abre como una app
+normal desde el icono y **funciona sin conexión**: gestionar planes, importar y
+exportar Excel con imágenes, todo offline. ExcelJS va incluido en el proyecto,
+así que no depende de internet.
+
 ## Notas técnicas
 
 - Hecho solo con HTML/CSS/JavaScript (sin servidor).

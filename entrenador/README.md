@@ -11,8 +11,20 @@ todos los datos se guardan **en tu propio navegador**.
 - **Personas**: añade a cada persona que entrenas.
 - **Biblioteca de ejercicios**: cada ejercicio con su foto (se reutiliza en todos los planes).
 - **Plan**: organiza por semanas y días; en cada ejercicio defines series, repeticiones, peso, descanso y notas. Puedes **duplicar una semana** para crear la siguiente y solo cambiar los pesos.
-- **Importar Excel**: sube tus `.xlsx` actuales; la app lee las filas y extrae las imágenes incrustadas. Eliges qué columna es cada cosa y a qué persona/semana asignarlo.
-- **Exportar Excel**: eliges persona + semana y descargas un Excel con cada día, sus ejercicios y la foto de cada uno.
+- **Importar Excel**:
+  - **Automático**: si el `.xlsx` tiene tu formato de plantilla (1 hoja = 1 semana, 4 días en paralelo con columnas FOTO · EJERCICIO · SERIES · PESOS/REPES · DESC · COMENTARIOS), la app detecta semanas, días, ejercicios y **extrae las fotos** sin que tengas que configurar nada.
+  - **Manual**: para cualquier otro Excel, eliges qué columna es cada cosa.
+  - Los Google Sheets se importan descargándolos primero como `.xlsx` (*Archivo → Descargar → Microsoft Excel*).
+- **Exportar Excel**: eliges persona + semana y descargas un Excel con los 4 días en paralelo, sus ejercicios y la foto de cada uno, parecido a tus plantillas originales.
+
+## Datos de ejemplo ya cargados (HELENA)
+
+El archivo `datos_ejemplo_helena.json` contiene los 4 meses reales de HELENA
+(15 semanas, 37 ejercicios con sus fotos), ya procesados. Para verlos en la app:
+
+1. Abre la app y ve a **Copias**.
+2. Pulsa **Restaurar copia** y elige `datos_ejemplo_helena.json`.
+3. Verás a HELENA con todas sus semanas en la pestaña **Plan**.
 - **Copias**: descarga una copia de seguridad (`.json`) y restáurala en otro equipo.
 
 ## Cómo usarla

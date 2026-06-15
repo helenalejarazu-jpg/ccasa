@@ -1,4 +1,14 @@
 // Lógica principal de la aplicación: estado, render y eventos.
+//
+// Modelo de datos:
+//   state.exercises: [{ id, name, image(dataURL|null), description }]  (description = comentarios/técnica)
+//   state.clients:   [{ id, name, notes, plan:{ weeks:[
+//                        { id, name, days:[
+//                          { id, name, pesosLabel:'PESOS'|'REPES', items:[
+//                            { id, exerciseId, series, pesos, desc, notes }
+//                          ]}
+//                        ]}
+//                      ]}}]
 
 let state = { clients: [], exercises: [] };
 
@@ -24,6 +34,16 @@ function exercisesById() {
   const map = {};
   state.exercises.forEach((e) => (map[e.id] = e));
   return map;
+}
+
+function findOrCreateExercise(name) {
+  const key = name.trim().toLowerCase();
+  let ex = state.exercises.find((e) => e.name.trim().toLowerCase() === key);
+  if (!ex) {
+    ex = { id: uid(), name: name.trim(), image: null, description: "" };
+    state.exercises.push(ex);
+  }
+  return ex;
 }
 
 function fileToDataUrl(file) {
@@ -59,12 +79,12 @@ function setupTabs() {
 function renderClientes() {
   const cont = $("#listaClientes");
   if (!state.clients.length) {
-    cont.innerHTML = '<div class="empty">Aún no hay personas. Añade la primera arriba.</div>';
+    cont.innerHTML = '<div class="empty">Aún no hay personas. Añade la primera arriba o impórtalas desde un Excel.</div>';
     return;
   }
   cont.innerHTML = state.clients
     .map((c) => {
-      const weeks = (c.plan && c.plan.weeks ? c.plan.weeks.length : 0);
+      const weeks = c.plan && c.plan.weeks ? c.plan.weeks.length : 0;
       return `<div class="card" data-id="${c.id}">
         <h3>${escapeHtml(c.name)}</h3>
         <div class="meta">${weeks} semana(s) de plan</div>
@@ -122,16 +142,17 @@ function setupPersonas() {
 function renderEjercicios() {
   const cont = $("#listaEjercicios");
   if (!state.exercises.length) {
-    cont.innerHTML = '<div class="empty">Biblioteca vacía. Añade ejercicios y súbeles una foto.</div>';
+    cont.innerHTML = '<div class="empty">Biblioteca vacía. Añade ejercicios y súbeles una foto, o impórtalos desde un Excel.</div>';
     return;
   }
-  cont.innerHTML = state.exercises
+  const orden = state.exercises.slice().sort((a, b) => a.name.localeCompare(b.name, "es"));
+  cont.innerHTML = orden
     .map(
       (e) => `<div class="ej-card" data-id="${e.id}">
         <div class="ej-img">${e.image ? `<img src="${e.image}" alt="">` : "Sin foto"}</div>
         <div class="ej-body">
           <input type="text" value="${escapeHtml(e.name)}" data-field="name" />
-          <input type="text" value="${escapeHtml(e.description || "")}" data-field="description" placeholder="Descripción (opcional)" />
+          <textarea data-field="description" rows="2" placeholder="Comentarios / técnica">${escapeHtml(e.description || "")}</textarea>
           <div class="actions">
             <label class="btn small">Foto<input type="file" accept="image/*" data-field="image" hidden></label>
             ${e.image ? '<button class="btn small" data-act="quitarFoto">Quitar foto</button>' : ""}
@@ -223,6 +244,8 @@ function renderPlan() {
   const exOptions = (selId) =>
     `<option value="">— ejercicio —</option>` +
     state.exercises
+      .slice()
+      .sort((a, b) => a.name.localeCompare(b.name, "es"))
       .map((e) => `<option value="${e.id}" ${e.id === selId ? "selected" : ""}>${escapeHtml(e.name)}</option>`)
       .join("");
   const byId = exercisesById();
@@ -244,28 +267,34 @@ function renderPlan() {
           <div class="dia-head">
             <input type="text" value="${escapeHtml(d.name)}" data-field="dayName" />
             <div class="row">
+              <label>4ª col:
+                <select data-field="pesosLabel">
+                  <option value="PESOS" ${(d.pesosLabel || "PESOS") === "PESOS" ? "selected" : ""}>PESOS</option>
+                  <option value="REPES" ${d.pesosLabel === "REPES" ? "selected" : ""}>REPES</option>
+                </select>
+              </label>
               <button class="btn small" data-act="addItem">+ Ejercicio</button>
               <button class="btn small danger" data-act="delDia">Eliminar día</button>
             </div>
           </div>
           <table class="items">
             <thead><tr>
-              <th style="width:40px"></th><th>Ejercicio</th><th>Series</th><th>Reps</th>
-              <th>Peso</th><th>Descanso</th><th>Notas</th><th></th>
+              <th style="width:46px"></th><th>Ejercicio</th><th>Series</th>
+              <th>${escapeHtml(d.pesosLabel || "PESOS")}</th><th>Desc</th><th>Comentarios</th><th></th>
             </tr></thead>
             <tbody>
             ${(d.items || [])
               .map((it) => {
                 const ex = it.exerciseId ? byId[it.exerciseId] : null;
-                const img = it.image || (ex && ex.image);
+                const img = ex && ex.image;
+                const com = it.notes || (ex && ex.description) || "";
                 return `<tr data-item="${it.id}">
                   <td>${img ? `<img class="thumb" src="${img}">` : ""}</td>
                   <td><select data-field="exerciseId">${exOptions(it.exerciseId)}</select></td>
-                  <td><input type="text" value="${escapeHtml(it.sets || "")}" data-field="sets"></td>
-                  <td><input type="text" value="${escapeHtml(it.reps || "")}" data-field="reps"></td>
-                  <td><input type="text" value="${escapeHtml(it.weight || "")}" data-field="weight"></td>
-                  <td><input type="text" value="${escapeHtml(it.rest || "")}" data-field="rest"></td>
-                  <td><input type="text" value="${escapeHtml(it.notes || "")}" data-field="notes"></td>
+                  <td><input type="text" value="${escapeHtml(it.series || "")}" data-field="series"></td>
+                  <td><input type="text" value="${escapeHtml(it.pesos || "")}" data-field="pesos"></td>
+                  <td><input type="text" value="${escapeHtml(it.desc || "")}" data-field="desc"></td>
+                  <td><input type="text" value="${escapeHtml(com)}" data-field="comentarios"></td>
                   <td><button class="btn small danger" data-act="delItem">✕</button></td>
                 </tr>`;
               })
@@ -302,7 +331,7 @@ function setupPlan() {
 
   const cont = $("#planContenido");
 
-  // edición de campos (sin re-render para no perder el foco)
+  // edición de campos de texto (sin re-render para no perder el foco)
   cont.addEventListener("input", (e) => {
     const f = e.target.dataset.field;
     if (!f) return;
@@ -313,25 +342,37 @@ function setupPlan() {
     if (f === "weekName") {
       w.name = e.target.value;
     } else if (f === "dayName") {
-      const d = findDay(w, e.target.closest(".dia").dataset.day);
-      d.name = e.target.value;
-    } else {
+      findDay(w, e.target.closest(".dia").dataset.day).name = e.target.value;
+    } else if (["series", "pesos", "desc"].includes(f)) {
       const d = findDay(w, e.target.closest(".dia").dataset.day);
       const it = d.items.find((x) => x.id === e.target.closest("tr").dataset.item);
       if (it) it[f] = e.target.value;
+    } else if (f === "comentarios") {
+      // el comentario es la técnica del ejercicio: se guarda en la biblioteca
+      const d = findDay(w, e.target.closest(".dia").dataset.day);
+      const it = d.items.find((x) => x.id === e.target.closest("tr").dataset.item);
+      const ex = it && it.exerciseId && exercisesById()[it.exerciseId];
+      if (ex) ex.description = e.target.value;
+      else if (it) it.notes = e.target.value;
     }
     save();
   });
 
-  // selects (ejercicio) -> sí re-render para mostrar miniatura
+  // selects (ejercicio / etiqueta 4ª col) -> re-render
   cont.addEventListener("change", (e) => {
-    if (e.target.dataset.field !== "exerciseId") return;
+    const f = e.target.dataset.field;
     const c = currentPlanClient();
+    if (!c) return;
     const w = findWeek(c, e.target.closest(".semana").dataset.week);
-    const d = findDay(w, e.target.closest(".dia").dataset.day);
-    const it = d.items.find((x) => x.id === e.target.closest("tr").dataset.item);
-    if (it) {
-      it.exerciseId = e.target.value;
+    if (f === "exerciseId") {
+      const d = findDay(w, e.target.closest(".dia").dataset.day);
+      const it = d.items.find((x) => x.id === e.target.closest("tr").dataset.item);
+      if (it) it.exerciseId = e.target.value;
+      save();
+      renderPlan();
+    } else if (f === "pesosLabel") {
+      const d = findDay(w, e.target.closest(".dia").dataset.day);
+      d.pesosLabel = e.target.value;
       save();
       renderPlan();
     }
@@ -345,29 +386,26 @@ function setupPlan() {
     const w = findWeek(c, e.target.closest(".semana").dataset.week);
     const act = btn.dataset.act;
     if (act === "delSemana") {
-      if (confirm("¿Eliminar esta semana?")) {
-        c.plan.weeks = c.plan.weeks.filter((x) => x.id !== w.id);
-      }
+      if (confirm("¿Eliminar esta semana?")) c.plan.weeks = c.plan.weeks.filter((x) => x.id !== w.id);
     } else if (act === "dupSemana") {
       const copy = JSON.parse(JSON.stringify(w));
       copy.id = uid();
       copy.name = w.name + " (copia)";
-      copy.days.forEach((d) => {
+      (copy.days || []).forEach((d) => {
         d.id = uid();
-        d.items.forEach((it) => (it.id = uid()));
+        (d.items || []).forEach((it) => (it.id = uid()));
       });
-      const idx = c.plan.weeks.indexOf(w);
-      c.plan.weeks.splice(idx + 1, 0, copy);
+      c.plan.weeks.splice(c.plan.weeks.indexOf(w) + 1, 0, copy);
     } else if (act === "addDia") {
       w.days = w.days || [];
-      w.days.push({ id: uid(), name: "Día " + (w.days.length + 1), items: [] });
+      w.days.push({ id: uid(), name: "Día " + (w.days.length + 1), pesosLabel: "PESOS", items: [] });
     } else if (act === "delDia") {
       const d = findDay(w, e.target.closest(".dia").dataset.day);
       w.days = w.days.filter((x) => x.id !== d.id);
     } else if (act === "addItem") {
       const d = findDay(w, e.target.closest(".dia").dataset.day);
       d.items = d.items || [];
-      d.items.push({ id: uid(), exerciseId: "", sets: "", reps: "", weight: "", rest: "", notes: "" });
+      d.items.push({ id: uid(), exerciseId: "", series: "", pesos: "", desc: "", notes: "" });
     } else if (act === "delItem") {
       const d = findDay(w, e.target.closest(".dia").dataset.day);
       const itId = e.target.closest("tr").dataset.item;
@@ -381,32 +419,107 @@ function setupPlan() {
 }
 
 // ---------- IMPORTAR ----------
-let importData = null; // { sheets, sheetIdx }
+let importGeneric = null; // { sheets, sheetIdx } para formato libre
 
 function setupImportar() {
   $("#excelInput").addEventListener("change", async (e) => {
     const file = e.target.files[0];
     if (!file) return;
+    const cont = $("#importResultado");
+    cont.innerHTML = '<div class="empty">Leyendo Excel…</div>';
     try {
       const buf = await file.arrayBuffer();
+      // 1) ¿es el formato de plantilla (4 días en paralelo)?
+      const structured = await XLS.parseStructured(buf);
+      if (structured) {
+        renderStructuredImport(structured, file.name);
+        toast("Formato de plantilla detectado");
+        return;
+      }
+      // 2) formato libre -> mapeo manual de columnas
       const sheets = await XLS.readExcel(buf);
-      importData = { sheets, sheetIdx: 0 };
-      renderImport();
-      toast("Excel leído");
+      importGeneric = { sheets, sheetIdx: 0 };
+      renderGenericImport();
+      toast("Excel leído (formato libre)");
     } catch (err) {
       console.error(err);
-      $("#importResultado").innerHTML = `<div class="empty">No se pudo leer el archivo: ${escapeHtml(err.message)}</div>`;
+      cont.innerHTML = `<div class="empty">No se pudo leer el archivo: ${escapeHtml(err.message)}</div>`;
     }
   });
 }
 
-function renderImport() {
+// Importación automática del formato de plantilla
+function renderStructuredImport(structured, filename) {
+  const baseName = (filename || "").replace(/\.xlsx?$/i, "");
+  let totalEj = 0, totalFotos = 0;
+  structured.weeks.forEach((w) => w.days.forEach((d) => d.items.forEach((it) => { totalEj++; if (it.image) totalFotos++; })));
+
+  const resumen = structured.weeks
+    .map((w) => `<li><strong>${escapeHtml(w.name)}</strong>: ${w.days.map((d) => `${escapeHtml(d.name)} (${d.items.length})`).join(" · ")}</li>`)
+    .join("");
+
+  $("#importResultado").innerHTML = `
+    <div class="card">
+      <h3>✅ Plantilla detectada</h3>
+      <div class="meta">${structured.weeks.length} semana(s) · ${totalEj} ejercicios · ${totalFotos} con foto</div>
+      <div class="map-grid">
+        <label>Persona destino
+          <select id="siCliente">
+            <option value="__new">➕ Nueva persona…</option>
+            ${state.clients.map((c) => `<option value="${c.id}">${escapeHtml(c.name)}</option>`).join("")}
+          </select>
+        </label>
+        <label>Nombre (si es nueva)<input type="text" id="siNombre" value="${escapeHtml(baseName)}"></label>
+      </div>
+      <button class="btn primary" id="btnImportStruct">Importar todo</button>
+      <ul class="hint">${resumen}</ul>
+    </div>`;
+
+  $("#btnImportStruct").addEventListener("click", () => doStructuredImport(structured));
+}
+
+function doStructuredImport(structured) {
+  let client;
+  if ($("#siCliente").value === "__new") {
+    client = { id: uid(), name: $("#siNombre").value.trim() || "Persona importada", notes: "", plan: { weeks: [] } };
+    state.clients.push(client);
+  } else {
+    client = state.clients.find((c) => c.id === $("#siCliente").value);
+  }
+  if (!client.plan) client.plan = { weeks: [] };
+
+  let nEj = 0;
+  structured.weeks.forEach((w) => {
+    const week = { id: uid(), name: w.name, days: [] };
+    w.days.forEach((d) => {
+      const day = { id: uid(), name: d.name, pesosLabel: d.pesosLabel || "PESOS", items: [] };
+      d.items.forEach((it) => {
+        const ex = findOrCreateExercise(it.name);
+        if (!ex.image && it.image) ex.image = it.image;
+        if (!ex.description && it.comentarios) ex.description = it.comentarios;
+        day.items.push({ id: uid(), exerciseId: ex.id, series: it.series || "", pesos: it.pesos || "", desc: it.desc || "", notes: "" });
+        nEj++;
+      });
+      week.days.push(day);
+    });
+    client.plan.weeks.push(week);
+  });
+
+  save();
+  renderClientes();
+  renderEjercicios();
+  $("#importResultado").innerHTML = `<div class="empty">✅ Importadas ${structured.weeks.length} semana(s) y ${nEj} ejercicios en «${escapeHtml(client.name)}».<br>Revísalo en la pestaña «Plan».</div>`;
+  $("#excelInput").value = "";
+  toast("Importación completada");
+}
+
+// Importación genérica (formato libre): mapeo manual de columnas
+function renderGenericImport() {
   const cont = $("#importResultado");
-  if (!importData) return;
-  const sheet = importData.sheets[importData.sheetIdx];
+  if (!importGeneric) return;
+  const sheet = importGeneric.sheets[importGeneric.sheetIdx];
   const cols = Math.max(...sheet.rows.map((r) => r.length), 0);
   const colLabels = Array.from({ length: cols }, (_, i) => "Columna " + (i + 1));
-
   const previewRows = sheet.rows.slice(0, 20);
   const colOptions = (sel) =>
     `<option value="-1">(ninguna)</option>` +
@@ -415,12 +528,11 @@ function renderImport() {
   cont.innerHTML = `
     <div class="row">
       <label>Hoja:</label>
-      <select id="impSheet">${importData.sheets
-        .map((s, i) => `<option value="${i}" ${i === importData.sheetIdx ? "selected" : ""}>${escapeHtml(s.name)}</option>`)
+      <select id="impSheet">${importGeneric.sheets
+        .map((s, i) => `<option value="${i}" ${i === importGeneric.sheetIdx ? "selected" : ""}>${escapeHtml(s.name)}</option>`)
         .join("")}</select>
       <span class="hint">${sheet.images.length} imagen(es) detectada(s)</span>
     </div>
-
     <div class="map-grid">
       <label>Persona destino
         <select id="impCliente">
@@ -431,117 +543,80 @@ function renderImport() {
       <label>Nombre (si es nueva)<input type="text" id="impNuevoNombre" value="${escapeHtml(sheet.name)}"></label>
       <label>Nombre de la semana<input type="text" id="impSemana" value="Semana importada"></label>
       <label>Nombre del día<input type="text" id="impDia" value="Día 1"></label>
-      <label>Fila de la primera fila de datos<input type="number" id="impFilaInicio" value="2" min="1"></label>
+      <label>Primera fila de datos<input type="number" id="impFilaInicio" value="2" min="1"></label>
     </div>
-
     <div class="map-grid">
       <label>Columna · Ejercicio<select id="mapEjercicio">${colOptions(0)}</select></label>
       <label>Columna · Series<select id="mapSeries">${colOptions(1)}</select></label>
-      <label>Columna · Reps<select id="mapReps">${colOptions(2)}</select></label>
-      <label>Columna · Peso<select id="mapPeso">${colOptions(3)}</select></label>
-      <label>Columna · Descanso<select id="mapDescanso">${colOptions(-1)}</select></label>
-      <label>Columna · Notas<select id="mapNotas">${colOptions(-1)}</select></label>
+      <label>Columna · Peso/Reps<select id="mapPesos">${colOptions(2)}</select></label>
+      <label>Columna · Descanso<select id="mapDesc">${colOptions(-1)}</select></label>
+      <label>Columna · Comentarios<select id="mapCom">${colOptions(-1)}</select></label>
     </div>
-
     <div class="row">
       <button class="btn primary" id="btnImportar">Importar a la app</button>
       <label class="row" style="gap:4px"><input type="checkbox" id="impConImagenes" checked> Añadir imágenes a la biblioteca</label>
     </div>
-
     <p class="hint">Vista previa (primeras 20 filas):</p>
     <div class="preview-wrap">
       <table class="preview"><tbody>
         ${previewRows
-          .map(
-            (r, ri) =>
-              `<tr><td style="color:var(--muted)">${ri + 1}</td>${Array.from({ length: cols }, (_, ci) => `<td>${escapeHtml(r[ci] || "")}</td>`).join("")}</tr>`
-          )
+          .map((r, ri) => `<tr><td style="color:var(--muted)">${ri + 1}</td>${Array.from({ length: cols }, (_, ci) => `<td>${escapeHtml(r[ci] || "")}</td>`).join("")}</tr>`)
           .join("")}
       </tbody></table>
-    </div>
-  `;
+    </div>`;
 
   $("#impSheet").addEventListener("change", (e) => {
-    importData.sheetIdx = +e.target.value;
-    renderImport();
+    importGeneric.sheetIdx = +e.target.value;
+    renderGenericImport();
   });
-  $("#btnImportar").addEventListener("click", doImport);
+  $("#btnImportar").addEventListener("click", doGenericImport);
 }
 
-function doImport() {
-  const sheet = importData.sheets[importData.sheetIdx];
-  const getMap = (id) => +$("#" + id).value;
-  const map = {
-    name: getMap("mapEjercicio"),
-    sets: getMap("mapSeries"),
-    reps: getMap("mapReps"),
-    weight: getMap("mapPeso"),
-    rest: getMap("mapDescanso"),
-    notes: getMap("mapNotas"),
-  };
+function doGenericImport() {
+  const sheet = importGeneric.sheets[importGeneric.sheetIdx];
+  const g = (id) => +$("#" + id).value;
+  const map = { name: g("mapEjercicio"), series: g("mapSeries"), pesos: g("mapPesos"), desc: g("mapDesc"), com: g("mapCom") };
   const startRow = Math.max(1, +$("#impFilaInicio").value) - 1;
   const conImagenes = $("#impConImagenes").checked;
 
-  // persona destino
-  let clientId = $("#impCliente").value;
   let client;
-  if (clientId === "__new") {
-    const nombre = $("#impNuevoNombre").value.trim() || "Persona importada";
-    client = { id: uid(), name: nombre, notes: "", plan: { weeks: [] } };
+  if ($("#impCliente").value === "__new") {
+    client = { id: uid(), name: $("#impNuevoNombre").value.trim() || "Persona importada", notes: "", plan: { weeks: [] } };
     state.clients.push(client);
   } else {
-    client = state.clients.find((c) => c.id === clientId);
+    client = state.clients.find((c) => c.id === $("#impCliente").value);
   }
   if (!client.plan) client.plan = { weeks: [] };
 
-  const week = { id: uid(), name: $("#impSemana").value.trim() || "Semana importada", days: [] };
-  const day = { id: uid(), name: $("#impDia").value.trim() || "Día 1", items: [] };
-  week.days.push(day);
+  const day = { id: uid(), name: $("#impDia").value.trim() || "Día 1", pesosLabel: "PESOS", items: [] };
+  const week = { id: uid(), name: $("#impSemana").value.trim() || "Semana importada", days: [day] };
   client.plan.weeks.push(week);
 
-  // mapa de imágenes por número de fila del Excel
   const imgByRow = {};
-  sheet.images.forEach((im) => {
-    imgByRow[im.row] = im.dataUrl;
-  });
-  const findImageForRow = (excelRow) => {
-    if (imgByRow[excelRow]) return imgByRow[excelRow];
-    // buscar imagen cercana (±1 fila)
-    for (const off of [0, 1, -1, 2, -2]) {
-      if (imgByRow[excelRow + off]) return imgByRow[excelRow + off];
-    }
+  sheet.images.forEach((im) => (imgByRow[im.row] = im.dataUrl));
+  const imgForRow = (excelRow) => {
+    for (const off of [0, 1, -1, 2, -2]) if (imgByRow[excelRow + off]) return imgByRow[excelRow + off];
     return null;
   };
-
-  const byName = {};
-  state.exercises.forEach((e) => (byName[e.name.trim().toLowerCase()] = e));
 
   let count = 0;
   for (let i = startRow; i < sheet.rows.length; i++) {
     const row = sheet.rows[i];
     const exName = map.name >= 0 ? (row[map.name] || "").trim() : "";
-    if (!exName) continue; // saltar filas sin nombre de ejercicio
-
-    // ejercicio en biblioteca (crear si no existe)
-    let ex = byName[exName.toLowerCase()];
-    if (!ex) {
-      ex = { id: uid(), name: exName, image: null, description: "" };
-      state.exercises.push(ex);
-      byName[exName.toLowerCase()] = ex;
-    }
+    if (!exName) continue;
+    const ex = findOrCreateExercise(exName);
     if (conImagenes && !ex.image) {
-      const img = findImageForRow(i + 1);
+      const img = imgForRow(i + 1);
       if (img) ex.image = img;
     }
-
+    if (map.com >= 0 && !ex.description) ex.description = row[map.com] || "";
     day.items.push({
       id: uid(),
       exerciseId: ex.id,
-      sets: map.sets >= 0 ? row[map.sets] || "" : "",
-      reps: map.reps >= 0 ? row[map.reps] || "" : "",
-      weight: map.weight >= 0 ? row[map.weight] || "" : "",
-      rest: map.rest >= 0 ? row[map.rest] || "" : "",
-      notes: map.notes >= 0 ? row[map.notes] || "" : "",
+      series: map.series >= 0 ? row[map.series] || "" : "",
+      pesos: map.pesos >= 0 ? row[map.pesos] || "" : "",
+      desc: map.desc >= 0 ? row[map.desc] || "" : "",
+      notes: "",
     });
     count++;
   }
@@ -549,9 +624,9 @@ function doImport() {
   save();
   renderClientes();
   renderEjercicios();
-  toast(`Importados ${count} ejercicios para ${client.name}`);
-  $("#importResultado").innerHTML = `<div class="empty">✅ Importados ${count} ejercicios en «${escapeHtml(client.name)}» → ${escapeHtml(week.name)} / ${escapeHtml(day.name)}.<br>Revisa el resultado en la pestaña «Plan».</div>`;
-  importData = null;
+  toast(`Importados ${count} ejercicios`);
+  $("#importResultado").innerHTML = `<div class="empty">✅ Importados ${count} ejercicios en «${escapeHtml(client.name)}» → ${escapeHtml(week.name)} / ${escapeHtml(day.name)}.</div>`;
+  importGeneric = null;
   $("#excelInput").value = "";
 }
 
@@ -591,16 +666,14 @@ function setupExportar() {
 // ---------- COPIAS ----------
 function setupDatos() {
   $("#btnBackup").addEventListener("click", () => {
-    const json = JSON.stringify(state, null, 2);
-    XLS.downloadBlob(json, "copia_entrenamientos.json", "application/json");
+    XLS.downloadBlob(JSON.stringify(state, null, 2), "copia_entrenamientos.json", "application/json");
     toast("Copia descargada");
   });
   $("#restoreInput").addEventListener("change", async (e) => {
     const file = e.target.files[0];
     if (!file) return;
     try {
-      const text = await file.text();
-      const data = JSON.parse(text);
+      const data = JSON.parse(await file.text());
       if (!data.clients || !data.exercises) throw new Error("Archivo no válido");
       if (confirm("Esto reemplazará todos los datos actuales. ¿Continuar?")) {
         state = data;

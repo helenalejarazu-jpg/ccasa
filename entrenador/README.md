@@ -17,14 +17,19 @@ todos los datos se guardan **en tu propio navegador**.
   - Los Google Sheets se importan descargándolos primero como `.xlsx` (*Archivo → Descargar → Microsoft Excel*).
 - **Exportar Excel**: eliges persona + semana y descargas un Excel con los 4 días en paralelo, sus ejercicios y la foto de cada uno, parecido a tus plantillas originales.
 
-## Datos de ejemplo ya cargados (HELENA)
+## Datos de ejemplo ya cargados
 
-El archivo `datos_ejemplo_helena.json` contiene los 4 meses reales de HELENA
-(15 semanas, 37 ejercicios con sus fotos), ya procesados. Para verlos en la app:
+Hay dos copias listas para restaurar desde **Copias → Restaurar copia**:
 
-1. Abre la app y ve a **Copias**.
-2. Pulsa **Restaurar copia** y elige `datos_ejemplo_helena.json`.
-3. Verás a HELENA con todas sus semanas en la pestaña **Plan**.
+- `datos_ejemplo_helena.json`: los 4 meses de HELENA (15 semanas, 37 ejercicios).
+- `datos_ejemplo_completo.json`: 18 personas de la carpeta de clientes
+  (ANITA, ANA G., GABRIEL, PACO, VANESA, BEA F., IÑIGO P., FELI, MAITANE,
+  TXIKI, TERESA, JULIÁN, JOANA A., ELENA R, CLAUDIA L., AMAIA B, NEREA C.,
+  MARÍA F), con 213 ejercicios y 204 fotos. Las fotos van recomprimidas
+  para que el archivo sea ligero.
+
+Para verlos: abre la app → **Copias** → **Restaurar copia** → elige el archivo.
+Aparecerán todas las personas en **Personas** y sus semanas en **Plan**.
 - **Copias**: descarga una copia de seguridad (`.json`) y restáurala en otro equipo.
 
 ## Cómo usarla

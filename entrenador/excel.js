@@ -86,16 +86,40 @@ const XLS = (() => {
     return sheets;
   }
 
-  // --- IMPORTAR (formato específico: 1 hoja = 1 semana, 4 días en paralelo) ---
-  // Bloques de día empiezan en las columnas 1, 9, 17, 25.
-  // Columnas por día: FOTO, EJERCICIO, SERIES, PESOS/REPES, DESC, COMENTARIOS.
-  const DAY_STARTS = [1, 9, 17, 25];
+  // --- IMPORTAR (formato específico: días en paralelo, con foto por ejercicio) ---
+  // Detección dinámica: busca la fila de cabecera (FOTO/EJERCICIO) y los bloques de día
+  // por las columnas donde aparece "FOTO" seguida de "EJERCICIO". Soporta 1 o varios días,
+  // y la cabecera en cualquier fila (formatos con título de persona/mes encima).
 
   function wsText(ws, r, c) {
     return cellText(ws.getCell(r, c)).trim();
   }
 
+  function findHeader(ws) {
+    const maxR = Math.min(ws.rowCount, 10);
+    for (let r = 1; r <= maxR; r++) {
+      for (let c = 1; c <= ws.columnCount; c++) {
+        if (wsText(ws, r, c).toUpperCase() === "FOTO" && wsText(ws, r, c + 1).toUpperCase() === "EJERCICIO") {
+          return r;
+        }
+      }
+    }
+    return -1;
+  }
+
   function parseWeekSheet(wb, ws) {
+    const headerRow = findHeader(ws);
+    if (headerRow < 0) return [];
+
+    // columnas donde empieza cada día (FOTO + EJERCICIO)
+    const starts = [];
+    for (let c = 1; c <= ws.columnCount; c++) {
+      if (wsText(ws, headerRow, c).toUpperCase() === "FOTO" && wsText(ws, headerRow, c + 1).toUpperCase() === "EJERCICIO") {
+        starts.push(c);
+      }
+    }
+    if (!starts.length) return [];
+
     const imgs = (ws.getImages ? ws.getImages() : [])
       .map((im) => {
         const m = wb.getImage(im.imageId);
@@ -108,21 +132,25 @@ const XLS = (() => {
       .filter((i) => i.url);
 
     const days = [];
-    DAY_STARTS.forEach((start) => {
-      const dayName = wsText(ws, 1, start) || wsText(ws, 1, start + 1);
-      if (!dayName) return;
-      const pesosLabel = (wsText(ws, 2, start + 3) || "PESOS").toUpperCase();
+    starts.forEach((start) => {
+      // nombre del día: primer texto no vacío por encima de la cabecera en este bloque
+      let dayName = "";
+      for (let r = headerRow - 1; r >= 1; r--) {
+        const t = wsText(ws, r, start) || wsText(ws, r, start + 1);
+        if (t) { dayName = t; break; }
+      }
+      if (!dayName) dayName = "Día";
+      const pesosLabel = (wsText(ws, headerRow, start + 3) || "PESOS").toUpperCase();
       const colEj = start + 1, colSer = start + 2, colPR = start + 3, colDesc = start + 4, colCom = start + 5;
 
       const items = [];
       let last = null;
-      for (let r = 3; r <= ws.rowCount; r++) {
+      for (let r = headerRow + 1; r <= ws.rowCount; r++) {
         const name = wsText(ws, r, colEj);
         if (name && name !== last) {
           if (items.length) items[items.length - 1].rowEnd = r - 1;
           const series = wsText(ws, r, colSer);
           const com = wsText(ws, r, colCom);
-          // fila-rótulo combinada (el mismo texto ocupa varias columnas): es una nota, no un ejercicio
           const esBanner = series === name && (com === name || com === "");
           items.push({
             name,
@@ -140,7 +168,6 @@ const XLS = (() => {
       }
       if (items.length) items[items.length - 1].rowEnd = ws.rowCount;
 
-      // emparejar imágenes con su ejercicio según columna (día) y fila
       imgs
         .filter((im) => im.col >= start - 1 && im.col <= start + 5)
         .forEach((im) => {
@@ -161,16 +188,12 @@ const XLS = (() => {
   }
 
   // Intenta leer el formato específico. Devuelve { weeks:[{name, days:[{name,pesosLabel,items}]}] }
-  // o null si no parece de ese formato.
+  // o null si ninguna hoja encaja.
   async function parseStructured(arrayBuffer) {
     const wb = new ExcelJS.Workbook();
     await wb.xlsx.load(arrayBuffer);
     const weeks = [];
     wb.worksheets.forEach((ws) => {
-      // ¿la fila 2 tiene FOTO/EJERCICIO? entonces es una hoja de semana de este formato
-      const looksLikeWeek =
-        wsText(ws, 2, 1).toUpperCase() === "FOTO" && wsText(ws, 2, 2).toUpperCase() === "EJERCICIO";
-      if (!looksLikeWeek) return;
       const days = parseWeekSheet(wb, ws).filter((d) => d.items.length);
       if (days.length) weeks.push({ name: ws.name, days });
     });

@@ -713,16 +713,24 @@ async function init() {
   setupExportar();
   setupDatos();
 
-  try {
-    const loaded = await DB.load();
-    if (loaded) state = loaded;
-  } catch (e) {
-    console.error("No se pudo cargar:", e);
-  }
-  // Datos de ejemplo precargados (solo si la app está vacía y hay semilla disponible).
-  if ((!state.clients || !state.clients.length) && typeof window !== "undefined" && window.__SEED__) {
+  const hasSeed = typeof window !== "undefined" && window.__SEED__;
+  // En la vista previa (__SEED_FORCE__) se cargan siempre los datos de ejemplo,
+  // ignorando lo que hubiera guardado de antes en este navegador.
+  if (hasSeed && window.__SEED_FORCE__) {
     state = window.__SEED__;
     save();
+  } else {
+    try {
+      const loaded = await DB.load();
+      if (loaded) state = loaded;
+    } catch (e) {
+      console.error("No se pudo cargar:", e);
+    }
+    // Datos de ejemplo precargados solo si la app está vacía.
+    if ((!state.clients || !state.clients.length) && hasSeed) {
+      state = window.__SEED__;
+      save();
+    }
   }
   if (!state.clients) state.clients = [];
   if (!state.exercises) state.exercises = [];

@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Red Kuhorum — Seguimiento POA</title>
+<title>Red Kuorum — Seguimiento POA</title>
 <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;600;700&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
 :root{--p:#6B2D8B;--m:#C2185B;--o:#E8573A;--g:#16A34A;--am:#D97706;--sl:#64748B;--bg:#FAF9F7}
@@ -36,25 +36,26 @@ main{max-width:1100px;margin:0 auto;padding:20px 20px 50px}
 .hidden{display:none!important}
 .si{font-family:'Manrope';border:1.5px solid #E0D6EA;border-radius:9px;padding:7px 12px;font-size:13px;background:#fff;outline:none;width:100%}.si:focus{border-color:var(--p)}
 .update-info{font-size:10px;color:#999;font-family:'Manrope'}
+.filters{display:flex;gap:12px;flex-wrap:wrap;margin:12px 0}.filters .si{flex:1;min-width:210px}.filters select{max-width:100%}.muted{font-size:12px;color:#73697c;margin:8px 0}.table-wrap{overflow-x:auto}.docs-table td{cursor:default;vertical-align:top}.docs-table td:first-child{min-width:260px}.format-pill,.file-icon{display:inline-block;background:#f2eaf7;color:#6b2d8b;border-radius:7px;padding:6px 8px;font-weight:700;font-size:11px}.measure-chips{display:flex;gap:5px;flex-wrap:wrap}.measure-chip{border:1px solid #ddcbe8;background:#f8f4fb;border-radius:7px;padding:5px 8px;cursor:pointer;color:#6b2d8b}.doc-download,.doc-open{display:inline-block;margin:3px 4px 3px 0;padding:6px 9px;border-radius:6px;background:#6b2d8b;color:white;text-decoration:none;font-size:12px}.doc-open{background:#f2eaf7;color:#6b2d8b}.doc-card{display:flex;align-items:flex-start;gap:12px;padding:12px;border:1px solid #e5dcec;border-left:4px solid #9a63b4;border-radius:8px;margin:10px 0;background:#fcfaff}.doc-title{font-size:13px;font-weight:600;overflow-wrap:anywhere}.doc-actions{margin-top:5px}.evidence-section{margin-top:20px}.evidence-section h3{font-size:15px}.calendar-layout{display:grid;grid-template-columns:1fr 1fr;gap:18px}.calendar-toolbar{display:flex;justify-content:space-between;align-items:center;gap:6px;margin-bottom:14px}.calendar-toolbar h3{font-size:16px}.weekday{text-align:center;color:#776880;font-size:12px}.cal-day small{display:block;font-size:9px}.cal-selected{outline:2px solid #c2185b}.agenda-event{display:block;border:0;border-bottom:1px solid #eadfec;text-align:left;width:100%;background:transparent;padding:12px 0;cursor:pointer;font:inherit;font-size:12px}.agenda-event strong,.agenda-event span{display:block;margin-bottom:5px}.report-preview h1{font-size:22px}.report-preview h2{font-size:19px;margin:28px 0 14px;color:#6b2d8b}.report-preview h3{font-size:15px;margin:18px 0 10px}.report-preview h4{font-size:12px;color:#6b2d8b;margin:14px 0 6px}.report-preview p{font-size:13px;line-height:1.65}.pre{white-space:pre-wrap}.report-measure{border-top:2px solid #eee4f3;padding-top:10px;margin-top:20px}button:focus-visible,a:focus-visible{outline:3px solid #e8573a;outline-offset:3px}.btn:disabled{opacity:.4;cursor:default}@media(max-width:700px){.header-inner{height:auto;min-height:65px;flex-wrap:wrap;padding:10px 0;gap:8px}#navbtns{overflow:auto;width:100%;order:3}.nav-btn{white-space:nowrap}.calendar-layout{grid-template-columns:1fr}.modal{padding:20px}.calendar-toolbar .btn{padding:6px}.docs-table td:first-child{min-width:190px}}
 </style>
 </head>
 <body>
 
 <div id="app">
 <header><div class="header-inner">
-<span class="hd gt" style="font-size:18px;font-weight:700">red kuorum</span>
+<div style="display:flex;align-items:center;gap:18px"><img src="assets/ccasa.png" alt="CCASA · Centro de Cálculo de Álava" style="width:185px;height:38px;object-fit:contain"><img src="assets/red-kuorum.png" alt="Red Kuorum · Asistencia técnica" style="width:52px;height:44px;object-fit:contain"></div>
 <nav id="navbtns" style="display:flex;gap:3px"></nav>
 <span class="update-info" id="updateInfo"></span>
 </div></header>
 <main>
 <div style="margin-bottom:16px"><h1 class="hd" style="font-size:20px" id="ptitle">Panel de seguimiento</h1>
 <p style="font-size:12px;color:#999;margin-top:3px" id="psub"></p></div>
-<div id="page-dash"></div><div id="page-med" class="hidden"></div><div id="page-cal" class="hidden"></div><div id="page-rep" class="hidden"></div>
+<div class="card filters" style="align-items:center;justify-content:space-between"><div><strong>Excel de seguimiento del Plan</strong><p class="muted">La descarga corresponde a la misma versión de las medidas mostradas.</p></div><a class="btn btn-p" style="text-decoration:none" href="documentos/01.2%20Gestion%20Plan.xlsx" download="01.2 Gestion Plan.xlsx">Descargar Excel completo</a></div><div id="page-dash"></div><div id="page-med" class="hidden"></div><div id="page-cal" class="hidden"></div><div id="page-rep" class="hidden"></div><div id="page-doc" class="hidden"></div>
 </main></div>
 
 <div id="modal-bg" class="overlay"><div class="modal" id="modal-box" onclick="event.stopPropagation()"></div></div>
 
-<script src="data.js?av=20260910-revision-completa"></script>
+<script src="assets/jszip.min.js"></script><script src="data.js?v=documentos-2026"></script><script src="documents.js?v=documentos-2026"></script>
 <script>
 var calMonth=new Date().getMonth();
 var calYear=new Date().getFullYear();
@@ -150,13 +151,11 @@ function renderDC(){
   var fa=(document.getElementById('da')||{}).value||'';
   var fd=[];for(var i=0;i<DATA.length;i++){if(!fa||DATA[i].area===fa)fd.push(DATA[i]);}
   var s=countS(fd);var hp=sumH(fd,'horas_prog');var hr=sumH(fd,'horas_real');
-  var now=new Date();
+  var now=new Date();now.setHours(0,0,0,0);
   var overdue=[];
   for(var i=0;i<fd.length;i++){
     var cumpl=gS(fd[i].cumplimiento).l;
-    if(cumpl==='Realizada'||cumpl==='En curso')continue;
-    var hasReal=parseDates(fd[i].fecha_real).length>0;
-    if(hasReal)continue;
+    if(cumpl==='Realizada')continue;
     var ds=parseDates(fd[i].fecha_proy);
     for(var j=0;j<ds.length;j++){if(ds[j]<now){overdue.push(fd[i]);break;}}
   }
@@ -168,7 +167,7 @@ function renderDC(){
 
   if(overdue.length>0){
     h+='<div class="card" style="border-left:3px solid #E8573A;background:#FFF7ED"><b style="color:#E8573A;font-size:12px">&#9888; '+overdue.length+' medida'+(overdue.length>1?'s':'')+' con fecha superada</b><br>';
-    for(var i=0;i<Math.min(overdue.length,5);i++){var idx=DATA.indexOf(overdue[i]);h+='<span style="cursor:pointer;color:#92400E;font-size:11px" onclick="openModal('+idx+')">- '+esc(short(overdue[i].medida,80))+'</span><br>';}
+    for(var i=0;i<overdue.length;i++){var idx=DATA.indexOf(overdue[i]);h+='<span style="cursor:pointer;color:#92400E;font-size:11px" onclick="openModal('+idx+')">- '+esc(short(overdue[i].medida,80))+'</span><br>';}
     h+='</div>';
   }
 
@@ -222,7 +221,7 @@ function renderMC(){
   var q=(document.getElementById('mq')||{}).value||'';q=q.toLowerCase();
   var fa=(document.getElementById('ma')||{}).value||'';
   var fs=(document.getElementById('ms')||{}).value||'';
-  var now=new Date();var fd=[];
+  var now=new Date();now.setHours(0,0,0,0);var fd=[];
   for(var i=0;i<DATA.length;i++){var d=DATA[i];
     if(fa&&d.area!==fa)continue;if(fs&&gS(d.cumplimiento).l!==fs)continue;
     if(q&&(d.medida||'').toLowerCase().indexOf(q)===-1&&(d.desc_proy||'').toLowerCase().indexOf(q)===-1&&(d.responsable||'').toLowerCase().indexOf(q)===-1)continue;
@@ -237,7 +236,7 @@ function renderMC(){
 
 function renderCal(){renderCC();}
 function renderCC(){
-  var now=new Date();var evts=[];
+  var now=new Date();now.setHours(0,0,0,0);var evts=[];
   var MF=['Enero','Febrero','Marzo','Abril','Mayo','Junio','Julio','Agosto','Septiembre','Octubre','Noviembre','Diciembre'];
   var MS=['Ene','Feb','Mar','Abr','May','Jun','Jul','Ago','Sep','Oct','Nov','Dic'];
   var DL=['Lun','Mar','Mié','Jue','Vie','Sáb','Dom'];
@@ -337,6 +336,77 @@ function dlReport(){
   h+='<div style="margin-top:40px;font-size:10px;color:#999;text-align:center">Red Kuorum</div></body></html>';
   var blob=new Blob([h],{type:'text/html'});var url=URL.createObjectURL(blob);var a=document.createElement('a');a.href=url;a.download='Informe_POA_2026_CCASA.html';a.click();URL.revokeObjectURL(url);
 }
+
+// Document catalogue and views share the same measure identifiers.
+function measureId(d){return d.medida.split('. ')[0];}
+function docsFor(d){return DOCUMENTS.filter(function(x){return x.measures.indexOf(measureId(d))>=0;});}
+function docURL(d){return d.path.split('/').map(encodeURIComponent).join('/');}
+function docSize(n){return n<1048576?Math.ceil(n/1024)+' KB':(n/1048576).toFixed(1)+' MB';}
+function docLinks(d,absolute){var u=absolute?new URL(docURL(d),location.href).href:docURL(d);return '<a class="doc-download" href="'+esc(u)+'" download="'+esc(d.name)+'">Descargar '+esc(d.downloadFormat||d.format)+'</a>'+(d.open_url||d.format==='HTML'||d.format==='PDF'?' <a class="doc-open" href="'+esc(d.open_url||u)+'" target="_blank" rel="noopener">Abrir</a>':'');}
+function evidenceHTML(d,absolute){var list=docsFor(d);if(!list.length)return '<p class="muted">'+esc(d.evidencia||'Sin documentación asociada')+'</p>';return '<div class="evidence-list">'+list.map(function(x){return '<div class="doc-card"><span class="file-icon">'+esc(x.format)+'</span><div><div class="doc-title">'+esc(x.name)+'</div><small>'+docSize(x.bytes)+'</small><div class="doc-actions">'+docLinks(x,absolute)+'</div></div></div>';}).join('')+'</div>';}
+var originalModal=openModal;
+openModal=function(idx){originalModal(idx);var box=document.getElementById('modal-box');box.insertAdjacentHTML('beforeend','<section class="evidence-section"><h3 class="hd">Documentación asociada</h3>'+evidenceHTML(DATA[idx],false)+'</section>');};
+function renderDocs(){
+ var areas=getAreas();document.getElementById('page-doc').innerHTML='<div class="kpi">'+kpi('Archivos',DOCUMENTS.length,'#6B2D8B')+kpi('Medidas con documentos',DATA.filter(function(d){return docsFor(d).length;}).length,'#C2185B')+'</div><div class="card filters"><input id="dq" class="si" placeholder="Buscar documento o medida" aria-label="Buscar documentación" oninput="renderDocTable()"><select id="df" class="sel" aria-label="Formato" onchange="renderDocTable()"><option value="">Todos los formatos</option>'+Array.from(new Set(DOCUMENTS.map(function(d){return d.format;}))).sort().map(function(f){return '<option>'+f+'</option>';}).join('')+'</select><select id="dm" class="sel" aria-label="Medida asociada" onchange="renderDocTable()"><option value="">Todas las medidas</option><option value="unlinked">Sin asociación en el Excel</option>'+DATA.map(function(d){return '<option value="'+measureId(d)+'">'+esc(short(d.medida,85))+'</option>';}).join('')+'</select></div><div id="doc-table"></div>';renderDocTable();
+}
+function renderDocTable(){
+ var q=document.getElementById('dq').value.toLowerCase(),f=document.getElementById('df').value,m=document.getElementById('dm').value;
+ var rows=DOCUMENTS.filter(function(d){return (!f||d.format===f)&&(!m||(m==='unlinked'?!d.measures.length:d.measures.indexOf(m)>=0))&&(!q||(d.name+' '+d.measures.map(function(id){return DATA.find(function(x){return measureId(x)===id;}).medida;}).join(' ')).toLowerCase().includes(q));});
+ document.getElementById('doc-table').innerHTML='<div class="card table-wrap"><p class="muted">'+rows.length+' archivos · Cada versión conserva su nombre y formato.</p><table class="tbl docs-table"><thead><tr><th>Documento</th><th>Formato</th><th>Medidas asociadas</th><th>Acceso</th></tr></thead><tbody>'+rows.map(function(d){return '<tr><td><strong>'+esc(d.name)+'</strong><div class="muted">Documento '+esc(d.number)+' · '+docSize(d.bytes)+'</div></td><td><span class="format-pill">'+esc(d.format)+'</span></td><td><div class="measure-chips">'+(d.measures.length?d.measures.map(function(id){var i=DATA.findIndex(function(x){return measureId(x)===id;});return '<button class="measure-chip" title="'+esc(DATA[i].medida)+'" onclick="openModal('+i+')">'+id+'</button>';}).join(''):'<span class="muted">Sin asociación en el Excel</span>')+'</div></td><td>'+docLinks(d,false)+'</td></tr>';}).join('')+'</tbody></table>'+(!rows.length?'<p class="muted">No hay documentos con estos filtros.</p>':'')+'</div>';
+}
+var originalRenderMed=renderMed;
+renderMed=function(){originalRenderMed();var controls=document.getElementById('ms').parentElement;controls.insertAdjacentHTML('beforeend','<select id="morder" class="sel" aria-label="Ordenar medidas" onchange="renderMC()"><option value="code">Ordenar por código</option><option value="state">Ordenar por estado</option><option value="owner">Ordenar por responsable</option><option value="docs">Ordenar por documentación</option></select>');renderMC();};
+renderMC=function(){
+ var q=(document.getElementById('mq').value||'').toLowerCase(),a=document.getElementById('ma').value,s=document.getElementById('ms').value,o=(document.getElementById('morder')||{}).value||'code';
+ var fd=DATA.filter(function(d){return(!a||d.area===a)&&(!s||gS(d.cumplimiento).l===s)&&(!q||[d.medida,d.desc_proy,d.desc_real,d.tareas,d.responsable].join(' ').toLowerCase().includes(q));});
+ fd.sort(function(a,b){var code=measureId(a).localeCompare(measureId(b),'es',{numeric:true});if(o==='state')return a.cumplimiento.localeCompare(b.cumplimiento)||code;if(o==='owner')return a.responsable.localeCompare(b.responsable)||code;if(o==='docs')return docsFor(b).length-docsFor(a).length||code;return code;});
+ document.getElementById('mc').innerHTML='<div class="card table-wrap"><p class="muted">'+fd.length+' medidas · Abre una ficha para consultar el detalle y descargar sus documentos.</p><table class="tbl"><thead><tr><th>Medida</th><th>Estado</th><th>Responsable</th><th>Pendiente</th><th>Documentos</th></tr></thead><tbody>'+fd.map(function(d){return '<tr tabindex="0" onclick="openModal('+DATA.indexOf(d)+')" onkeydown="if(event.key===\'Enter\')openModal('+DATA.indexOf(d)+')"><td><strong>'+esc(d.medida)+'</strong></td><td>'+bdg(d.cumplimiento)+'</td><td>'+esc(d.responsable)+'</td><td>'+esc(short(d.tareas||'—',100))+'</td><td><span class="format-pill">'+docsFor(d).length+'</span></td></tr>';}).join('')+'</tbody></table></div>';
+};
+// Accept dates followed by explanatory text; never invent a day for a quarter/year.
+parseDates=function(txt){var out=[],seen={};String(txt||'').split(';').forEach(function(p){var m=p.trim().match(/^(\d{1,2})[\/-](\d{1,2})[\/-](\d{4})(?=$|\s|\()/);if(!m)return;var dt=new Date(+m[3],+m[2]-1,+m[1]);if(dt.getDate()!==+m[1]||dt.getMonth()!==+m[2]-1)return;if(!seen[+dt]){out.push(dt);seen[+dt]=true;}});return out;};
+var selectedCalDay=null;
+function calendarEvents(){var all=[];DATA.forEach(function(d,i){var reals=parseDates(d.fecha_real).filter(function(dt){return dt.getFullYear()===2026;});reals.forEach(function(dt){all.push({date:dt,idx:i,type:'real'});});parseDates(d.fecha_proy).filter(function(dt){return dt.getFullYear()===2026&&!reals.some(function(r){return +r===+dt;});}).forEach(function(dt){all.push({date:dt,idx:i,type:'proy'});});});return all.sort(function(a,b){return a.date-b.date||a.idx-b.idx;});}
+var baseCalendarEvents=calendarEvents;
+calendarEvents=function(){var events=baseCalendarEvents();DATA.forEach(function(d,i){if(d.desc_real&&!events.some(function(e){return e.idx===i&&e.type==='real';})){events.push({idx:i,type:'estimated',date:new Date(2026,9,9),label:'Avance registrado · fecha estimada para el calendario'});}});return events.sort(function(a,b){return a.date-b.date||a.idx-b.idx;});};
+
+renderCC=function(){
+ calYear=2026;var ev=calendarEvents(),months=['Enero','Febrero','Marzo','Abril','Mayo','Junio','Julio','Agosto','Septiembre','Octubre','Noviembre','Diciembre'];var start=(new Date(2026,calMonth,1).getDay()+6)%7,days=new Date(2026,calMonth+1,0).getDate();
+ var h='<div class="calendar-layout"><div class="card"><div class="calendar-toolbar"><button class="btn btn-g" '+(calMonth===0?'disabled':'')+' onclick="calMonth--;selectedCalDay=null;renderCC()">Anterior</button><h3 class="hd">'+months[calMonth]+' 2026</h3><button class="btn btn-g" '+(calMonth===11?'disabled':'')+' onclick="calMonth++;selectedCalDay=null;renderCC()">Siguiente</button></div><div class="cal-grid">'+['L','M','X','J','V','S','D'].map(function(x){return '<span class="weekday">'+x+'</span>';}).join('');for(var n=0;n<start;n++)h+='<span></span>';for(var day=1;day<=days;day++){var events=ev.filter(function(e){return e.date.getMonth()===calMonth&&e.date.getDate()===day;});h+='<button class="cal-day '+(events.some(function(e){return e.type==='real';})?'cal-real':events.length?'cal-proy':'')+(selectedCalDay===day?' cal-selected':'')+'" onclick="selectedCalDay='+day+';renderCC()" aria-label="'+day+' '+months[calMonth]+', '+events.length+' eventos">'+day+(events.length?'<small>'+events.length+'</small>':'')+'</button>';}h+='</div><p class="muted">Verde: fecha realizada · Morado: fecha proyectada o estimada. Los avances sin fecha se sitúan orientativamente el 9 de octubre, fecha de referencia de esta revisión. Selecciona un día para ver todos sus eventos.</p></div><div class="card"><h3 class="hd">'+(selectedCalDay?'Día '+selectedCalDay:'Agenda de '+months[calMonth])+'</h3>';
+ var visible=ev.filter(function(e){return e.date.getMonth()===calMonth&&(!selectedCalDay||e.date.getDate()===selectedCalDay);});h+=visible.map(function(e){return '<button class="agenda-event" onclick="openModal('+e.idx+')"><span class="badge '+(e.type==='real'?'b-r':'b-p')+'">'+e.date.toLocaleDateString('es-ES')+' · '+(e.type==='real'?'Realizada':e.type==='estimated'?'Avance · fecha estimada':'Proyectada')+'</span><strong>'+esc(DATA[e.idx].medida)+'</strong></button>';}).join('')||'<p class="muted">Sin eventos registrados para esta selección.</p>';h+='</div></div>';
+ var vague=DATA.filter(function(d){return /2026/.test(d.fecha_proy)&&!parseDates(d.fecha_proy).some(function(dt){return dt.getFullYear()===2026;});});if(vague.length)h+='<div class="card"><h3 class="hd">Actuaciones de 2026 sin día concreto</h3>'+vague.map(function(d){var text=String(d.fecha_proy).split(/2027/)[0].replace(/\s*[.;:]\s*$/,'');return '<button class="agenda-event" onclick="openModal('+DATA.indexOf(d)+')"><strong>'+esc(d.medida)+'</strong><span>'+esc(text)+'</span></button>';}).join('')+'</div>';document.getElementById('page-cal').innerHTML=h;
+};
+function selectedReportData(){var a=(document.getElementById('ra')||{}).value||'';return DATA.filter(function(d){return !a||d.area===a;});}
+function reportBody(fd){var c=countS(fd),areas=getAreas(fd);return '<h1>Seguimiento del Plan de Igualdad de CCASA</h1><p>Plan Operativo Anual 2026 · Fecha de referencia: 9 de octubre de 2026</p><p>'+fd.length+' medidas · '+c.r+' realizadas · '+c.c+' en curso · '+c.p+' por abordar</p>'+areas.map(function(a){return '<h2>'+esc(a)+'</h2>'+fd.filter(function(d){return d.area===a;}).map(function(d){return '<section class="report-measure"><h3>'+esc(d.medida)+'</h3><p><b>Estado:</b> '+esc(d.cumplimiento)+'</p><h4>Acción proyectada</h4><p class="pre">'+esc(d.desc_proy)+'</p><h4>Actuaciones realizadas</h4><p class="pre">'+esc(d.desc_real||'Sin actuaciones registradas')+'</p><h4>Tareas pendientes</h4><p class="pre">'+esc(d.tareas||'Sin tareas registradas')+'</p><p><b>Fechas proyectadas:</b> '+esc(d.fecha_proy||'Sin fecha')+'<br><b>Fechas realizadas:</b> '+esc(d.fecha_real||'Sin fecha')+'</p><h4>Documentación asociada</h4>'+evidenceHTML(d,true)+'</section>';}).join('');}).join('');}
+renderRep=function(){document.getElementById('page-rep').innerHTML='<div class="card"><h3 class="hd">Informe de seguimiento</h3><p class="muted">Informe con las descripciones completas, tareas, fechas y documentación de las medidas seleccionadas.</p><div class="filters"><select id="ra" class="sel" aria-label="Área del informe" onchange="renderRC()"><option value="">Todas las áreas</option>'+getAreas().map(function(a){return '<option>'+esc(a)+'</option>';}).join('')+'</select><button class="btn btn-p" onclick="dlReport()">Descargar informe HTML</button><button class="btn btn-g" onclick="printReport()">Imprimir / Guardar PDF</button></div></div><div id="rc"></div>';renderRC();};
+renderRC=function(){var fd=selectedReportData(),c=countS(fd);document.getElementById('rc').innerHTML='<div class="kpi">'+kpi('Medidas',fd.length,'#6B2D8B')+kpi('Realizadas',c.r,'#16A34A')+kpi('En curso',c.c,'#D97706')+'</div><div class="card report-preview">'+reportBody(fd)+'</div>';};
+function reportDocument(){return '<!doctype html><html lang="es"><meta charset="utf-8"><title>Seguimiento CCASA 2026</title><style>body{font-family:Arial,sans-serif;color:#252033;max-width:900px;margin:40px auto;line-height:1.6;padding:0 24px}h1,h2,h3,h4{color:#6B2D8B}.pre{white-space:pre-wrap}.report-measure{border-top:2px solid #eadfec;margin-top:32px}.doc-card{padding:8px 0}.doc-download{margin-right:12px}.file-icon,small{color:#777}@media print{h2,h3,h4{break-after:avoid}a{color:#333}}</style><body>'+reportBody(selectedReportData())+'</body></html>';}
+dlReport=function(){var blob=new Blob([reportDocument()],{type:'text/html;charset=utf-8'}),u=URL.createObjectURL(blob),a=document.createElement('a');a.href=u;a.download='Informe_seguimiento_CCASA_2026.html';a.click();setTimeout(function(){URL.revokeObjectURL(u);},1000);};
+function printReport(){var w=window.open('','_blank');if(!w)return;w.document.write(reportDocument());w.document.close();w.focus();w.print();}
+PAGES.push('doc');PTITLES.doc='Documentación';PLABELS.doc='Documentación';PLABELS.dash='Inicio';
+document.addEventListener('keydown',function(e){if(e.key==='Escape')closeModal();});
+renderDocs();
+
+var editKey='ccasa-descripciones-'+DOCUMENTS.find(d=>d.name==='01.2 Gestion Plan.xlsx').sha256;
+var edits={};
+try{edits=JSON.parse(localStorage.getItem(editKey)||'{}');}catch(e){}
+var editableFields={desc_proy:'Acción proyectada',desc_real:'Actuaciones realizadas',tareas:'Tareas pendientes'};
+DATA.forEach(d=>{var e=edits[measureId(d)];if(e)Object.keys(editableFields).forEach(k=>{if(typeof e[k]==='string')d[k]=e[k];});});
+var viewModal=openModal;
+openModal=function(i){viewModal(i);document.getElementById('modal-box').insertAdjacentHTML('beforeend','<button class="btn btn-p" onclick="editMeasure('+i+')">Editar descripciones</button><p class="muted">Los cambios guardados en este navegador se incorporan al Excel que descargues. No se publican automáticamente.</p>');};
+function editMeasure(i){var d=DATA[i];document.getElementById('modal-box').innerHTML='<h2>'+esc(d.medida)+'</h2>'+Object.entries(editableFields).map(([k,label])=>'<label style="display:block;margin:16px 0">'+label+'<textarea id="edit-'+k+'" style="display:block;width:100%;min-height:170px;padding:12px;font:inherit;box-sizing:border-box">'+esc(d[k])+'</textarea></label>').join('')+'<button class="btn btn-p" onclick="saveMeasure('+i+')">Guardar cambios</button> <button class="btn btn-g" onclick="openModal('+i+')">Cancelar</button><p id="edit-message" role="status"></p>';}
+function saveMeasure(i){var patch={};Object.keys(editableFields).forEach(k=>patch[k]=document.getElementById('edit-'+k).value);var next=Object.assign({},edits,{[measureId(DATA[i])]:patch});try{localStorage.setItem(editKey,JSON.stringify(next));}catch(e){document.getElementById('edit-message').textContent='No se ha podido guardar. Comprueba que el navegador permite almacenamiento local.';return;}edits=next;Object.assign(DATA[i],patch);renderDC();renderMC();renderRep();openModal(i);document.getElementById('modal-box').insertAdjacentHTML('beforeend','<p role="status">Cambios guardados. El Excel descargado incluirá esta redacción.</p>');}
+document.addEventListener('click',function(e){var a=e.target.closest('a[download]');if(a&&decodeURIComponent(a.getAttribute('href')||'').includes('01.2 Gestion Plan.xlsx')){e.preventDefault();downloadEditedExcel(a);}});
+async function downloadEditedExcel(button,saveToFolder){var old=button.textContent;button.textContent='Preparando Excel…';try{
+var handle=null;if(saveToFolder){if(!window.showSaveFilePicker)throw Error('Abre esta página en Microsoft Edge o Chrome para elegir la carpeta de destino.');handle=await window.showSaveFilePicker({suggestedName:'01.2 Gestion Plan.xlsx',types:[{description:'Libro de Excel',accept:{'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet':['.xlsx']}}]});}
+var file=DOCUMENTS.find(d=>d.name==='01.2 Gestion Plan.xlsx');var response=await fetch(docURL(file));if(!response.ok)throw Error('No se pudo leer el Excel');var buffer=await response.arrayBuffer();
+if(Object.keys(edits).length){var zip=await JSZip.loadAsync(buffer),parser=new DOMParser(),ns='http://schemas.openxmlformats.org/spreadsheetml/2006/main';var sheet=parser.parseFromString(await zip.file('xl/worksheets/sheet1.xml').async('string'),'application/xml');var shared=[];if(zip.file('xl/sharedStrings.xml')){var ss=parser.parseFromString(await zip.file('xl/sharedStrings.xml').async('string'),'application/xml');shared=Array.from(ss.getElementsByTagNameNS(ns,'si')).map(n=>Array.from(n.getElementsByTagNameNS(ns,'t')).map(t=>t.textContent).join(''));}
+function value(cell){if(!cell)return '';return cell.getAttribute('t')==='s'?shared[Number(cell.getElementsByTagNameNS(ns,'v')[0].textContent)]:cell.textContent;}
+var touched=0;Array.from(sheet.getElementsByTagNameNS(ns,'row')).forEach(row=>{var r=row.getAttribute('r'),cells=Array.from(row.children),id=value(cells.find(c=>c.getAttribute('r')==='C'+r)).split('. ')[0],patch=edits[id];if(!patch)return;touched++;Object.entries({desc_proy:'K',desc_real:'L',tareas:'M'}).forEach(([key,col])=>{var cell=cells.find(c=>c.getAttribute('r')===col+r);if(!cell){cell=sheet.createElementNS(ns,'c');cell.setAttribute('r',col+r);var after=cells.find(c=>c.getAttribute('r').replace(/\d/g,'')>col);row.insertBefore(cell,after||null);}cell.setAttribute('t','inlineStr');while(cell.firstChild)cell.removeChild(cell.firstChild);var is=sheet.createElementNS(ns,'is'),t=sheet.createElementNS(ns,'t');t.setAttributeNS('http://www.w3.org/XML/1998/namespace','xml:space','preserve');t.textContent=patch[key];is.appendChild(t);cell.appendChild(is);});});if(touched!==Object.keys(edits).length)throw Error('No se han localizado todas las medidas editadas');zip.file('xl/worksheets/sheet1.xml',new XMLSerializer().serializeToString(sheet));buffer=await zip.generateAsync({type:'arraybuffer',compression:'DEFLATE'});}
+if(handle){var writable=await handle.createWritable();await writable.write(buffer);await writable.close();alert('Excel guardado en el archivo seleccionado, con las descripciones editadas.');return;}
+var url=URL.createObjectURL(new Blob([buffer],{type:'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'})),link=document.createElement('a');link.href=url;link.download='01.2 Gestion Plan.xlsx';link.click();setTimeout(()=>URL.revokeObjectURL(url),10000);
+}catch(e){if(e.name==='AbortError')return;alert('No se ha podido descargar el Excel: '+e.message);}finally{button.textContent=old;}}
+
+document.querySelector('a[download="01.2 Gestion Plan.xlsx"]').insertAdjacentHTML('afterend','<button class="btn btn-p" onclick="downloadEditedExcel(this,true)">Guardar Excel en carpeta</button>');
 
 // Auto-init on load
 document.getElementById('psub').textContent=(DATA.length-1)+' medidas del Plan programadas para 2026 + 1 medida adicional LGTBI';

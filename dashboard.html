@@ -55,7 +55,7 @@ main{max-width:1100px;margin:0 auto;padding:20px 20px 50px}
 
 <div id="modal-bg" class="overlay"><div class="modal" id="modal-box" onclick="event.stopPropagation()"></div></div>
 
-<script src="assets/jszip.min.js"></script><script src="data.js?v=documentos-2026"></script><script src="documents.js?v=documentos-2026"></script>
+<script src="assets/jszip.min.js"></script><script src="data.js?v=documentos-2026"></script><script src="documents.js?v=20260916-ccasa-gizonduz"></script>
 <script>
 var calMonth=new Date().getMonth();
 var calYear=new Date().getFullYear();
@@ -351,7 +351,7 @@ function renderDocs(){
 }
 function renderDocTable(){
  var q=document.getElementById('dq').value.toLowerCase(),f=document.getElementById('df').value,m=document.getElementById('dm').value;
- var rows=DOCUMENTS.filter(function(d){return (!f||d.format===f)&&(!m||(m==='unlinked'?!d.measures.length:d.measures.indexOf(m)>=0))&&(!q||(d.name+' '+d.measures.map(function(id){return DATA.find(function(x){return measureId(x)===id;}).medida;}).join(' ')).toLowerCase().includes(q));});
+ var rows=DOCUMENTS.filter(function(d){return (!f||d.format===f)&&(!m||(m==='unlinked'?!d.measures.length:d.measures.indexOf(m)>=0))&&(!q||(d.name+' '+d.number+' '+d.measures.map(function(id){return DATA.find(function(x){return measureId(x)===id;}).medida;}).join(' ')).toLowerCase().includes(q));});
  document.getElementById('doc-table').innerHTML='<div class="card table-wrap"><p class="muted">'+rows.length+' archivos · Cada versión conserva su nombre y formato.</p><table class="tbl docs-table"><thead><tr><th>Documento</th><th>Formato</th><th>Medidas asociadas</th><th>Acceso</th></tr></thead><tbody>'+rows.map(function(d){return '<tr><td><strong>'+esc(d.name)+'</strong><div class="muted">Documento '+esc(d.number)+' · '+docSize(d.bytes)+'</div></td><td><span class="format-pill">'+esc(d.format)+'</span></td><td><div class="measure-chips">'+(d.measures.length?d.measures.map(function(id){var i=DATA.findIndex(function(x){return measureId(x)===id;});return '<button class="measure-chip" title="'+esc(DATA[i].medida)+'" onclick="openModal('+i+')">'+id+'</button>';}).join(''):'<span class="muted">Sin asociación en el Excel</span>')+'</div></td><td>'+docLinks(d,false)+'</td></tr>';}).join('')+'</tbody></table>'+(!rows.length?'<p class="muted">No hay documentos con estos filtros.</p>':'')+'</div>';
 }
 var originalRenderMed=renderMed;

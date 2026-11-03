@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Informe registro salarial 2025 · CCASA</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{
+  --p:#6B2D8B;--m:#C2185B;--o:#E8573A;
+  --ink:#231C2E;--muted:#5E566B;--line:#E7DFEE;--pale:#F6F1FA;--paper:#FFFFFF;--bg:#FBF9FC;
+  --grad:linear-gradient(120deg,#6B2D8B 0%,#C2185B 55%,#E8573A 100%);
+  --r:18px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:'Manrope',system-ui,sans-serif;color:var(--ink);background:var(--bg);line-height:1.65;font-size:17px;-webkit-font-smoothing:antialiased}
+h1,h2,h3,h4,.cf{font-family:'Comfortaa',system-ui,sans-serif;letter-spacing:-.01em}
+img{max-width:100%;height:auto;display:block}
+a{color:var(--p)}
+.wrap{max-width:1120px;margin:0 auto;padding:0 20px}
+
+/* Barra superior */
+.topbar{position:sticky;top:0;z-index:20;background:rgba(255,255,255,.96);backdrop-filter:blur(6px);border-bottom:1px solid var(--line)}
+.topbar .wrap{display:flex;align-items:center;gap:18px;height:72px}
+.logos{display:flex;align-items:center;gap:18px;flex:1;min-width:0}
+.logo-ccasa{height:40px;width:auto}
+.rk{display:flex;align-items:center;gap:8px;border-left:1px solid var(--line);padding-left:16px}
+.rk small{font-size:.68rem;color:var(--muted);line-height:1.25;max-width:70px}
+.rk-crop{width:84px;height:44px;overflow:hidden;position:relative}
+.rk-crop img{width:84px;height:84px;position:absolute;top:-21px;left:0}
+.tb-btn{font-family:'Comfortaa';font-weight:700;font-size:.82rem;border:1.5px solid var(--line);background:#fff;color:var(--p);border-radius:999px;padding:9px 16px;cursor:pointer;white-space:nowrap}
+.tb-btn:hover{border-color:var(--p)}
+.tb-btn.primary{background:var(--grad);color:#fff;border:none}
+@media (max-width:720px){.rk{display:none}.logo-ccasa{height:30px}.tb-btn{padding:8px 12px;font-size:.75rem}.topbar .wrap{gap:10px}}
+
+/* Portada */
+.cover{position:relative;margin:34px 0 26px;border-radius:28px;overflow:hidden;background:#fff;border:1px solid var(--line)}
+.cover-inner{display:grid;grid-template-columns:1.05fr 1fr;gap:0}
+.cover-copy{padding:48px 44px 40px}
+.label{display:inline-block;font-family:'Comfortaa';font-weight:700;font-size:.74rem;letter-spacing:.08em;text-transform:uppercase;color:var(--m);background:#FBEAF1;border-radius:999px;padding:6px 14px}
+.eyebrow{font-weight:700;color:var(--muted);font-size:.85rem;letter-spacing:.04em;text-transform:uppercase;margin-top:22px}
+.cover h1{font-size:clamp(2rem,4.2vw,3.4rem);line-height:1.12;margin:10px 0 16px;color:var(--ink)}
+.cover h1 em{font-style:normal;background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent}
+.cover .full-title{color:var(--muted);font-size:1rem;max-width:34em}
+.cover-actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:26px}
+.btn{font-family:'Comfortaa';font-weight:700;font-size:.9rem;border-radius:999px;padding:12px 22px;text-decoration:none;cursor:pointer;border:none;display:inline-flex;align-items:center;gap:8px}
+.btn.g{background:var(--grad);color:#fff}
+.btn.o{background:#fff;color:var(--p);border:1.5px solid #D9CBE6}
+.cover-map{background:var(--pale);padding:28px 26px;display:flex;align-items:center}
+@media (max-width:880px){.cover-inner{grid-template-columns:1fr}.cover-copy{padding:32px 22px}.cover-map{padding:18px 12px}}
+
+/* Índice */
+.section-title{font-size:1.5rem;margin:42px 0 8px}
+.section-sub{color:var(--muted);margin-bottom:18px}
+.index{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:14px;margin-bottom:20px}
+.index a{display:flex;gap:14px;align-items:flex-start;text-decoration:none;color:var(--ink);background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:18px 18px;transition:transform .15s,box-shadow .15s}
+.index a:hover{transform:translateY(-2px);box-shadow:0 10px 28px rgba(107,45,139,.10)}
+.index .n{font-family:'Comfortaa';font-weight:700;font-size:1.25rem;color:#fff;min-width:44px;height:44px;border-radius:14px;display:flex;align-items:center;justify-content:center;background:var(--grad)}
+.index .t{font-family:'Comfortaa';font-weight:700;font-size:.98rem;line-height:1.35}
+
+/* Partes */
+.part{background:#fff;border:1px solid var(--line);border-radius:26px;padding:36px 38px;margin:26px 0;scroll-margin-top:90px}
+@media (max-width:720px){.part{padding:24px 18px;border-radius:20px}}
+.part-head{display:flex;gap:18px;align-items:center;margin-bottom:8px}
+.part-num{font-family:'Comfortaa';font-weight:700;font-size:2.2rem;line-height:1;color:var(--p);background:var(--pale);border-radius:18px;padding:14px 16px;min-width:76px;text-align:center}
+.part h2{font-size:clamp(1.35rem,2.4vw,1.9rem);line-height:1.25}
+.stroke{display:block;width:180px;height:14px;margin:6px 0 18px}
+.kicker{font-family:'Comfortaa';font-weight:700;font-size:.78rem;letter-spacing:.1em;text-transform:uppercase;color:var(--m);margin:22px 0 10px}
+.esquema{display:grid;gap:12px}
+.esquema blockquote{position:relative;background:var(--pale);border-radius:16px;padding:16px 18px 16px 22px;font-size:1.02rem}
+.esquema blockquote::before{content:"";position:absolute;left:0;top:14px;bottom:14px;width:5px;border-radius:5px;background:var(--grad)}
+.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin:6px 0 4px}
+.tile{position:relative;padding:20px 18px 18px;border-radius:18px;background:#fff;border:1px solid var(--line);overflow:hidden}
+.tile .v{font-family:'Comfortaa';font-weight:700;font-size:2.1rem;line-height:1.05;position:relative;z-index:1}
+.tile .l{font-weight:600;font-size:.92rem;color:var(--muted);margin-top:8px;position:relative;z-index:1}
+.tile svg.brush{position:absolute;left:-6px;top:6px;width:150px;height:52px;z-index:0;opacity:.22}
+.tile.p .v{color:var(--p)}.tile.m .v{color:var(--m)}.tile.o .v{color:var(--o)}
+figure.info{margin:18px 0 6px;background:#fff;border:1px solid var(--line);border-radius:20px;padding:18px}
+figure.info figcaption{font-family:'Comfortaa';font-weight:700;font-size:.95rem;margin-bottom:10px;color:var(--ink)}
+.legend{display:flex;flex-wrap:wrap;gap:14px;font-size:.85rem;color:var(--muted);margin-top:8px}
+.legend i{display:inline-block;width:14px;height:14px;border-radius:4px;vertical-align:-2px;margin-right:6px}
+
+/* Profundizar */
+details.deep{margin-top:22px;border-top:1px solid var(--line);padding-top:16px}
+details.deep>summary{list-style:none;cursor:pointer;font-family:'Comfortaa';font-weight:700;color:var(--p);display:inline-flex;align-items:center;gap:10px;background:var(--pale);border-radius:999px;padding:11px 20px}
+details.deep>summary::-webkit-details-marker{display:none}
+details.deep>summary .chev{transition:transform .2s;display:inline-block}
+details.deep[open]>summary .chev{transform:rotate(90deg)}
+details.deep[open]>summary{background:var(--grad);color:#fff}
+.body{padding-top:18px;max-width:78ch}
+.body p{margin:0 0 12px}
+.body h3{font-size:1.15rem;margin:24px 0 10px;color:var(--p)}
+.body h4{font-size:1rem;margin:18px 0 8px}
+.body ul,.body ol{margin:0 0 14px 22px}
+.body li{margin:0 0 6px}
+.body .tbl{margin:12px 0 18px;overflow-x:auto}
+.body table{border-collapse:collapse;font-size:.95rem;min-width:320px}
+.body th,.body td{border:1px solid var(--line);padding:8px 14px;text-align:left}
+.body th{background:var(--pale);font-family:'Comfortaa';font-size:.85rem}
+.body td.num{text-align:right;font-variant-numeric:tabular-nums}
+.body .img{margin:12px 0 18px;overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:#fff;padding:8px}
+.body .img img{min-width:560px}
+.body .img.small img{min-width:0}
+.body .quote-art{border-left:4px solid #D9CBE6;padding:4px 0 4px 16px;margin:6px 0 14px;color:#3a3346}
+.omit{display:flex;gap:10px;align-items:flex-start;background:#FFF6F1;border:1px dashed #F0B9A5;border-radius:12px;padding:10px 14px;margin:8px 0 14px;font-size:.92rem;color:#7A3B22}
+.omit::before{content:"";flex:0 0 10px;height:10px;margin-top:7px;border-radius:50%;background:var(--o)}
+.year{display:inline-block;font-family:'Comfortaa';font-weight:700;background:var(--pale);color:var(--p);border-radius:8px;padding:2px 10px;margin:10px 0 6px}
+
+/* Texto completo */
+#texto-completo .body{max-width:80ch}
+#texto-completo .full-part{border-top:1px solid var(--line);padding-top:10px;margin-top:20px}
+#texto-completo .full-part>h3.ph{font-size:1.25rem;color:var(--ink)}
+
+.duo{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+@media (max-width:620px){.duo{grid-template-columns:1fr}}
+.duo-c{text-align:center}
+.duo-h{position:relative;height:74px;display:flex;align-items:center;justify-content:center}
+.duo-h svg{position:absolute;inset:0;width:100%;height:100%}
+.duo-h span{position:relative;color:#fff;font-family:'Comfortaa';font-weight:700;font-size:1.3rem;line-height:1.15}
+.duo-h small{display:block;font-size:.75rem;letter-spacing:.08em;opacity:.9}
+.duo-c p{font-weight:600;margin-top:10px}
+/* lista con brochazo */
+.brushlist{list-style:none;display:grid;gap:10px;margin:4px 0}
+.brushlist li{display:flex;gap:14px;align-items:flex-start;background:#fff;border:1px solid var(--line);border-radius:14px;padding:12px 16px;font-weight:600}
+.brushlist svg{flex:0 0 52px;height:22px;margin-top:2px}
+footer{margin:40px 0 60px;color:var(--muted);font-size:.85rem;text-align:center}
+
+/* Presentación */
+#deck{position:fixed;inset:0;z-index:100;background:#1d1626;display:none}
+body.presenting{overflow:hidden}
+body.presenting #deck{display:block}
+.slide-frame{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;padding:3vh 3vw 10vh}
+.slide{background:#fff;width:min(1200px,94vw);height:min(675px,80vh);border-radius:24px;overflow:auto;padding:4.2vh 4vw;position:relative}
+.slide .part-head{margin-bottom:4px}
+.slide h2{font-size:clamp(1.3rem,2.6vw,2.1rem)}
+.slide .esquema blockquote{font-size:clamp(.95rem,1.35vw,1.15rem)}
+.slide .cover{margin:0;border:none}
+.deck-bar{position:absolute;left:0;right:0;bottom:2.4vh;display:flex;justify-content:center;align-items:center;gap:14px;color:#fff;font-family:'Comfortaa';font-weight:700}
+.deck-bar button{background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.25);color:#fff;border-radius:999px;padding:9px 16px;cursor:pointer;font-family:'Comfortaa';font-weight:700}
+.deck-bar button:hover{background:rgba(255,255,255,.22)}
+.deck-progress{position:absolute;left:0;top:0;height:5px;background:var(--grad);transition:width .25s}
+@media print{.topbar,#deck,.cover-actions,details.deep>summary{display:none}details.deep .body{display:block}}
+</style>
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <filter id="brush" filterUnits="userSpaceOnUse" x="-200" y="-200" width="2400" height="2400">
+      <feTurbulence type="fractalNoise" baseFrequency="0.035 0.9" numOctaves="2" seed="7" result="n"/>
+      <feDisplacementMap in="SourceGraphic" in2="n" scale="9" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+    <filter id="brush2" filterUnits="userSpaceOnUse" x="-200" y="-200" width="2400" height="2400">
+      <feTurbulence type="fractalNoise" baseFrequency="0.02 0.6" numOctaves="3" seed="3" result="n"/>
+      <feDisplacementMap in="SourceGraphic" in2="n" scale="14" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+    <linearGradient id="gRK" x1="0" x2="1" y1="0" y2="0"><stop offset="0" stop-color="#6B2D8B"/><stop offset=".55" stop-color="#C2185B"/><stop offset="1" stop-color="#E8573A"/></linearGradient>
+  </defs>
+</svg>
+
+<header class="topbar">
+  <div class="wrap">
+    <div class="logos">
+      <img class="logo-ccasa" src="img/ccasa.png" alt="CCASA · Arabako Kalkulu Gunea / Centro de Cálculo de Álava">
+      <div class="rk"><small>Asistencia técnica</small><div class="rk-crop"><img src="img/red-kuorum.png" alt="Red Kuorum"></div></div>
+    </div>
+    <a class="tb-btn" href="#indice">Índice</a>
+    <button class="tb-btn primary" id="startDeck" type="button">▶ Presentación</button>
+  </div>
+</header>
+
+<main class="wrap" id="contenido">
+
+<!-- 1 · PORTADA -->
+<section class="cover" id="portada" data-slide>
+  <div class="cover-inner">
+    <div class="cover-copy">
+      <span class="label">Registro retributivo · Ejercicio 2025</span>
+      <p class="eyebrow">Centro de Cálculo de Álava, S.A.</p>
+      <h1>Informe registro salarial <em>2025</em></h1>
+      <p class="full-title">Informe registro salarial del Centro de Cálculo de Álava 2025</p>
+      <div class="cover-actions">
+        <a class="btn g" href="#indice">Ver el informe ↓</a>
+        <a class="btn o" href="#texto-completo">Texto completo</a>
+      </div>
+    </div>
+    <div class="cover-map">
+      <!-- Estructura visual del documento -->
+      <svg viewBox="0 0 520 430" width="100%" role="img" aria-label="Estructura del informe">
+        <g font-family="Comfortaa, sans-serif" font-weight="700">
+          <path d="M60 52 C 160 40, 300 64, 460 50" stroke="url(#gRK)" stroke-width="30" fill="none" stroke-linecap="round" filter="url(#brush2)" opacity=".9"/>
+          <text x="260" y="58" text-anchor="middle" fill="#fff" font-size="17">Informe registro salarial 2025</text>
+          <g font-size="13.5" fill="#231C2E">
+            <a href="#p1"><path d="M30 118 C 110 110, 170 122, 245 114" stroke="#6B2D8B" stroke-width="26" fill="none" stroke-linecap="round" filter="url(#brush)" opacity=".18"/><text x="40" y="122">01 · Introducción</text></a>
+            <a href="#p2"><path d="M275 118 C 355 110, 420 122, 495 114" stroke="#C2185B" stroke-width="26" fill="none" stroke-linecap="round" filter="url(#brush)" opacity=".18"/><text x="285" y="122">02 · Clasificación profesional</text></a>
+            <a href="#p3"><path d="M30 178 C 110 170, 170 182, 245 174" stroke="#C2185B" stroke-width="26" fill="none" stroke-linecap="round" filter="url(#brush)" opacity=".18"/><text x="40" y="182">03 · Sistema retributivo</text></a>
+            <a href="#p4"><path d="M275 178 C 355 170, 420 182, 495 174" stroke="#E8573A" stroke-width="26" fill="none" stroke-linecap="round" filter="url(#brush)" opacity=".18"/><text x="285" y="182">04 · Resultados 2025</text></a>
+            <a href="#p5"><path d="M30 238 C 110 230, 170 242, 245 234" stroke="#E8573A" stroke-width="26" fill="none" stroke-linecap="round" filter="url(#brush)" opacity=".18"/><text x="40" y="242">05 · Conclusiones</text></a>
+            <a href="#p6"><path d="M275 238 C 355 230, 420 242, 495 234" stroke="#6B2D8B" stroke-width="26" fill="none" stroke-linecap="round" filter="url(#brush)" opacity=".18"/><text x="285" y="242">06 · Propuestas</text></a>
+            <a href="#p7"><path d="M30 298 C 110 290, 170 302, 245 294" stroke="#6B2D8B" stroke-width="26" fill="none" stroke-linecap="round" filter="url(#brush)" opacity=".18"/><text x="40" y="302">07 · Cuestiones legales</text></a>
+            <a href="#p8"><path d="M275 298 C 355 290, 420 302, 495 294" stroke="#C2185B" stroke-width="26" fill="none" stroke-linecap="round" filter="url(#brush)" opacity=".18"/><text x="285" y="302">08 · Novedad 2025</text></a>
+          </g>
+          <a href="#texto-completo"><path d="M120 372 C 220 362, 320 380, 400 368" stroke="url(#gRK)" stroke-width="28" fill="none" stroke-linecap="round" filter="url(#brush2)" opacity=".35"/><text x="260" y="376" text-anchor="middle" font-size="14" fill="#231C2E">Texto completo</text></a>
+        </g>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<!-- 2 · ACCESO A CADA PARTE -->
+<h2 class="section-title" id="indice">Índice</h2>
+<nav class="index" aria-label="Partes del informe">
+  <a href="#p1"><span class="n">01</span><span class="t">Introducción</span></a>
+  <a href="#p2"><span class="n">02</span><span class="t">Sistema de clasificación profesional</span></a>
+  <a href="#p3"><span class="n">03</span><span class="t">Sistema retributivo</span></a>
+  <a href="#p4"><span class="n">04</span><span class="t">Resultados registro retributivo ejercicio 2025</span></a>
+  <a href="#p5"><span class="n">05</span><span class="t">Conclusiones clasificación profesional, retribuciones y autorías salariales</span></a>
+  <a href="#p6"><span class="n">06</span><span class="t">Propuestas que disminuyan la diferencia salarial</span></a>
+  <a href="#p7"><span class="n">07</span><span class="t">Cuestiones legales de interés</span></a>
+  <a href="#p8"><span class="n">08</span><span class="t">Novedad 2025: análisis por escalas o niveles retributivos</span></a>
+  <a href="#texto-completo"><span class="n">≡</span><span class="t">Texto completo</span></a>
+</nav>
+
+<!-- ================= PARTE 1 ================= -->
+<section class="part" id="p1" data-title="Introducción">
+  <div data-slide>
+    <div class="part-head"><span class="part-num">01</span><h2>Introducción</h2></div>
+    <svg class="stroke" viewBox="0 0 180 14"><path d="M4 8 C 50 3, 120 12, 176 6" stroke="url(#gRK)" stroke-width="8" fill="none" stroke-linecap="round" filter="url(#brush)"/></svg>
+    <p class="kicker">Esquema</p>
+    <div class="esquema">
+      <blockquote>En cumplimiento de lo establecido en el articulo 28 del Texto Refundido de la Ley del Estatuto de los Trabajadores, el Centro de Calculo de Alava, S.A., en adelante CCASA, ha elaborado el registro retributivo correspondiente al ejercicio 2025.</blockquote>
+      <blockquote>Este registro retributivo se ha hecho en el marco del Decreto 902/2020 cumpliendo las normas que este establece.</blockquote>
+    </div>
+    <figure class="info">
+      <figcaption>Criterios de equiparación</figcaption>
+      <div class="duo"><div class="duo-c"><div class="duo-h"><svg viewBox="0 0 300 64" preserveAspectRatio="none" aria-hidden="true"><path d="M10 34 C 80 20, 200 46, 290 28" stroke="#6B2D8B" stroke-width="46" fill="none" stroke-linecap="round" filter="url(#brush2)"/></svg><span>Normalizar</span></div><p>Misma jornada a lo largo del año.</p></div><div class="duo-c"><div class="duo-h"><svg viewBox="0 0 300 64" preserveAspectRatio="none" aria-hidden="true"><path d="M10 34 C 80 20, 200 46, 290 28" stroke="#E8573A" stroke-width="46" fill="none" stroke-linecap="round" filter="url(#brush2)"/></svg><span>Anualizar</span></div><p>Misma duración de los servicios prestados a lo largo del año.</p></div></div>
+    </figure>
+  </div>
+  <details class="deep"><summary><span class="chev">›</span> Leer el apartado completo</summary>
+  <div class="body" data-full>
+    <p>En cumplimiento de lo establecido en el articulo 28 del Texto Refundido de la Ley del Estatuto de los Trabajadores, el Centro de Calculo de Alava, S.A., en adelante CCASA, ha elaborado el registro retributivo correspondiente al ejercicio 2025. Para ello ha utilizado la herramienta de Registro Retributivo del Ministerio de Trabajo y Economia Social y Ministerio de Igualdad.</p>
+    <p>Este registro retributivo se ha hecho en el marco del Decreto 902/2020 cumpliendo las normas que este establece.</p>
+    <p>El registro retributivo debe incluir los valores medios -media aritmética y mediana- de salarios, complementos salariales y percepciones extrasalariales efectivamente percibidos por la plantilla durante el periodo de referencia, desglosados por sexo, y distribuidos por grupos profesionales, categorías profesionales, nivel, puesto o cualquier otro sistema de clasificación aplicable.</p>
+    <p>El registro debe recoger toda la información fidedigna acerca de las retribuciones efectivamente percibidas en el periodo de referencia por las personas trabajadoras en la empresa, para cada una de sus situaciones contractuales, y sus promedios y medianas deben estar desglosados por sexo, por categorías, grupos profesionales, niveles, puestos o cualquier otro sistema de clasificación que sea utilizado en la empresa.</p>
+    <p>La Herramienta del registro retributivo, además de la información fidedigna de las retribuciones efectivamente satisfechas y correspondientes a las diferentes situaciones contractuales agrupadas de acuerdo con el sistema de clasificación profesional de la empresa y durante el periodo de referencia del año natural desagregadas por sexo (importes efectivos), incluye la denominada “equiparación” (normalización y/o anualización) de las retribuciones, a fin proporcionar un dato adicional de comparabilidad (importes equiparables).</p>
+    <p>Para equiparar las retribuciones la herramienta utiliza los siguientes criterios de equiparación:</p>
+    <ul>
+      <li><strong>Normalizar:</strong> Misma jornada a lo largo del año. Debe realizarse una normalización de las retribuciones a la misma jornada (jornada completa). Para ello se utiliza la metodología: “Normalizar” es transformar las cantidades de manera que resulten comparables atendiendo al criterio de porcentaje de jornada. Las cantidades por considerar serán para el caso de jornada completa. En el caso de que se estén incluyendo personas que no tengan jornada completa (por contrato, y/o por reducción de jornada), las retribuciones deberán aumentarse proporcionalmente hasta jornada completa.</li>
+      <li><strong>Anualizar:</strong> Misma duración de los servicios prestados a lo largo del año. Debe realizarse una anualización de las retribuciones percibidas en periodos inferiores al año. Para ello se utiliza la metodología: “Anualizar” Las cantidades a considerar serán para el año completo considerado (periodo de referencia). Las retribuciones efectivas deberán aumentarse proporcionalmente hasta el año.</li>
+    </ul>
+    <p>La diferencia porcentual entre mujeres y hombres está calculada de la siguiente manera:</p>
+    <div class="img small"><img src="img/formula.png" alt="(Cantidad correspondiente a los hombres – Cantidad correspondiente a las mujeres) / Cantidad correspondiente a los hombres, en %"></div>
+    <p>El resultado se expresa como un porcentaje. Si el valor es positivo, significa que la cantidad correspondiente a las mujeres es inferior a la de los hombres, en el porcentaje expresado. Si es negativo, la interpretación es la contraria.</p>
+    <h4>Diferencias:</h4>
+    <p><strong>Justificadas</strong></p>
+    <p>No estamos ante trabajos comparables (no son iguales o no tienen el mismo valor). Estando ante trabajos comparables, existe una razón objetiva que explica la diferencia:</p>
+    <ul>
+      <li>La situación del mercado de trabajo (STJCE 27‐10‐1993).</li>
+      <li>La antigüedad en la empresa (STJUE 3‐10‐ 2006).</li>
+      <li>La formación profesional (STJCE 11‐5‐ 1999).</li>
+      <li>La flexibilidad (STJCE 17‐10‐1989).</li>
+      <li>La fuerza física, siempre y cuando sea un factor efectivamente necesario y no opere como único elemento de valoración (STJCE 1‐7‐1986 y STC 250/2000).</li>
+      <li>La productividad (STSJE 31‐5‐1995).</li>
+    </ul>
+    <p><strong>No justificadas:</strong></p>
+    <ul>
+      <li>Que estamos ante categorías diferentes (STC 145/1991).</li>
+      <li>Que los trabajadores realizan diferentes funciones (STC 58/1994).</li>
+      <li>Que los trabajadores prestan servicios en diferentes departamentos (STS 14‐5‐2014, Rº 2328/2013).</li>
+      <li>Que la desigualdad proviene de lo previsto en el convenio colectivo (SSTC 145/1991 y 147/1995).</li>
+      <li>Que la desigualdad proviene de una situación heredada del empresario anterior (STSJ Canarias 21‐12‐2006, Rº 485/2006).</li>
+      <li>Que no se han cumplido los objetivos por razones de conciliación (SSTS  9‐12‐2009, Rº 8/2008, 27‐5‐2015, Rº 103/2014, 10‐1‐2017, Rº283/2015 y 23‐9‐2020, Rº 70/2019)</li>
+    </ul>
+    <p>En el caso de CCASA que cuenta con representación legal de las personas trabajadoras, el acceso al registro se facilitará a las personas trabajadoras a través de la citada representación, teniendo derecho aquellas a conocer el contenido íntegro del mismo.</p>
+  </div>
+  </details>
+</section>
+
+<!-- ================= PARTE 2 ================= -->
+<section class="part" id="p2" data-title="Sistema de clasificación profesional">
+  <div data-slide>
+    <div class="part-head"><span class="part-num">02</span><h2>Sistema de clasificación profesional</h2></div>
+    <svg class="stroke" viewBox="0 0 180 14"><path d="M4 8 C 50 3, 120 12, 176 6" stroke="url(#gRK)" stroke-width="8" fill="none" stroke-linecap="round" filter="url(#brush)"/></svg>
+    <p class="kicker">Esquema</p>
+    <div class="tiles">
+      <div class="tile p"><svg class="brush" viewBox="0 0 150 52"><path d="M6 30 C 50 18, 100 38, 144 24" stroke="#6B2D8B" stroke-width="30" fill="none" stroke-linecap="round" filter="url(#brush2)"/></svg><div class="v">23</div><div class="l">perfiles profesionales</div></div>
+      <div class="tile m"><svg class="brush" viewBox="0 0 150 52"><path d="M6 30 C 50 18, 100 38, 144 24" stroke="#C2185B" stroke-width="30" fill="none" stroke-linecap="round" filter="url(#brush2)"/></svg><div class="v">12</div><div class="l">niveles retributivos</div></div>
+      <div class="tile o"><svg class="brush" viewBox="0 0 150 52"><path d="M6 30 C 50 18, 100 38, 144 24" stroke="#E8573A" stroke-width="30" fill="none" stroke-linecap="round" filter="url(#brush2)"/></svg><div class="v">3</div><div class="l">niveles retributivos consecutivos</div></div>
+    </div>
+    <div class="esquema" style="margin-top:12px">
+      <blockquote>En la empresa CCASA, se ha desarrollado un sistema de clasificación profesional desde hace algunos años (2016) que es el que actualmente está vigente. Este sistema parte de una definición de 23 perfiles profesionales y 12 niveles retributivos.</blockquote>
+      <blockquote>Cada perfil profesional tiene asignados 3 niveles retributivos consecutivos, como se muestra en la Relación de Puestos de Trabajo de 2025, según el nivel de responsabilidad dentro de cada perfil.</blockquote>
+    </div>
+  </div>
+  <details class="deep"><summary><span class="chev">›</span> Leer el apartado completo</summary>
+  <div class="body" data-full>
+    <p>En la empresa CCASA, se ha desarrollado un sistema de clasificación profesional desde hace algunos años (2016) que es el que actualmente está vigente. Este sistema parte de una definición de 23 perfiles profesionales y 12 niveles retributivos.</p>
+    <p>Cada perfil profesional tiene asignados 3 niveles retributivos consecutivos, como se muestra en la Relación de Puestos de Trabajo de 2025, según el nivel de responsabilidad dentro de cada perfil. Lo normal es que cuando una persona entra en la empresa se le asigna el primer nivel de la franja correspondiente a su perfil profesional y luego va subiendo a los siguientes niveles. Esto queda reflejado de la siguiente manera en el Convenio colectivo, en el artículo 17.</p>
+    <div class="quote-art">
+      <p><strong>Artículo 17.- PERFILES PROFESIONALES Y NIVELES DE DESARROLLO</strong></p>
+      <p>A) Cada empleado o empleada tendrá asignado un perfil profesional determinado según la actividad que desarrolle en su trabajo, el cual figurará en el recibo de nómina.</p>
+      <p>B) Cada uno de los perfiles profesionales existentes en CCASA posee un recorrido de niveles determinado.</p>
+      <p>C) Se establece en el documento adjunto como Anexo I la relación de perfiles profesionales y niveles de desarrollo del CCASA. En líneas generales, todos los perfiles de la empresa se distribuirán en diferentes recorridos, dentro de los 12 niveles establecidos. Asimismo, se establece en el Anexo II, los importes de salario base y complemento de nivel correspondientes a 2017.</p>
+      <p>D) Cuando a un empleado o a una empleada se le asigne uno de los perfiles profesionales existentes, se le notificará el recorrido de niveles que corresponde con su perfil, así como su situación en los mismos,</p>
+      <p>E) Corresponde a la Empresa el establecimiento de un organigrama de puestos existentes, así como una definición, de las funciones relativas a cada perfil profesional.</p>
+      <p>(Acuerdo convenio colectivo del CCASA 2020 / 2021)</p>
+    </div>
+    <p>La agrupación según la clasificación profesional de la empresa se muestra en la siguiente tabla:</p>
+    <div class="tbl"><table>
+      <tbody>
+      <tr><th>GRUPO 1</th><td>RESP. DE DPTO./ÁREA</td></tr>
+      <tr><th>GRUPO 2</th><td>RESP. UNIDAD FOCAL</td></tr>
+      <tr><th>GRUPO 3</th><td>JEFATURA DE PROYECTO</td></tr>
+      <tr><th>GRUPO 4</th><td>COORDINACIÓN ADMÓN Y RRHH</td></tr>
+      <tr><th>GRUPO 5</th><td>CONSULTORÍA</td></tr>
+      <tr><th>GRUPO 6</th><td>ANALISTA DE SISTEMAS</td></tr>
+      <tr><th>GRUPO 7</th><td>ANALISTA DE SISTEMAS UT</td></tr>
+      <tr><th>GRUPO 8</th><td>ANALISTA FUNCIONAL</td></tr>
+      <tr><th>GRUPO 9</th><td>ANALISTA DE SEGURIDAD</td></tr>
+      <tr><th>GRUPO 10</th><td>ARQUITECTO/A PLATAFORMA TECNOLÓGICA</td></tr>
+      <tr><th>GRUPO 11</th><td>GESTIÓN DE CALIDAD</td></tr>
+      <tr><th>GRUPO 12</th><td>PROGRAMACIÓN</td></tr>
+      <tr><th>GRUPO 13</th><td>TÉCNICO ADMÓN GENERAL</td></tr>
+      <tr><th>GRUPO 14</th><td>ESPECIALISTA SOPORTE MICROINFORMÁTICO</td></tr>
+      <tr><th>GRUPO 15</th><td>DISEÑADOR/A IU/UX</td></tr>
+      <tr><th>GRUPO 16</th><td>TÉCNICA COMPRAS</td></tr>
+      <tr><th>GRUPO 17</th><td>GESTIÓN DE SERVICIOS</td></tr>
+      <tr><th>GRUPO 18</th><td>TÉCNICO/A DE PRODUCCIÓN</td></tr>
+      <tr><th>GRUPO 19</th><td>TÉCNICO/A DE SISTEMAS</td></tr>
+      <tr><th>GRUPO 20</th><td>TÉCNICO/A DE SOPORTE MICROINFORMÁTICO</td></tr>
+      <tr><th>GRUPO 21</th><td>TÉCNICO/A DE CAU</td></tr>
+      <tr><th>GRUPO 22</th><td>PERSONAL ADMINISTRATIVO</td></tr>
+      <tr><th>GRUPO 23</th><td>CHOFER/ORDENANZA</td></tr>
+      <tr><th>GRUPO 30</th><td>DIRECTOR/A-GERENTE</td></tr>
+      </tbody>
+    </table></div>
+  </div>
+  </details>
+</section>
+
+<!-- ================= PARTE 3 ================= -->
+<section class="part" id="p3" data-title="Sistema retributivo">
+  <div data-slide>
+    <div class="part-head"><span class="part-num">03</span><h2>Sistema retributivo</h2></div>
+    <svg class="stroke" viewBox="0 0 180 14"><path d="M4 8 C 50 3, 120 12, 176 6" stroke="url(#gRK)" stroke-width="8" fill="none" stroke-linecap="round" filter="url(#brush)"/></svg>
+    <p class="kicker">Esquema</p>
+    <div class="esquema">
+      <blockquote>La empresa CCASA dispone de un sistema retributivo regulado por Convenio Colectivo. Este sistema retributivo se regula en el Artículo 18 del Convenio Colectivo.</blockquote>
+    </div>
+    <figure class="info">
+      <figcaption>En el caso de CCASA se han realizado dos tipos de análisis.</figcaption>
+      <div class="duo"><div class="duo-c"><div class="duo-h"><svg viewBox="0 0 300 64" preserveAspectRatio="none" aria-hidden="true"><path d="M10 34 C 80 20, 200 46, 290 28" stroke="#C2185B" stroke-width="46" fill="none" stroke-linecap="round" filter="url(#brush2)"/></svg><span><small>ANÁLISIS 1:</small>Retribuciones efectivas</span></div></div><div class="duo-c"><div class="duo-h"><svg viewBox="0 0 300 64" preserveAspectRatio="none" aria-hidden="true"><path d="M10 34 C 80 20, 200 46, 290 28" stroke="#6B2D8B" stroke-width="46" fill="none" stroke-linecap="round" filter="url(#brush2)"/></svg><span><small>ANÁLISIS 2</small>Retribuciones equiparadas</span></div></div></div>
+    </figure>
+    <div class="esquema">
+      <blockquote>Los importes efectivos tienen carácter obligatorio mientras que los importes equiparados tienen carácter voluntario.</blockquote>
+    </div>
+  </div>
+  <details class="deep"><summary><span class="chev">›</span> Leer el apartado completo</summary>
+  <div class="body" data-full>
+    <p><strong>CONCEPTOS RETRIBUTIVOS</strong> La empresa CCASA dispone de un sistema retributivo regulado por Convenio Colectivo. Este sistema retributivo se regula en el Artículo 18 del Convenio Colectivo.</p>
+    <div class="quote-art">
+      <p><strong>RETRIBUCIONES. DEFINICIONES</strong></p>
+      <p>1. Los importes anuales se distribuirán en 12 mensualidades naturales más una paga extraordinaria en junio y otra en Navidad.</p>
+      <p>2. Las mensualidades se abonarán al personal empleado antes del día 30 del mes en curso.</p>
+      <p>3. Las pagas extraordinarias se abonarán los meses de junio y diciembre y en proporción a los días trabajados en el primer semestre del año la de Junio y en el segundo semestre del año la correspondiente a Navidad.</p>
+      <p>4. Cada perfil profesional tendrá una estructura compuesta por Salario Base, que será el mismo para todos los perfiles profesionales de la empresa y un Complemento de Nivel, que va en función del nivel dentro de cada perfil.</p>
+      <p>5. Conceptos retributivos:</p>
+      <p>A) Sueldo base. - Será único para todos los perfiles profesionales de la empresa.</p>
+      <p>B) Complemento de nivel. - Es un concepto directamente relacionado con cada uno de los niveles establecidos, dentro de los recorridos posibles de los perfiles profesionales.</p>
+      <p>C) Complemento de tareas. - Establecido para aquellas personas a las que temporalmente les sean asignadas tareas de especial responsabilidad.</p>
+      <p>D) Plus salarial de mantenimiento de vestuario para el perfil profesional de chofer-choferesa/ordenanza. - Establecido como compensación de gastos que obligatoriamente correrán a cargo del o de la profesional en concepto de adquisición y conservación de su ropa de trabajo.</p>
+      <p>E) Antigüedad. - Se contabilizará por trienios y se comenzará a abonar en el mes en el que se cumpla el trienio.</p>
+      <p>F) Complemento personal. - Para su percepción habrán de reunirse los siguientes requisitos: formar parte de la plantilla del CCASA en el momento de la entrada en vigor del presente convenio, estar percibiendo cantidades superiores a las que resulten de aplicación por el sistema de niveles. No se hará extensivo en un futuro a ninguna otra persona que forme parte de la plantilla del CCASA, y no aumentará en su importe.</p>
+    </div>
+    <p>Los conceptos retributivos que se han tenido en cuenta en el registro retributivo se recogen en la siguiente tabla:</p>
+    <div class="img"><img src="img/conceptos.png" alt="Tabla de conceptos retributivos considerados en el registro: valor, nombre corto, descripción, tipo de retribución, tipo, normalizable y anualizable"></div>
+    <p>En el caso de CCASA se han realizado dos tipos de análisis.</p>
+    <h3>1. ANÁLISIS 1: Retribuciones efectivas</h3>
+    <p>El registro debe recoger toda la información fidedigna acerca de las retribuciones efectivamente percibidas en el periodo de referencia por las personas trabajadoras en la empresa, para cada una de sus situaciones contractuales, y sus promedios y medianas deben estar desglosados por sexo, por categorías, grupos profesionales, niveles, puestos o cualquier otro sistema de clasificación que sea utilizado en la empresa.</p>
+    <p>En definitiva, los datos retributivos deben estar agrupados o distribuidos en función del sistema de clasificación profesional que exista en la empresa.</p>
+    <h3>2. ANÁLISIS 2 Retribuciones equiparadas.</h3>
+    <p>La Herramienta del registro retributivo, además de la información fidedigna de las retribuciones efectivamente satisfechas y correspondientes a las diferentes situaciones contractuales agrupadas de acuerdo con el sistema de clasificación profesional de la empresa y durante el periodo de referencia del año natural desagregadas por sexo (importes efectivos), incluye la denominada “equiparación” (normalización y/o anualización) de las retribuciones, a fin proporcionar un dato adicional de comparabilidad (importes equiparables).</p>
+    <h4>Criterios de equiparación</h4>
+    <p><strong>A. Misma jornada a lo largo del año.</strong> Debe realizarse una normalización de las retribuciones a la misma jornada (jornada completa).</p>
+    <p>• Supuestos:</p>
+    <ol type="a"><li>Personas con contrato a tiempo parcial. (Personal jubilado a tiempo parcial)</li><li>Reducciones de jornada.</li></ol>
+    <p>No así el complemento de jubilación, ya que, al normalizarlo, distorsiona la realidad, estableciendo una retribución para esa persona mucho más alta de lo que realmente le correspondería por estar al 100% de jornada.</p>
+    <p>• Metodología: “Normalizar” es transformar las cantidades de manera que resulten comparables atendiendo al criterio de porcentaje de jornada. Las cantidades a considerar serán para el caso de jornada completa. En el caso de que se estén incluyendo personas que no tengan jornada completa (por contrato, y/o por reducción de jornada), las retribuciones deberán aumentarse proporcionalmente hasta jornada completa. Ejemplos:</p>
+    <ul>
+      <li>Si una persona tiene una retribución efectiva de 2.000 € mensuales con un contrato del 80% de jornada, su salario deberá “normalizarse” multiplicándose por 1,25 (1/80% = 1,25), por lo que la retribución normalizada será de 2.500 €.</li>
+      <li>Si una persona tiene una retribución efectiva de 1.500 € por una jornada del 100%, tendría la misma retribución normalizada que una persona que, trabajando con una jornada del 50%, cobrase 750 €. La normalización de la cifra de 750 € se haría dividiendo esa cantidad entre 50%, lo que da el resultado de 1.500 € (de modo que las cantidades normalizadas serían iguales, en este caso).</li>
+    </ul>
+    <p><strong>B. Misma duración de los servicios prestados a lo largo del año.</strong> Debe realizarse una anualización de las retribuciones percibidas en periodos inferiores al año.</p>
+    <p>• Supuestos:</p>
+    <ol type="a"><li>Contratos de duración determinada de personas que no hayan estado contratadas durante todo el año por haber sido contratadas una vez iniciado el mismo o haber extinguido sus contratos antes de finalizar el año.</li><li>Personas que se encuentran en situación de suspensión del contrato por cualquier causa del art. 45 ET o excedencia en algún momento del año.</li></ol>
+    <p>• Metodología: Las cantidades a considerar serán para el año completo considerado (periodo de referencia). Las retribuciones efectivas deberán aumentarse proporcionalmente hasta el año (por ejemplo, si una persona ha estado empleada por 6 meses, su retribución deberá “anualizarse” multiplicándose por 2).</p>
+    <p>A los únicos efectos de poder realizar y facilitar la comparabilidad y aplicar los criterios de equiparación descritos, cuando una persona haya tenido más de una situación contractual diferente en el período de referencia, se tendrá en cuenta la última.</p>
+    <p>Es posible que haya algunos conceptos retributivos que no estén sujetos a este ajuste (que no sean normalizables ni anualizables) porque la empresa los abone íntegramente a todas las personas trabajadoras independientemente de la jornada efectiva trabajada o periodo trabajado, lo que se deberá indicar oportunamente.</p>
+    <p>Algunos ejemplos pueden ser (si aplica en cada caso): Ayuda familiar, ayuda a estudios, retribución en especie, horas extras y Elkarkidetza, las diferencias obedecen a las diferentes situaciones personales que son accesibles a las personas que cumplan unos determinados requisitos del convenio o el abono íntegro del Complemento para las personas jubiladas a tiempo parcial. Tampoco resulta procedente anualizarlas, siendo más fiel y realista tener en cuenta las retribuciones efectivas por estos conceptos.</p>
+    <p>Los importes efectivos tienen carácter obligatorio mientras que los importes equiparados tienen carácter voluntario.</p>
+    <p>El registro deberá incluir la justificación a que se refiere el artículo 28.3 del Estatuto de los Trabajadores, cuando la media aritmética o la mediana de las retribuciones totales en la empresa de las personas trabajadoras de un sexo sea superior a las del otro en, al menos, un veinticinco por ciento.</p>
+    <p>Con lo cual, en este diagnóstico se recogen a continuación, los datos extraídos con ambos análisis.</p>
+  </div>
+  </details>
+</section>
+
+<!-- ================= PARTE 4 ================= -->
+<section class="part" id="p4" data-title="Resultados registro retributivo ejercicio 2025">
+  <div data-slide>
+    <div class="part-head"><span class="part-num">04</span><h2>Resultados registro retributivo ejercicio 2025</h2></div>
+    <svg class="stroke" viewBox="0 0 180 14"><path d="M4 8 C 50 3, 120 12, 176 6" stroke="url(#gRK)" stroke-width="8" fill="none" stroke-linecap="round" filter="url(#brush)"/></svg>
+    <p class="kicker">Esquema</p>
+    <figure class="info">
+      <figcaption>Medias y Medianas total retribuciones efectivas del total de la plantilla según sexo · En 2025</figcaption>
+      <div class="tiles">
+        <div class="tile m"><svg class="brush" viewBox="0 0 150 52"><path d="M6 30 C 50 18, 100 38, 144 24" stroke="#C2185B" stroke-width="30" fill="none" stroke-linecap="round" filter="url(#brush2)"/></svg><div class="v">41.868</div><div class="l">MEDIA · Mujeres</div></div>
+        <div class="tile p"><svg class="brush" viewBox="0 0 150 52"><path d="M6 30 C 50 18, 100 38, 144 24" stroke="#6B2D8B" stroke-width="30" fill="none" stroke-linecap="round" filter="url(#brush2)"/></svg><div class="v">44.064</div><div class="l">MEDIA · Hombres</div></div>
+        <div class="tile m"><svg class="brush" viewBox="0 0 150 52"><path d="M6 30 C 50 18, 100 38, 144 24" stroke="#C2185B" stroke-width="30" fill="none" stroke-linecap="round" filter="url(#brush2)"/></svg><div class="v">42.456</div><div class="l">MEDIANA · Mujeres</div></div>
+        <div class="tile p"><svg class="brush" viewBox="0 0 150 52"><path d="M6 30 C 50 18, 100 38, 144 24" stroke="#6B2D8B" stroke-width="30" fill="none" stroke-linecap="round" filter="url(#brush2)"/></svg><div class="v">47.107</div><div class="l">MEDIANA · Hombres</div></div>
+      </div>
+    </figure>
+    <figure class="info">
+      <figcaption>Medias y Brechas salariales en el total de la plantilla · TOTAL Retrib Ef / TOTAL Retrib Eq</figcaption>
+      <svg viewBox="0 0 760 250" width="100%" role="img" aria-label="TOTAL Retrib Ef: 2021 6 %, 2023 4 %, 2024 1 %, 2025 4 %. TOTAL Retrib Eq: 2021 4 %, 2023 1 %, 2024 -1 %, 2025 0 %">
+        <g font-family="Comfortaa, sans-serif" font-weight="700">
+          <line x1="40" y1="170" x2="740" y2="170" stroke="#D9CBE6" stroke-width="2"/>
+          <!-- escala: 1 % = 20 px -->
+          <g>
+            <rect x="73" y="50" width="44" height="120" rx="6" fill="#C2185B" filter="url(#brush)"/><text x="95" y="38" text-anchor="middle" font-size="18" fill="#C2185B">6%</text>
+            <rect x="128" y="90" width="44" height="80" rx="6" fill="#6B2D8B" filter="url(#brush)"/><text x="150" y="78" text-anchor="middle" font-size="18" fill="#6B2D8B">4%</text>
+            <text x="122" y="225" text-anchor="middle" font-size="18" fill="#231C2E">2021</text>
+          </g>
+          <g>
+            <rect x="253" y="90" width="44" height="80" rx="6" fill="#C2185B" filter="url(#brush)"/><text x="275" y="78" text-anchor="middle" font-size="18" fill="#C2185B">4%</text>
+            <rect x="308" y="150" width="44" height="20" rx="6" fill="#6B2D8B" filter="url(#brush)"/><text x="330" y="138" text-anchor="middle" font-size="18" fill="#6B2D8B">1%</text>
+            <text x="302" y="225" text-anchor="middle" font-size="18" fill="#231C2E">2023</text>
+          </g>
+          <g>
+            <rect x="433" y="150" width="44" height="20" rx="6" fill="#C2185B" filter="url(#brush)"/><text x="455" y="138" text-anchor="middle" font-size="18" fill="#C2185B">1%</text>
+            <rect x="488" y="170" width="44" height="20" rx="6" fill="#6B2D8B" filter="url(#brush)"/><text x="510" y="150" text-anchor="middle" font-size="18" fill="#6B2D8B">-1%</text>
+            <text x="482" y="225" text-anchor="middle" font-size="18" fill="#231C2E">2024</text>
+          </g>
+          <g>
+            <rect x="613" y="90" width="44" height="80" rx="6" fill="#C2185B" filter="url(#brush)"/><text x="635" y="78" text-anchor="middle" font-size="18" fill="#C2185B">4%</text>
+            <circle cx="690" cy="170" r="9" fill="#6B2D8B"/><text x="690" y="150" text-anchor="middle" font-size="18" fill="#6B2D8B">0%</text>
+            <text x="662" y="225" text-anchor="middle" font-size="18" fill="#231C2E">2025</text>
+          </g>
+        </g>
+      </svg>
+      <div class="legend"><span><i style="background:#C2185B"></i>TOTAL Retrib Ef</span><span><i style="background:#6B2D8B"></i>TOTAL Retrib Eq</span></div>
+    </figure>
+    <div class="esquema">
+      <blockquote>Se observa en CCASA una brecha salarial total de 1 punto porcentual (-1 punto porcentual en los valores equiparables) a favor de los hombres. Este dato está por debajo de la brecha salarial de la CAE que es de 24%.  Aun así, es preciso seguir avanzando para eliminarla por completo.</blockquote>
+      <blockquote>Se observa que las brechas salariales por perfil referidas a salario base y complemento de nivel se deben fundamentalmente a: excedencias, bajas médicas, permisos de maternidad y reducciones de jornadas por cuidados, estas dos últimas a las que se han acogido principalmente las mujeres.</blockquote>
+    </div>
+  </div>
+  <details class="deep"><summary><span class="chev">›</span> Leer el apartado completo</summary>
+  <div class="body" data-full>
+    <h4>Promedio y Mediana</h4>
+    <ul>
+      <li>El promedio de un conjunto de valores se obtiene al dividir la suma de todos ellos por el número de valores.</li>
+      <li>La mediana de un conjunto de valores es el valor que ocupa la posición central al ordenarlos de menor a mayor.</li>
+    </ul>
+    <h3>Medias y Medianas total retribuciones efectivas del total de la plantilla según sexo:</h3>
+    <span class="year">En 2021</span>
+    <div class="tbl"><table><tr><th></th><th>Mujeres</th><th>Hombres</th></tr><tr><th>MEDIA</th><td class="num">43.614 €</td><td class="num">46.223 €</td></tr><tr><th>MEDIANA</th><td class="num">46.640 €</td><td class="num">50.079 €</td></tr></table></div>
+    <span class="year">En 2023</span>
+    <div class="tbl"><table><tr><th></th><th>Mujeres</th><th>Hombres</th></tr><tr><th>MEDIA</th><td class="num">46.362 €</td><td class="num">48.256 €</td></tr><tr><th>MEDIANA</th><td class="num">50.068 €</td><td class="num">52.901 €</td></tr></table></div>
+    <span class="year">En 2024</span>
+    <div class="tbl"><table><tr><th></th><th>Mujeres</th><th>Hombres</th></tr><tr><th>MEDIA</th><td class="num">52.596 €</td><td class="num">53.229 €</td></tr><tr><th>MEDIANA</th><td class="num">55.497 €</td><td class="num">55.440 €</td></tr></table></div>
+    <span class="year">En 2025</span>
+    <div class="tbl"><table><tr><th></th><th>Mujeres</th><th>Hombres</th></tr><tr><th>MEDIA</th><td class="num">41.868</td><td class="num">44.064</td></tr><tr><th>MEDIANA</th><td class="num">42.456</td><td class="num">47.107</td></tr></table></div>
+
+    <h3>Medias y Brechas salariales en el total de la plantilla y por perfiles profesional 2021-2025:</h3>
+    <h4>Importes efectivos:</h4>
+    <span class="year">En 2021</span><div class="img"><img src="img/tot_ef_2021.png" alt="Importes efectivos 2021, total de la plantilla"></div>
+    <span class="year">En 2023</span><div class="img"><img src="img/tot_ef_2023.png" alt="Importes efectivos 2023, total de la plantilla"></div>
+    <span class="year">En 2024</span><div class="img"><img src="img/tot_ef_2024.png" alt="Importes efectivos 2024, total de la plantilla"></div>
+    <span class="year">En 2025</span><div class="img"><img src="img/tot_ef_2025.png" alt="Importes efectivos 2025, total de la plantilla"></div>
+    <h3>Medias y Brechas salariales en el total de la plantilla y por perfiles profesionales:</h3>
+    <h4>Importes equiparados:</h4>
+    <span class="year">En 2021</span><div class="img"><img src="img/tot_eq_2021.png" alt="Importes equiparados 2021, total de la plantilla"></div>
+    <span class="year">En 2023</span><div class="img"><img src="img/tot_eq_2023.png" alt="Importes equiparados 2023, total de la plantilla"></div>
+    <span class="year">En 2024</span><div class="img"><img src="img/tot_eq_2024.png" alt="Importes equiparados 2024, total de la plantilla"></div>
+    <span class="year">En 2025</span><div class="img"><img src="img/tot_eq_2025.png" alt="Importes equiparados 2025, total de la plantilla"></div>
+    <ul>
+      <li>Nº: Número de trabajadores/as</li>
+      <li>Nº SC: Numero de situaciones contractuales diferentes dentro del periodo de referencia</li>
+      <li>Nº SC Norm: Numero de situaciones contractuales normalizadas</li>
+      <li>Nº SC Anualiz: Numero de situaciones contractuales anualizadas</li>
+      <li>Nº SC Norm y Anualiz: Numero de situaciones contractuales normalizadas y anualizadas</li>
+      <li>Nº SC Eq: Numero de situaciones contractuales que son objeto de equiparación.</li>
+    </ul>
+    <p>Se observa en CCASA una brecha salarial total de 1 punto porcentual (-1 punto porcentual en los valores equiparables) a favor de los hombres. Este dato está por debajo de la brecha salarial de la CAE que es de 24%.  Aun así, es preciso seguir avanzando para eliminarla por completo. Se observa la tendencia descendente desde con respecto al último registro retributivo de 2021. Para ello, se procede a un análisis de las brechas salariales por niveles para así identificar dónde pueden estar las principales causas de estas. En las siguientes tablas se muestran estos datos. En ella se marcan:</p>
+    <ul>
+      <li>Con color naranja a aquellas brechas que están entre 0 y + 25 (favorables a los hombres) o -25 (favorables a las mujeres),</li>
+      <li>Con color rojo las que están por encima (favorables a los hombres) o por debajo (favorables a las mujeres) de los 25</li>
+      <li>Y en verde las que son 0.</li>
+    </ul>
+    <p>Además, en aquellos perfiles en los que hay un solo sexo representado, no procede análisis de brecha salarial por perfil profesional.</p>
+    <p>Se observa que las brechas salariales por perfil referidas a salario base y complemento de nivel se deben fundamentalmente a: excedencias, bajas médicas, permisos de maternidad y reducciones de jornadas por cuidados, estas dos últimas a las que se han acogido principalmente las mujeres.</p>
+    <p>En cuanto al resto de conceptos retributivos: Ayuda familiar, Compensación de horas extras, Plus de vestuario, Retribución en especie Mutua Foral, Retribución en especie intereses, Ayuda a estudios, y horas extraordinarias no procede su equiparación, al no depender de la situación contractual de la persona, ni tampoco de su jornada. Las diferencias se deben a las diferentes situaciones personales de las personas en función del acceso a determinadas ayudas recogidas en el Convenio y que se reflejan en nómina.</p>
+    <p>Tampoco procede el complemento para personas con jubilación parcial al 25% al tratarse de un complemento al 93 % de su salario bruto anual, por lo que, al normalizarlo, distorsiona la realidad, estableciendo una retribución para esa persona mucho más alta de lo que realmente le correspondería por estar al 100% de jornada</p>
+
+    <div class="omit">Se omite esta información para proteger el secreto estadístico.</div>
+    <h4>Medias valores efectivos en 2021:</h4><div class="img"><img src="img/perf_ef_2021.png" alt="Brechas por perfil, valores efectivos 2021"></div>
+    <h4>Medias valores efectivos en 2023:</h4><div class="img"><img src="img/perf_ef_2023.png" alt="Brechas por perfil, valores efectivos 2023"></div>
+    <h4>Medias valores efectivos en 2024:</h4><div class="img"><img src="img/perf_ef_2024.png" alt="Brechas por perfil, valores efectivos 2024"></div>
+    <h4>Medias valores efectivos en 2025</h4><div class="img"><img src="img/perf_ef_2025.png" alt="Brechas por perfil, valores efectivos 2025"></div>
+    <h4>Media valores equiparados en 2021:</h4><div class="img"><img src="img/perf_eq_2021.png" alt="Brechas por perfil, valores equiparados 2021"></div>
+    <h4>Media valores equiparados en 2023:</h4><div class="img"><img src="img/perf_eq_2023.png" alt="Brechas por perfil, valores equiparados 2023"></div>
+    <h4>Media valores equiparados en 2024:</h4><div class="img"><img src="img/perf_eq_2024.png" alt="Brechas por perfil, valores equiparados 2024"></div>
+    <h4>Media valores equiparados en 2025:</h4><div class="img"><img src="img/perf_eq_2025.png" alt="Brechas por perfil, valores equiparados 2025"></div>
+
+    <h3>ESCALA 01 O GRUPO PROFESIONAL 01 RESPONSABLES DE ÁREA</h3>
+    <div class="omit">Se omite esta información para proteger el secreto estadístico.</div>
+
+    <h3>ESCALA 03 O GRUPO PROFESIONAL 03 JEFATURAS DE PROYECTO</h3>
+    <p>Las diferencias en el salario base y complementos salariales efectivos:</p>
+    <div class="omit">Se omite esta información para proteger el secreto estadístico.</div>
+    <p>Se reducen, e incluso se invierten, al tener en cuenta los valores equiparados. En cuanto a la diferencia del salario base y de los complementos salariales equiparados, se observan los siguientes aspectos:</p>
+    <ul>
+      <li>Complemento de Nivel: De las seis JP mujeres,  únicamente una está en el N3, frente a  4 JP hombres que están en el N3 (de 15 JP hombres)</li>
+    </ul>
+    <div class="omit">Se omite esta información para proteger el secreto estadístico.</div>
+    <ul>
+      <li>En el contrato de relevo, no procede el cómputo del Complemento, para la brecha salarial, al ser un concepto retributivo que no puede anualizarse.</li>
+    </ul>
+    <div class="omit">Se omite esta información para proteger el secreto estadístico.</div>
+    <ul>
+      <li>Resulta reseñable que la brecha resultante en antigüedad es a favor de las mujeres debido a que las jefaturas de proyecto más noveles son todas ocupadas por hombres.</li>
+      <li>Igualmente, el complemento personal es a favor de las mujeres</li>
+    </ul>
+    <div class="omit">Se omite esta información para proteger el secreto estadístico.</div>
+
+    <h3>ESCALA 05 O GRUPO PROFESIONAL 05 CONSULTORÍA</h3>
+    <p>Las diferencias en los salarios efectivos a favor de las mujeres se deben a los siguientes motivos:</p>
+    <div class="omit">Se omite esta información para proteger el secreto estadístico.</div>
+    <p>Las diferencias de las retribuciones una vez equiparadas se reducen e incluso se invierten  al tener en cuenta los valores equiparados.</p>
+    <div class="omit">Se omite esta información para proteger el secreto estadístico.</div>
+
+    <h3>ESCALA 06 O GRUPO PROFESIONAL 06 ANALISTAS DE SISTEMAS</h3>
+    <p>Las diferencias en el salario base y complementos salariales en las retribuciones efectivas, se deben a los siguientes motivos:</p>
+    <div class="omit">Se omite esta información para proteger el secreto estadístico.</div>
+    <p>Con la equiparación, las diferencias efectivas se reducen e incluso se invierten debido a los siguientes motivos:</p>
+    <div class="omit">Se omite esta información para proteger el secreto estadístico.</div>
+    <p>Todavía persiste, la diferencia en el complemento personal.</p>
+    <div class="omit">Se omite esta información para proteger el secreto estadístico.</div>
+
+    <h3>ESCALA 07 O GRUPO PROFESIONAL 07 ANALISTAS DE SISTEMAS UT</h3>
+    <div class="omit">Se omite esta información para proteger el secreto estadístico.</div>
+
+    <h3>ESCALA 08 O GRUPO PROFESIONAL 08 ANALISTAS FUNCIONALES</h3>
+    <p>Las diferencias en el Salario base y complementos salariales efectivos se deben a lo siguiente:</p>
+    <ul>
+      <li>El complemento de antigüedad es superior en este colectivo de mujeres.</li>
+    </ul>
+    <div class="omit">Se omite esta información para proteger el secreto estadístico.</div>
+    <ul>
+      <li>Resumen: 7 mujeres y 5 hombres en el N5</li>
+    </ul>
+    <div class="omit">Se omite esta información para proteger el secreto estadístico.</div>
+    <p>Pero las diferencias en los complementos salariales se reducen, e incluso se revierten, al tener en cuenta los valores equiparados.</p>
+    <p>Ello es debido a que:</p>
+    <ul>
+      <li>Se anualizan las altas y bajas a lo largo del año 2025, tanto de nuevas incorporaciones como de promociones internas.</li>
+    </ul>
+    <div class="omit">Se omite esta información para proteger el secreto estadístico.</div>
+    <ul>
+      <li>Es reseñable la mayor antigüedad de las mujeres.</li>
+    </ul>
+    <p>En cuanto a la diferencia del salario base y de los complementos salariales equiparados, se observan los siguientes aspectos:</p>
+    <div class="omit">Se omite esta información para proteger el secreto estadístico.</div>
+    <ul>
+      <li>La situación de cinco hombres que se han incorporado entre 2023-2024 y 2025 y que se han mantenido todo el año en  el Nivel 5 que es su N1).</li>
+      <li>En el contrato de relevo, no procede el cómputo del Complemento, para la brecha salarial, al ser un concepto retributivo que no puede anualizarse.</li>
+    </ul>
+    <div class="omit">Se omite esta información para proteger el secreto estadístico.</div>
+
+    <h3>ESCALA 09 O GRUPO PROFESIONAL 09 ANALISTAS DE SEGURIDAD</h3>
+    <div class="omit">Se omite esta información para proteger el secreto estadístico.</div>
+    <h3>ESCALA 12 O GRUPO PROFESIONAL 12 PROGRAMADORES/AS</h3>
+    <div class="omit">Se omite esta información para proteger el secreto estadístico.</div>
+    <h3>ESCALA 18 O GRUPO PROFESIONAL 18 TÉCNICOS/AS DE PRODUCCIÓN</h3>
+    <div class="omit">Se omite esta información para proteger el secreto estadístico.</div>
+  </div>
+  </details>
+</section>
+
+<!-- ================= PARTE 5 ================= -->
+<section class="part" id="p5" data-title="Conclusiones">
+  <div data-slide>
+    <div class="part-head"><span class="part-num">05</span><h2>Conclusiones clasificación profesional, retribuciones y autorías salariales</h2></div>
+    <svg class="stroke" viewBox="0 0 180 14"><path d="M4 8 C 50 3, 120 12, 176 6" stroke="url(#gRK)" stroke-width="8" fill="none" stroke-linecap="round" filter="url(#brush)"/></svg>
+    <p class="kicker">Esquema</p>
+    <ul class="brushlist"><li><svg viewBox="0 0 64 26" aria-hidden="true"><path d="M5 15 C 20 6, 40 20, 59 10" stroke="#6B2D8B" stroke-width="16" fill="none" stroke-linecap="round" filter="url(#brush)"/></svg><span>Sistema retributivo y clasificación profesional objetiva y transparente.</span></li><li><svg viewBox="0 0 64 26" aria-hidden="true"><path d="M5 15 C 20 6, 40 20, 59 10" stroke="#C2185B" stroke-width="16" fill="none" stroke-linecap="round" filter="url(#brush)"/></svg><span>Se dispone de un registro retributivo de toda la plantilla con análisis de medias, medianas y brechas totales y por perfiles.</span></li><li><svg viewBox="0 0 64 26" aria-hidden="true"><path d="M5 15 C 20 6, 40 20, 59 10" stroke="#E8573A" stroke-width="16" fill="none" stroke-linecap="round" filter="url(#brush)"/></svg><span>Brecha salarial total por debajo de la brecha de la CAE, 1 puntos porcentual (-1 punto porcentual en valores equiparables).</span></li><li><svg viewBox="0 0 64 26" aria-hidden="true"><path d="M5 15 C 20 6, 40 20, 59 10" stroke="#6B2D8B" stroke-width="16" fill="none" stroke-linecap="round" filter="url(#brush)"/></svg><span>La brecha salarial en el salario base se elimina o se reduce sensiblemente al calcular los valores equiparables.</span></li><li><svg viewBox="0 0 64 26" aria-hidden="true"><path d="M5 15 C 20 6, 40 20, 59 10" stroke="#C2185B" stroke-width="16" fill="none" stroke-linecap="round" filter="url(#brush)"/></svg><span>Respecto a la brecha salarial en los complementos salariales la mayor brecha salarial se da en el complemento personal y en el complemento de antigüedad.</span></li><li><svg viewBox="0 0 64 26" aria-hidden="true"><path d="M5 15 C 20 6, 40 20, 59 10" stroke="#E8573A" stroke-width="16" fill="none" stroke-linecap="round" filter="url(#brush)"/></svg><span>Los responsables de área y de Unidad focal son casi todos hombres</span></li><li><svg viewBox="0 0 64 26" aria-hidden="true"><path d="M5 15 C 20 6, 40 20, 59 10" stroke="#6B2D8B" stroke-width="16" fill="none" stroke-linecap="round" filter="url(#brush)"/></svg><span>Las nuevas incorporaciones son mayoritariamente hombres</span></li></ul>
+  </div>
+  <details class="deep"><summary><span class="chev">›</span> Leer el apartado completo</summary>
+  <div class="body" data-full>
+    <ul>
+      <li>Sistema retributivo y clasificación profesional objetiva y transparente.</li>
+      <li>Se dispone de un registro retributivo de toda la plantilla con análisis de medias, medianas y brechas totales y por perfiles.</li>
+      <li>Brecha salarial total por debajo de la brecha de la CAE, 1 puntos porcentual (-1 punto porcentual en valores equiparables).</li>
+      <li>La brecha salarial en el salario base se elimina o se reduce sensiblemente al calcular los valores equiparables.</li>
+      <li>Respecto a la brecha salarial en los complementos salariales la mayor brecha salarial se da en el complemento personal y en el complemento de antigüedad.</li>
+      <li>Los responsables de área y de Unidad focal son casi todos hombres</li>
+      <li>Las nuevas incorporaciones son mayoritariamente hombres</li>
+    </ul>
+  </div>
+  </details>
+</section>
+
+<!-- ================= PARTE 6 ================= -->
+<section class="part" id="p6" data-title="Propuestas">
+  <div data-slide>
+    <div class="part-head"><span class="part-num">06</span><h2>Propuestas que disminuyan la diferencia salarial</h2></div>
+    <svg class="stroke" viewBox="0 0 180 14"><path d="M4 8 C 50 3, 120 12, 176 6" stroke="url(#gRK)" stroke-width="8" fill="none" stroke-linecap="round" filter="url(#brush)"/></svg>
+    <p class="kicker">Esquema</p>
+    <div class="esquema">
+      <blockquote>Dado que una de las principales causas de que exista diferencia salarial en algunos perfiles profesionales del CCASA es la existencia del complemento personal, resulta imprescindible mantener la política de continuar disminuyendo la presencia del mismo en la empresa.</blockquote>
+      <blockquote>Continuar con la política de transparencia en las promociones internas del CCASA.</blockquote>
+      <blockquote>Igualmente, resulta imprescindible mantener una descripción y clasificación de los puestos de trabajo.</blockquote>
+      <blockquote>Revisar anualmente, a través de registro salarial, la evolución del resultado de la brecha salarial.</blockquote>
+    </div>
+  </div>
+  <details class="deep"><summary><span class="chev">›</span> Leer el apartado completo</summary>
+  <div class="body" data-full>
+    <p>Ya en su momento, en 2016, CCASA optó por establecer un sistema de bandas salariales por grupos profesionales, inexistentes hasta la fecha.</p>
+    <p>Así se recogió en el artículo 18 del convenio de CCASA, que dio lugar a la creación de un complemento personal a determinadas personas que, en el momento de entrada en vigor del convenio, y que, como consecuencia del establecimiento del mencionado sistema retributivo de niveles, estaban percibiendo cantidades superiores a las que resultaban de aplicación.</p>
+    <p>Resulta de vital importancia mantener la obligatoriedad del convenio de que no se haga extensivo en un futuro a ninguna otra persona que forme parte de la plantilla del CCASA, así como no incrementar su importe.</p>
+    <p>Dado que una de las principales causas de que exista diferencia salarial en algunos perfiles profesionales del CCASA es la existencia del complemento personal, resulta imprescindible mantener la política de continuar disminuyendo la presencia del mismo en la empresa.</p>
+    <p>Nuevas incorporaciones y promociones internas: Resulta igualmente importante mantener la política retributiva de progresos de nivel (de N1 a N2) en personas recién incorporadas o personas recién promocionadas a perfiles profesionales de mayor recorrido en niveles retributivos para evitar que se generen diferencias salariales injustificadas.</p>
+    <p>Continuar con la política de transparencia en las promociones internas del CCASA.</p>
+    <p>Igualmente, resulta imprescindible mantener una descripción y clasificación de los puestos de trabajo.</p>
+    <p>Revisar anualmente, a través de registro salarial, la evolución del resultado de la brecha salarial.</p>
+  </div>
+  </details>
+</section>
+
+<!-- ================= PARTE 7 ================= -->
+<section class="part" id="p7" data-title="Cuestiones legales de interés">
+  <div data-slide>
+    <div class="part-head"><span class="part-num">07</span><h2>Cuestiones legales de interés</h2></div>
+    <svg class="stroke" viewBox="0 0 180 14"><path d="M4 8 C 50 3, 120 12, 176 6" stroke="url(#gRK)" stroke-width="8" fill="none" stroke-linecap="round" filter="url(#brush)"/></svg>
+    <p class="kicker">Esquema</p>
+    <div class="tiles">
+      <div class="tile p"><svg class="brush" viewBox="0 0 150 52"><path d="M6 30 C 50 18, 100 38, 144 24" stroke="#6B2D8B" stroke-width="30" fill="none" stroke-linecap="round" filter="url(#brush2)"/></svg><div class="v">30</div><div class="l">conceptos salariales</div></div>
+      <div class="tile o"><svg class="brush" viewBox="0 0 150 52"><path d="M6 30 C 50 18, 100 38, 144 24" stroke="#E8573A" stroke-width="30" fill="none" stroke-linecap="round" filter="url(#brush2)"/></svg><div class="v">5</div><div class="l">conceptos extrasalariales</div></div>
+      
+    </div>
+    <div class="esquema" style="margin-top:12px">
+      <blockquote>La herramienta permite informar hasta 30 conceptos salariales y hasta 5 conceptos extrasalariales, permitiendo su agrupación únicamente en el supuesto de que existieran más.</blockquote>
+      <blockquote>Además, si el promedio de las retribuciones de las personas trabajadoras de un sexo es superior a las del otro en un 25% o más, tomando el conjunto de la masa salarial o la media de las percepciones satisfechas, la empresa debe incluir en el registro una justificación de que dicha diferencia responde a motivos no relacionados con el sexo.</blockquote>
+    </div>
+  </div>
+  <details class="deep"><summary><span class="chev">›</span> Leer el apartado completo</summary>
+  <div class="body" data-full>
+    <h4>Registro de empresas con auditoría retributiva:</h4>
+    <p>Las empresas con auditoría retributiva deben incluir los promedios y medianas de las retribuciones de las agrupaciones que resulten del proceso de valoración de puestos de trabajo —puestos de igual valor— convenientemente desglosados por sexo, e incluyendo todas las retribuciones efectivamente satisfechas desagregadas en atención a la naturaleza de la retribución, incluyendo salario base, cada uno de los complementos y cada una de las percepciones extrasalariales, especificando de modo diferenciado cada percepción.</p>
+    <h4>Agrupación de conceptos retributivos</h4>
+    <p>— Art. 28.2 ET: “El empresario está obligado a llevar un registro con los valores medios de los salarios, los complementos salariales y las percepciones extrasalariales de su plantilla, desagregados por sexo y distribuidos por grupos profesionales, categorías profesionales o puestos de trabajo iguales o de igual valor”.</p>
+    <p>— Art. 5.2 RD 902/2020: “A su vez, esa información deberá estar desagregada en atención a la naturaleza de la retribución, incluyendo salario base, cada uno de los complementos y cada una de las percepciones extrasalariales, especificando de modo diferenciado cada percepción”.</p>
+    <p>— Guía de uso de la herramienta retributiva: El registro “deberá proporcionar información sobre todos y cada uno de los conceptos retributivos que abonen las empresas, sin agruparlos”.</p>
+    <p>La herramienta permite informar hasta 30 conceptos salariales y hasta 5 conceptos extrasalariales, permitiendo su agrupación únicamente en el supuesto de que existieran más. En tal caso, se agruparán: a) “lo estrictamente necesario (esto es, utilizando en todo caso los 30 disponibles); y b) “atendiendo a un criterio de similitud entre ellos”.</p>
+    <p>La retribución en concepto de “horas extraordinarias” y “horas complementarias”, debe incluirse en el registro al tratarse de complementos salariales por cantidad de trabajo y deben ser incluidos en el registro como un concepto específico.</p>
+    <ul>
+      <li>Las pagas extras no se informan como un complemento salarial independiente, sino que su cuantía se sumaría a los conceptos que integran.</li>
+      <li>También hay que reflejar las indemnizaciones por despido ya que la norma no prevé excepciones con respecto a los conceptos que deben ser informados en el registro.</li>
+    </ul>
+    <h4>Información sobre los cambios de puesto</h4>
+    <p>— Retribuciones efectivas: “Una misma persona puede por tanto aparecer en varias líneas, tantas como situaciones contractuales diferentes haya tenido durante el período de referencia.”</p>
+    <p>— Retribuciones equiparadas: “cuando una persona haya tenido más de una situación contractual diferente en el período de referencia, se tendrá en cuenta la última”.</p>
+    <h4>Información adicional que debe contener el registro retributivo de las empresas con auditoría retributiva</h4>
+    <p>El registro retributivo de las empresas que hayan de realizar una auditoría retributiva debe reflejar las medias aritméticas y las medianas de las agrupaciones de los trabajos de igual valor en la empresa, conforme a los resultados de la evaluación de puestos de trabajo llevada a cabo por la empresa en el marco de aquélla.</p>
+    <p>Además, si el promedio de las retribuciones de las personas trabajadoras de un sexo es superior a las del otro en un 25% o más, tomando el conjunto de la masa salarial o la media de las percepciones satisfechas, la empresa debe incluir en el registro una justificación de que dicha diferencia responde a motivos no relacionados con el sexo.</p>
+  </div>
+  </details>
+</section>
+
+<!-- ================= PARTE 8 ================= -->
+<section class="part" id="p8" data-title="Novedad 2025">
+  <div data-slide>
+    <div class="part-head"><span class="part-num">08</span><h2>Novedad 2025: análisis por escalas o niveles retributivos</h2></div>
+    <svg class="stroke" viewBox="0 0 180 14"><path d="M4 8 C 50 3, 120 12, 176 6" stroke="url(#gRK)" stroke-width="8" fill="none" stroke-linecap="round" filter="url(#brush)"/></svg>
+    <p class="kicker">Esquema</p>
+    <div class="esquema">
+      <blockquote>Este año se ha incluido por primera vez el análisis según los complementos de nivel.</blockquote>
+      <blockquote>Dentro de cada nivel o escala se encuentran agrupados los distintos perfiles profesionales en la empresa.</blockquote>
+    </div>
+    
+  </div>
+  <details class="deep"><summary><span class="chev">›</span> Leer el apartado completo</summary>
+  <div class="body" data-full>
+    <h4>Análisis por escalas o niveles retributivos:</h4>
+    <p>Este año se ha incluido por primera vez el análisis según los complementos de nivel.</p>
+    <p>Dentro de cada nivel o escala se encuentran agrupados los distintos perfiles profesionales en la empresa.</p>
+    <div class="omit">Se omite esta información para proteger el secreto estadístico.</div>
+    <div class="img"><img src="img/niveles_ef_2025.png" alt="Medias valores efectivos por escala o nivel retributivo"></div>
+    <div class="img"><img src="img/niveles_eq_2025.png" alt="Media valores equiparados por escala o nivel retributivo"></div>
+  </div>
+  </details>
+</section>
+
+<!-- 5 · TEXTO COMPLETO -->
+<section class="part" id="texto-completo">
+  <div class="part-head"><span class="part-num">≡</span><h2>Texto completo</h2></div>
+  <svg class="stroke" viewBox="0 0 180 14"><path d="M4 8 C 50 3, 120 12, 176 6" stroke="url(#gRK)" stroke-width="8" fill="none" stroke-linecap="round" filter="url(#brush)"/></svg>
+  <h3 style="font-family:Comfortaa;font-size:1.2rem;margin:6px 0 4px">INFORME REGISTRO SALARIAL DEL CENTRO DE CÁLCULO DE ÁLAVA 2025</h3>
+  <div class="body" id="fulltext"></div>
+</section>
+
+<footer>Centro de Cálculo de Álava, S.A. · Informe registro salarial 2025</footer>
+</main>
+
+<!-- Presentación -->
+<div id="deck" role="dialog" aria-label="Modo presentación">
+  <div class="deck-progress" id="deckProg"></div>
+  <div class="slide-frame"><div class="slide" id="slideBox"></div></div>
+  <div class="deck-bar">
+    <button type="button" id="prevS">← Anterior</button>
+    <span id="slideNum">1 / 1</span>
+    <button type="button" id="nextS">Siguiente →</button>
+    <button type="button" id="exitS">✕ Modo lectura</button>
+  </div>
+</div>
+
+<script>
+(function(){
+  // Texto completo: se compone a partir de cada apartado
+  var full=document.getElementById('fulltext');
+  document.querySelectorAll('section.part[data-title]').forEach(function(sec){
+    var num=sec.querySelector('.part-num').textContent.trim();
+    var title=sec.querySelector('h2').textContent.trim();
+    var wrap=document.createElement('div');wrap.className='full-part';
+    var h=document.createElement('h3');h.className='ph';h.textContent=num+' · '+title;wrap.appendChild(h);
+    var b=sec.querySelector('[data-full]');if(b){var c=b.cloneNode(true);c.removeAttribute('data-full');c.className='';wrap.appendChild(c);}
+    full.appendChild(wrap);
+  });
+
+  // Presentación
+  var slides=[].slice.call(document.querySelectorAll('[data-slide]'));
+  var i=0,box=document.getElementById('slideBox'),num=document.getElementById('slideNum'),prog=document.getElementById('deckProg');
+  function show(n){i=Math.max(0,Math.min(slides.length-1,n));box.innerHTML='';var c=slides[i].cloneNode(true);c.removeAttribute('id');box.appendChild(c);box.scrollTop=0;c.style.zoom=1;var r=(box.clientHeight-parseFloat(getComputedStyle(box).paddingTop)*2)/c.scrollHeight;if(r<1){c.style.zoom=Math.max(r,.55);}num.textContent=(i+1)+' / '+slides.length;prog.style.width=((i+1)/slides.length*100)+'%';}
+  function start(){document.body.classList.add('presenting');show(0);try{document.documentElement.requestFullscreen&&document.documentElement.requestFullscreen();}catch(e){}}
+  function stop(){document.body.classList.remove('presenting');try{document.fullscreenElement&&document.exitFullscreen();}catch(e){}}
+  document.getElementById('startDeck').addEventListener('click',start);
+  document.getElementById('prevS').addEventListener('click',function(){show(i-1)});
+  document.getElementById('nextS').addEventListener('click',function(){show(i+1)});
+  document.getElementById('exitS').addEventListener('click',stop);
+  box.addEventListener('click',function(e){var a=e.target.closest('a');if(a){e.preventDefault();stop();var t=document.querySelector(a.getAttribute('href')||a.getAttribute('xlink:href'));t&&t.scrollIntoView();}});
+  document.addEventListener('keydown',function(e){
+    if(!document.body.classList.contains('presenting')){ if(e.key==='p'&&!e.ctrlKey&&!e.metaKey&&document.activeElement===document.body){start();} return; }
+    if(['ArrowRight','PageDown',' ','Enter'].indexOf(e.key)>-1){e.preventDefault();show(i+1);}
+    else if(['ArrowLeft','PageUp','Backspace'].indexOf(e.key)>-1){e.preventDefault();show(i-1);}
+    else if(e.key==='Home'){show(0);}else if(e.key==='End'){show(slides.length-1);}
+    else if(e.key==='Escape'){stop();}
+  });
+  document.addEventListener('fullscreenchange',function(){if(!document.fullscreenElement&&document.body.classList.contains('presenting')){document.body.classList.remove('presenting');}});
+})();
+</script>
+</body>
+</html>

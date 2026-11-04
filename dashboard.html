@@ -55,7 +55,7 @@ main{max-width:1100px;margin:0 auto;padding:20px 20px 50px}
 
 <div id="modal-bg" class="overlay"><div class="modal" id="modal-box" onclick="event.stopPropagation()"></div></div>
 
-<script src="assets/jszip.min.js"></script><script src="data.js?v=documentos-2026"></script><script src="documents.js?v=20260916-ccasa-gizonduz"></script>
+<script src="assets/jszip.min.js"></script><script src="data.js?v=20261104"></script><script src="documents.js?v=20261104"></script>
 <script>
 var calMonth=new Date().getMonth();
 var calYear=new Date().getFullYear();
@@ -427,9 +427,10 @@ document.querySelector('a[download="01.2 Gestion Plan.xlsx"]').parentElement.ins
 setInterval(()=>refreshLinkedExcel(false),10000);
 
 // Auto-init on load
-document.getElementById('psub').textContent=(DATA.length-1)+' medidas del Plan programadas para 2026 + 1 medida adicional LGTBI';
+document.getElementById('psub').textContent=DATA.length+' medidas en seguimiento: 36 programadas del Plan, 1 actuación de PRL incorporada y 1 medida adicional LGTBI';
 buildNav();
 renderDash();renderMed();renderCal();renderRep();
 </script>
 </body>
 </html>
+

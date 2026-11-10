@@ -37,7 +37,7 @@ main{max-width:1100px;margin:0 auto;padding:20px 20px 50px}
 .si{font-family:'Manrope';border:1.5px solid #E0D6EA;border-radius:9px;padding:7px 12px;font-size:13px;background:#fff;outline:none;width:100%}.si:focus{border-color:var(--p)}
 .update-info{font-size:10px;color:#999;font-family:'Manrope'}
 .header-inner{height:auto;min-height:100px;}.filters{display:flex;gap:12px;flex-wrap:wrap;margin:12px 0}.filters .si{flex:1;min-width:210px}.filters select{max-width:100%}.muted{font-size:12px;color:#73697c;margin:8px 0}.table-wrap{overflow-x:auto}.docs-table td{cursor:default;vertical-align:top}.docs-table td:first-child{min-width:260px}.format-pill,.file-icon{display:inline-block;background:#f2eaf7;color:#6b2d8b;border-radius:7px;padding:6px 8px;font-weight:700;font-size:11px}.measure-chips{display:flex;gap:5px;flex-wrap:wrap}.measure-chip{border:1px solid #ddcbe8;background:#f8f4fb;border-radius:7px;padding:5px 8px;cursor:pointer;color:#6b2d8b}.doc-download,.doc-open{display:inline-block;margin:3px 4px 3px 0;padding:6px 9px;border-radius:6px;background:#6b2d8b;color:white;text-decoration:none;font-size:12px}.doc-open{background:#f2eaf7;color:#6b2d8b}.doc-card{display:flex;align-items:flex-start;gap:12px;padding:12px;border:1px solid #e5dcec;border-left:4px solid #9a63b4;border-radius:8px;margin:10px 0;background:#fcfaff}.doc-title{font-size:13px;font-weight:600;overflow-wrap:anywhere}.doc-actions{margin-top:5px}.evidence-section{margin-top:20px}.evidence-section h3{font-size:15px}.calendar-layout{display:grid;grid-template-columns:1fr 1fr;gap:18px}.calendar-toolbar{display:flex;justify-content:space-between;align-items:center;gap:6px;margin-bottom:14px}.calendar-toolbar h3{font-size:16px}.weekday{text-align:center;color:#776880;font-size:12px}.cal-day small{display:block;font-size:9px}.cal-selected{outline:2px solid #c2185b}.agenda-event{display:block;border:0;border-bottom:1px solid #eadfec;text-align:left;width:100%;background:transparent;padding:12px 0;cursor:pointer;font:inherit;font-size:12px}.agenda-event strong,.agenda-event span{display:block;margin-bottom:5px}.report-preview h1{font-size:22px}.report-preview h2{font-size:19px;margin:28px 0 14px;color:#6b2d8b}.report-preview h3{font-size:15px;margin:18px 0 10px}.report-preview h4{font-size:12px;color:#6b2d8b;margin:14px 0 6px}.report-preview p{font-size:13px;line-height:1.65}.pre{white-space:pre-wrap}.report-measure{border-top:2px solid #eee4f3;padding-top:10px;margin-top:20px}button:focus-visible,a:focus-visible{outline:3px solid #e8573a;outline-offset:3px}.btn:disabled{opacity:.4;cursor:default}@media(max-width:700px){.header-inner{height:auto;min-height:65px;flex-wrap:wrap;padding:10px 0;gap:8px}#navbtns{overflow:auto;width:100%;order:3}.nav-btn{white-space:nowrap}.calendar-layout{grid-template-columns:1fr}.modal{padding:20px}.calendar-toolbar .btn{padding:6px}.docs-table td:first-child{min-width:190px}}
-.area-legend{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:14px}.area-chip{display:inline-flex;align-items:center;gap:6px;border:1.5px solid var(--ac);background:#fff;color:var(--ac);border-radius:16px;padding:4px 10px;font-size:11px;font-weight:700;cursor:pointer;font-family:'Manrope'}.area-chip .dot{width:9px;height:9px;border-radius:50%;background:var(--ac)}.area-chip:hover,.area-chip.on{background:var(--ac);color:#fff}.area-chip:hover .dot,.area-chip.on .dot{background:#fff}.area-tag{display:inline-block;font-size:10px;font-weight:700;padding:2px 8px;border-radius:6px;color:#fff}.agenda-event .area-tag{display:inline-block;margin-bottom:5px}.st-dot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:6px;vertical-align:1px}
+.area-legend{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:14px}.area-chip{display:inline-flex;align-items:center;gap:6px;border:1.5px solid var(--ac);background:#fff;color:var(--ac);border-radius:16px;padding:4px 10px;font-size:11px;font-weight:700;cursor:pointer;font-family:'Manrope'}.area-chip .dot{width:9px;height:9px;border-radius:50%;background:var(--ac)}.area-chip:hover,.area-chip.on{background:var(--ac);color:#fff}.area-chip:hover .dot,.area-chip.on .dot{background:#fff}.area-tag{display:inline-block;font-size:10px;font-weight:700;padding:2px 8px;border-radius:6px;color:#fff}.agrp{display:flex;gap:6px;margin-bottom:10px;align-items:stretch}.acards{flex:1;min-width:0}.acards .card:last-child{margin-bottom:0}.aband{width:24px;min-width:24px;flex-shrink:0;border-radius:8px;color:#fff;display:flex;align-items:center;justify-content:center;overflow:hidden}.aband span{writing-mode:vertical-rl;transform:rotate(180deg);font-size:10.5px;font-weight:700;white-space:nowrap;letter-spacing:.3px;font-family:'Manrope'}td.aband{display:table-cell;text-align:center;vertical-align:middle;padding:4px 0!important;border-radius:0;border-bottom:2px solid #fff!important;cursor:default}td.aband span{display:inline-block}.agenda-event .area-tag{display:inline-block;margin-bottom:5px}.st-dot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:6px;vertical-align:1px}
 </style>
 </head>
 <body>
@@ -75,6 +75,9 @@ function aCol(a){return AREA_COL[aNum(a)]||'#6B6B80';}
 function aTag(a,full){var n=aNum(a);return '<span class="area-tag" style="background:'+aCol(a)+'">Área '+n+(full&&AREA_SHORT[n]?' · '+AREA_SHORT[n]:'')+'</span>';}
 function areaLegend(sel,fn){return '<div class="area-legend" role="group" aria-label="Filtrar por área">'+getAreas().map(function(a){var n=aNum(a);return '<button class="area-chip'+(sel===a?' on':'')+'" style="--ac:'+aCol(a)+'" title="'+esc(a)+'" onclick="'+fn+'(\''+n+'\')"><span class="dot"></span>'+n+'. '+esc(AREA_SHORT[n]||a)+'</button>';}).join('')+'</div>';}
 function pickArea(selId,n,cb){var el=document.getElementById(selId);if(!el)return;var a=getAreas().filter(function(x){return aNum(x)===n;})[0]||'';el.value=(el.value===a)?'':a;cb();}
+function aBand(a,tag,rs){var n=aNum(a);return '<'+tag+(rs?' rowspan="'+rs+'"':'')+' class="aband" style="background:'+aCol(a)+'" title="'+esc(a)+'" data-n="'+n+'"><span>Área '+n+(AREA_SHORT[n]?' · '+AREA_SHORT[n]:'')+'</span></'+tag+'>';}
+function fitBands(){var b=document.querySelectorAll('.aband');for(var i=0;i<b.length;i++){var el=b[i],sp=el.firstChild,n=el.getAttribute('data-n');if(!el.clientHeight)continue;var room=el.clientHeight-10;var opts=['Área '+n+(AREA_SHORT[n]?' · '+AREA_SHORT[n]:''),'Área '+n,'A'+n];for(var k=0;k<opts.length;k++){sp.textContent=opts[k];if(sp.offsetHeight<=room)break;}}}
+window.addEventListener('resize',function(){fitBands();});
 function bdg(s){var st=gS(s);return '<span class="badge '+st.cls+'">'+st.l+'</span>';}
 function esc(s){var d=document.createElement('div');d.textContent=s||'';return d.innerHTML;}
 function short(s,n){return(s||'').substring(0,n);}
@@ -195,13 +198,14 @@ function renderDC(){
   function statusSection(title,icon,color,bgLight,items){
     var s='<div style="flex:1;min-width:280px"><div style="display:flex;align-items:center;gap:8px;margin-bottom:12px"><span style="font-size:18px">'+icon+'</span><h3 class="hd" style="font-size:14px;margin:0;color:'+color+'">'+title+'</h3><span style="background:'+color+';color:#fff;font-size:11px;font-weight:700;padding:2px 10px;border-radius:20px">'+items.length+'</span></div>';
     if(!items.length){s+='<div class="card" style="padding:20px;text-align:center;color:#BBB;font-size:12px;border-top:3px solid '+color+'">Sin medidas</div>';return s+'</div>';}
-    for(var i=0;i<items.length;i++){var d=items[i];var idx=DATA.indexOf(d);var num=(d.area||'').match(/^(\d+)\./);num=num?num[0]:'';
-      s+='<div class="card" style="padding:14px 16px;cursor:pointer;border-left:5px solid '+aCol(d.area)+';border-top:2px solid '+color+';margin-bottom:8px" onclick="openModal('+idx+')">';
+    var grp=null;
+    for(var i=0;i<items.length;i++){var d=items[i];var idx=DATA.indexOf(d);
+      if(grp!==d.area){if(grp!==null)s+='</div></div>';grp=d.area;s+='<div class="agrp">'+aBand(d.area,'div')+'<div class="acards">';}
+      s+='<div class="card" style="padding:14px 16px;cursor:pointer;border-top:2px solid '+color+';margin-bottom:8px" onclick="openModal('+idx+')">';
       s+='<div style="font-weight:700;font-size:12px;color:#1E1B2E;margin-bottom:4px;line-height:1.4"><span class="st-dot" style="background:'+color+'"></span>'+esc(short(d.medida,85))+'</div>';
-      s+='<div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap">';
-      s+=aTag(d.area,true);
-      if(d.responsable)s+='<span style="font-size:10px;color:#888">'+esc(short(d.responsable,30))+'</span>';
-      s+='</div></div>';}
+      if(d.responsable)s+='<div style="font-size:10px;color:#888">'+esc(short(d.responsable,40))+'</div>';
+      s+='</div>';}
+    s+='</div></div>';
     return s+'</div>';
   }
 
@@ -211,6 +215,7 @@ function renderDC(){
   h+=statusSection('Por abordar','&#9675;','#64748B','#F1F5F9',porabordar);
   h+='</div>';
   document.getElementById('dc').innerHTML=h;
+  fitBands();
 }
 
 function kpi(label,val,color){return '<div class="card" style="flex:1;min-width:140px;padding:16px 20px;margin-bottom:0"><div style="font-size:10px;font-weight:600;color:#8B8BA0;text-transform:uppercase;letter-spacing:.5px;margin-bottom:6px">'+label+'</div><div class="hd" style="font-size:24px;font-weight:700;color:'+color+'">'+val+'</div></div>';}
@@ -370,7 +375,8 @@ renderMC=function(){
  var lg=document.getElementById('mleg');if(lg)lg.innerHTML=areaLegend(a,'pickMedArea');
  var fd=DATA.filter(function(d){return(!a||d.area===a)&&(!s||gS(d.cumplimiento).l===s)&&(!q||[d.medida,d.desc_proy,d.desc_real,d.tareas,d.responsable].join(' ').toLowerCase().includes(q));});
  fd.sort(function(a,b){var code=measureId(a).localeCompare(measureId(b),'es',{numeric:true});if(o==='state')return a.cumplimiento.localeCompare(b.cumplimiento)||code;if(o==='owner')return a.responsable.localeCompare(b.responsable)||code;if(o==='docs')return docsFor(b).length-docsFor(a).length||code;return code;});
- document.getElementById('mc').innerHTML='<div class="card table-wrap"><p class="muted">'+fd.length+' medidas · Abre una ficha para consultar el detalle y descargar sus documentos.</p><table class="tbl"><thead><tr><th>Medida</th><th>Área</th><th>Estado</th><th>Responsable</th><th>Pendiente</th><th>Documentos</th></tr></thead><tbody>'+fd.map(function(d){return '<tr tabindex="0" onclick="openModal('+DATA.indexOf(d)+')" onkeydown="if(event.key===\'Enter\')openModal('+DATA.indexOf(d)+')"><td style="border-left:5px solid '+aCol(d.area)+'"><strong>'+esc(d.medida)+'</strong></td><td style="white-space:nowrap">'+aTag(d.area)+'</td><td>'+bdg(d.cumplimiento)+'</td><td>'+esc(d.responsable)+'</td><td>'+esc(short(d.tareas||'—',100))+'</td><td><span class="format-pill">'+docsFor(d).length+'</span></td></tr>';}).join('')+'</tbody></table></div>';
+ document.getElementById('mc').innerHTML='<div class="card table-wrap"><p class="muted">'+fd.length+' medidas · Abre una ficha para consultar el detalle y descargar sus documentos.</p><table class="tbl"><thead><tr><th style="width:24px;padding:0"></th><th>Medida</th><th>Estado</th><th>Responsable</th><th>Pendiente</th><th>Documentos</th></tr></thead><tbody>'+fd.map(function(d,j){var band='';if(j===0||fd[j-1].area!==d.area){var rs=1;while(j+rs<fd.length&&fd[j+rs].area===d.area)rs++;band=aBand(d.area,'td',rs);}return '<tr tabindex="0" onclick="openModal('+DATA.indexOf(d)+')" onkeydown="if(event.key===\'Enter\')openModal('+DATA.indexOf(d)+')">'+band+'<td><strong>'+esc(d.medida)+'</strong></td><td>'+bdg(d.cumplimiento)+'</td><td>'+esc(d.responsable)+'</td><td>'+esc(short(d.tareas||'—',100))+'</td><td><span class="format-pill">'+docsFor(d).length+'</span></td></tr>';}).join('')+'</tbody></table></div>';
+ fitBands();
 };
 // Accept dates followed by explanatory text; never invent a day for a quarter/year.
 parseDates=function(txt){var out=[],seen={};String(txt||'').split(';').forEach(function(p){var m=p.trim().match(/^(\d{1,2})[\/-](\d{1,2})[\/-](\d{4})(?=$|\s|\()/);if(!m)return;var dt=new Date(+m[3],+m[2]-1,+m[1]);if(dt.getDate()!==+m[1]||dt.getMonth()!==+m[2]-1)return;if(!seen[+dt]){out.push(dt);seen[+dt]=true;}});return out;};
@@ -436,6 +442,7 @@ downloadEditedExcel=async function(button,saveAs){if(!linkedExcel)return downloa
 document.querySelector('a[download="01.2 Gestion Plan.xlsx"]').parentElement.insertAdjacentHTML('afterend','<div class="card"><button class="btn btn-p" onclick="connectExcel()">Conectar Excel de mi carpeta</button><p id="excel-sync-state" role="status">Selecciona 01.2 Gestion Plan.xlsx en 3. Resultados entregados al cliente. Mientras esta página esté abierta, leerá los cambios del archivo y guardará allí las ediciones de las fichas.</p></div>');
 setInterval(()=>refreshLinkedExcel(false),10000);
 
+var _showPage=showPage;showPage=function(p){_showPage(p);fitBands();};
 function pickDashArea(n){pickArea('da',n,renderDC);}
 function pickMedArea(n){pickArea('ma',n,renderMC);}
 // Auto-init on load

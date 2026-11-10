@@ -1,0 +1,9 @@
+﻿WEB DEL PROTOCOLO CCASA 2026
+
+Para consultar la copia local, abrir index.html con un navegador.
+Mantener juntos todos los archivos y las carpetas assets y fonts.
+
+Para consultar la web publicada, abrir el acceso directo Abrir web publicada.url.
+
+La carpeta incluye el documento original descargable.
+Copia de la web publicada en GitHub el 10 de septiembre de 2026.

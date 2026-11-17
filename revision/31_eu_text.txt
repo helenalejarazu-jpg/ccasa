@@ -1,0 +1,769 @@
+ARABAKO KALKULU GUNEAREN 2025EKO SOLDATA-ERREGISTROAREN TXOSTENA
+Langileen Estatutuaren Legearen testu bateginaren 28. artikuluan ezarritakoa betez, Arabako Kalkulu Gunea, A.B.k (aurrerantzean, CCASA) 2025eko ekitaldiko ordainsari-erregistroa egin du. Horretarako, Lan eta Gizarte Ekonomia Ministerioaren eta Berdintasun Ministerioaren ordainsari-erregistroaren tresna erabili du.
+Ordainsari-erregistro hau 902/2020 Errege Dekretuaren esparruan egin da, eta dekretu horrek ezarritako arauak betetzen ditu.
+Ordainsari-erregistroak honako hauen batez besteko balioak jaso behar ditu (batez besteko aritmetikoa eta mediana): langileek erreferentziako aldian benetan jasotako soldatak, soldata-osagarriak eta soldataz kanpoko ordainsariak. Balio horiek sexuaren arabera banakatuta egon behar dute, eta lanbide-taldeen, lanbide-kategorien, mailaren, lanpostuaren edo aplikatu beharreko beste edozein sailkapen-sistemaren arabera banatuta.
+Erregistroak enpresako langileek erreferentziako aldian benetan jasotako ordainsariei buruzko informazio fidagarri guztia jaso behar du, kontratu-egoera bakoitzerako. Batez bestekoak eta medianak sexuaren arabera banakatuta egon behar dute, baita kategorien, lanbide-taldeen, mailen, lanpostuen edo enpresak erabiltzen duen beste edozein sailkapen-sistemaren arabera ere.
+Ordainsari-erregistroaren tresnak benetan ordaindutako ordainsariei buruzko informazio fidagarria jasotzen du (zenbateko efektiboak). Ordainsari horiek kontratu-egoeren arabera daude, enpresaren lanbide-sailkapeneko sistemaren arabera taldekatuta, urte naturaleko erreferentziako aldikoak dira eta sexuaren arabera banakatuta daude. Horrez gain, tresnak ordainsarien «parekatzea» deritzona ere jasotzen du (normalizatzea eta/edo urtekotzea), alderatzeko datu gehigarri bat emateko (zenbateko parekagarriak).
+Ordainsariak parekatzeko, tresnak parekatze-irizpide hauek erabiltzen ditu:
+Normalizatu: lanaldi bera urte osoan. Ordainsariak lanaldi berera normalizatu behar dira (lanaldi osoa). Horretarako, metodologia hau erabiltzen da: «normalizatzea» zenbatekoak eraldatzea da, lanaldiaren ehunekoaren irizpidearen arabera alderagarriak izan daitezen. Lanaldi osoko zenbatekoak hartuko dira kontuan. Lanaldi osoa ez duten pertsonak sartzen badira (kontratuagatik eta/edo lanaldi-murrizketagatik), haien ordainsariak proportzioan handitu beharko dira, lanaldi osora iritsi arte.
+Urtekotu: urte osoan emandako zerbitzuen iraupen bera. Urtebete baino aldi laburragoetan jasotako ordainsariak urtekotu egin behar dira. Horretarako, metodologia hau erabiltzen da: «urtekotzea». Kontuan hartutako urte osoko zenbatekoak hartuko dira (erreferentziako aldia). Ordainsari efektiboak proportzioan handitu beharko dira, urte osora iritsi arte.
+Emakumeen eta gizonen arteko ehuneko-aldea honela kalkulatu da:
+Emaitza ehuneko gisa adierazten da. Balioa positiboa bada, emakumeei dagokien zenbatekoa gizonei dagokiena baino txikiagoa da, adierazitako ehunekoan. Negatiboa bada, alderantziz interpretatu behar da.
+Aldeak:
+Justifikatuak
+Ez dira lan alderagarriak (ez dira berdinak edo ez dute balio bera). Lan alderagarriak izanik ere, aldea azaltzen duen arrazoi objektibo bat dago:
+Lan-merkatuaren egoera (EEJAren epaia, 1993/10/27).
+Enpresako antzinatasuna (EBJAren epaia, 2006/10/03).
+Lanbide-heziketa (EEJAren epaia, 1999/05/11).
+Malgutasuna (EEJAren epaia, 1989/10/17).
+Indar fisikoa, baldin eta benetan beharrezko faktorea bada eta balorazio-elementu bakarra ez bada (EEJAren epaia, 1986/07/01, eta KAren 250/2000 epaia).
+Produktibitatea (STSJE, 1995/05/31).
+Justifikatu gabeak:
+Kategoria desberdinak izatea (KAren 145/1991 epaia).
+Langileek eginkizun desberdinak betetzea (KAren 58/1994 epaia).
+Langileek sail desberdinetan zerbitzuak ematea (AGren epaia, 2014/05/14, 2328/2013 errekurtsoa).
+Desberdintasuna hitzarmen kolektiboan aurreikusitakotik etortzea (KAren 145/1991 eta 147/1995 epaiak).
+Desberdintasuna aurreko enpresaburuarengandik jasotako egoera batetik etortzea (Kanarietako JANen epaia, 2006/12/21, 485/2006 errekurtsoa).
+•    Kontziliazio-arrazoiengatik helburuak bete ez izana (AGren epaiak: 2009/12/09, 8/2008 errekurtsoa; 2015/05/27, 103/2014 errekurtsoa; 2017/01/10, 283/2015 errekurtsoa, eta 2020/09/23, 70/2019 errekurtsoa).
+CCASAk langileen legezko ordezkaritza du; horregatik, ordezkaritza horren bidez emango zaie langileei erregistrorako sarbidea, eta langileek eskubidea dute haren eduki osoa ezagutzeko.
+LANBIDE-SAILKAPENEKO SISTEMA
+CCASAn lanbide-sailkapeneko sistema bat garatu zen duela urte batzuk (2016an), eta gaur egun indarrean dagoena hori da. Sistema horrek 23 lanbide-profil eta 12 ordainsari-maila definitzen ditu.
+Lanbide-profil bakoitzak ondoz ondoko 3 ordainsari-maila ditu esleituta, profil bakoitzeko erantzukizun-mailaren arabera, 2025eko Lanpostuen Zerrendan ageri den bezala. Ohikoena da pertsona bat enpresan sartzen denean bere lanbide-profilari dagokion tarteko lehen maila esleitzea, eta, ondoren, hurrengo mailetara igotzea. Hala jasotzen da Hitzarmen Kolektiboaren 17. artikuluan:
+17. artikulua.- LANBIDE-PROFILAK ETA GARAPEN-MAILAK
+A) Langile bakoitzak lanbide-profil jakin bat izango du esleituta, bere lanean egiten duen jardueraren arabera, eta nominan agertuko da.
+B) CCASAn dauden lanbide-profil bakoitzak maila-ibilbide jakin bat du.
+C) Erantsitako dokumentuan, I. eranskinean, CCASAko lanbide-profilen eta garapen-mailen zerrenda ezartzen da. Oro har, enpresako profil guztiak ibilbide desberdinetan banatuko dira, ezarritako 12 mailen barruan. Halaber, II. eranskinean ezartzen dira 2017ko oinarrizko soldataren eta maila-osagarriaren zenbatekoak.
+D) Langile bati dauden lanbide-profiletako bat esleitzen zaionean, bere profilari dagokion maila-ibilbidea jakinaraziko zaio, baita ibilbide horretan duen egoera ere.
+E) Enpresari dagokio dauden lanpostuen organigrama ezartzea, baita lanbide-profil bakoitzari dagozkion eginkizunak definitzea ere.
+(CCASAren 2020/2021eko hitzarmen kolektiboaren erabakia)
+Enpresaren lanbide-sailkapenaren araberako taldekatzea taula honetan ageri da:
+ORDAINSARI-SISTEMA
+ORDAINSARI-KONTZEPTUAK. CCASAk hitzarmen kolektiboak arautzen duen ordainsari-sistema du. Ordainsari-sistema hori Hitzarmen Kolektiboaren 18. artikuluan arautzen da.
+ORDAINSARIAK. DEFINIZIOAK
+1. Urteko zenbatekoak 12 hileko naturaletan banatuko dira, eta horiez gain aparteko ordainsari bat ekainean eta beste bat Gabonetan.
+2. Hilekoak hilaren 30a baino lehen ordainduko zaizkie langileei.
+3. Aparteko ordainsariak ekainean eta abenduan ordainduko dira: ekainekoa, urteko lehen seihilekoan lan egindako egunen proportzioan, eta Gabonetakoa, bigarren seihilekoan lan egindako egunen proportzioan.
+4. Lanbide-profil bakoitzak egitura hau izango du: oinarrizko soldata, enpresako lanbide-profil guztietan berdina izango dena, eta maila-osagarria, profil bakoitzaren barruko mailaren araberakoa.
+5. Ordainsari-kontzeptuak:
+A) Oinarrizko soldata.- Bakarra izango da enpresako lanbide-profil guztietan.
+B) Maila-osagarria.- Ezarritako maila bakoitzarekin zuzenean lotutako kontzeptua da, lanbide-profilen ibilbide posibleen barruan.
+C) Zeregin-osagarria.- Aldi baterako erantzukizun bereziko zereginak esleitzen zaizkien pertsonentzat ezarria.
+D) Jantziak mantentzeko soldata-plusa, gidari/atezain lanbide-profilerako.- Gastuen konpentsazio gisa ezarria; izan ere, profesionalak bere kargu hartu behar ditu nahitaez lan-arropa erosteko eta zaintzeko gastuak.
+E) Antzinatasuna.- Hirurtekoka zenbatuko da, eta hirurtekoa betetzen den hilean hasiko da ordaintzen.
+F) Osagarri pertsonala.- Jasotzeko, baldintza hauek bete behar dira: hitzarmen hau indarrean sartzen den unean CCASAko langilea izatea, eta mailen sistema aplikatuta dagozkionak baino zenbateko handiagoak jasotzen egotea. Etorkizunean ez zaio CCASAko beste inongo langileri zabalduko, eta zenbatekoa ez da handituko.
+Ordainsari-erregistroan kontuan hartu diren ordainsari-kontzeptuak taula honetan jasotzen dira:
+CCASAren kasuan, bi analisi mota egin dira.
+1. ANALISIA: Ordainsari efektiboak
+Erregistroak enpresako langileek erreferentziako aldian benetan jasotako ordainsariei buruzko informazio fidagarri guztia jaso behar du, kontratu-egoera bakoitzerako. Batez bestekoak eta medianak sexuaren arabera banakatuta egon behar dute, baita kategorien, lanbide-taldeen, mailen, lanpostuen edo enpresak erabiltzen duen beste edozein sailkapen-sistemaren arabera ere.
+Azken batean, ordainsari-datuak enpresako lanbide-sailkapeneko sistemaren arabera taldekatuta edo banatuta egon behar dute.
+2. ANALISIA: Ordainsari parekatuak.
+Ordainsari-erregistroaren tresnak benetan ordaindutako ordainsariei buruzko informazio fidagarria jasotzen du (zenbateko efektiboak). Ordainsari horiek kontratu-egoeren arabera daude, enpresaren lanbide-sailkapeneko sistemaren arabera taldekatuta, urte naturaleko erreferentziako aldikoak dira eta sexuaren arabera banakatuta daude. Horrez gain, tresnak ordainsarien «parekatzea» deritzona ere jasotzen du (normalizatzea eta/edo urtekotzea), alderatzeko datu gehigarri bat emateko (zenbateko parekagarriak).
+Parekatze-irizpideak
+A. Lanaldi bera urte osoan. Ordainsariak lanaldi berera normalizatu behar dira (lanaldi osoa).
+• Kasuak:
+a.	Lanaldi partzialeko kontratua duten pertsonak. (Erretiro partzialean dauden langileak)
+b.	Lanaldi-murrizketak.
+Erretiro-osagarria, ordea, ez; izan ere, normalizatzean errealitatea desitxuratzen du, eta pertsona horri benetan lanaldiaren % 100ean legokiokeena baino ordainsari askoz handiagoa ezartzen dio.
+• Metodologia: «normalizatzea» zenbatekoak eraldatzea da, lanaldiaren ehunekoaren irizpidearen arabera alderagarriak izan daitezen. Lanaldi osoko zenbatekoak hartuko dira kontuan. Lanaldi osoa ez duten pertsonak sartzen badira (kontratuagatik eta/edo lanaldi-murrizketagatik), haien ordainsariak proportzioan handitu beharko dira, lanaldi osora iritsi arte. Adibideak:
+– Pertsona batek hilean 2.000 €-ko ordainsari efektiboa badu lanaldiaren % 80ko kontratuarekin, haren soldata «normalizatu» egin beharko da, 1,25ez biderkatuta (1/% 80 = 1,25); beraz, ordainsari normalizatua 2.500 €-koa izango da.
+– Pertsona batek 1.500 €-ko ordainsari efektiboa badu % 100eko lanaldiarekin, ordainsari normalizatu bera izango luke % 50eko lanaldiarekin lan egin eta 750 € kobratuko lituzkeen pertsona batek. 750 €-ko zifra normalizatzeko, zenbateko hori % 50ez zatituko litzateke, eta emaitza 1.500 € izango litzateke (beraz, kasu honetan zenbateko normalizatuak berdinak izango lirateke).
+B. Urte osoan emandako zerbitzuen iraupen bera. Urtebete baino aldi laburragoetan jasotako ordainsariak urtekotu egin behar dira.
+• Kasuak:
+a.	Urte osoan kontratatuta egon ez diren pertsonen iraupen jakineko kontratuak, urtea hasi ondoren kontratatu dituztelako edo urtea amaitu aurretik kontratua azkendu zaielako.
+b.	Urteko uneren batean kontratua etenda duten pertsonak, LEren 45. artikuluko edozein arrazoirengatik, edo eszedentzian daudenak.
+• Metodologia: kontuan hartutako urte osoko zenbatekoak hartuko dira (erreferentziako aldia). Ordainsari efektiboak proportzioan handitu beharko dira, urte osora iritsi arte (adibidez, pertsona batek 6 hilabetez lan egin badu, haren ordainsaria «urtekotu» egin beharko da, 2z biderkatuta).
+Alderaketa egin eta alderagarritasuna errazteko eta deskribatutako parekatze-irizpideak aplikatzeko soilik: pertsona batek erreferentziako aldian kontratu-egoera bat baino gehiago izan baditu, azkena hartuko da kontuan.
+Baliteke ordainsari-kontzeptu batzuk doikuntza horren mende ez egotea (ez normalizagarriak ez urtekogarriak izatea), enpresak langile guztiei osorik ordaintzen dizkielako, benetan egindako lanaldia edo lan egindako aldia edozein dela ere. Hori behar bezala adierazi beharko da.
+Adibide batzuk (kasu bakoitzean aplikatzen bada): familia-laguntza, ikasketetarako laguntza, gauzazko ordainsaria, aparteko orduak eta Elkarkidetza. Kasu horietan, aldeak egoera pertsonal desberdinen ondorio dira: hitzarmenaren baldintza jakin batzuk betetzen dituzten pertsonek eskura dituzten egoerak, edo erretiro partzialean dauden pertsonei osagarria osorik ordaintzea. Ez da egokia horiek urtekotzea ere; fidelagoa eta errealistagoa da kontzeptu horiengatiko ordainsari efektiboak kontuan hartzea.
+Zenbateko efektiboak nahitaezkoak dira; zenbateko parekatuak, berriz, borondatezkoak.
+Erregistroak Langileen Estatutuaren 28.3 artikuluan aipatzen den justifikazioa jaso beharko du, baldin eta enpresako sexu bateko langileen ordainsari osoen batez besteko aritmetikoa edo mediana beste sexukoena baino gutxienez ehuneko hogeita bost handiagoa bada.
+Hortaz, diagnostiko honetan bi analisietatik ateratako datuak jasotzen dira jarraian.
+2025EKO EKITALDIKO ORDAINSARI-ERREGISTROAREN EMAITZAK:
+Batez bestekoa eta mediana
+• Balio multzo baten batez bestekoa lortzeko, balio guztien batura balio kopuruaz zatitzen da.
+• Balio multzo baten mediana erdiko posizioan dagoen balioa da, balioak txikienetik handienera ordenatzen direnean.
+Langile guztien ordainsari efektibo osoen batez bestekoak eta medianak, sexuaren arabera:
+		2021ean
+		2023an
+		2024an
+		2025ean
+Batez bestekoak eta soldata-arrakalak, langile guztiak eta lanbide-profilak kontuan hartuta, 2021-2025:
+Zenbateko efektiboak:
+2021ean
+2023an
+2024an
+2025ean
+Batez bestekoak eta soldata-arrakalak, langile guztiak eta lanbide-profilak kontuan hartuta:
+Zenbateko parekatuak:
+2021ean
+2023an
+2024an
+2025ean
+Kop.: langile kopurua
+KE kop.: erreferentziako aldiko kontratu-egoera desberdinen kopurua
+KE norm.: kontratu-egoera normalizatuen kopurua
+KE urtek.: kontratu-egoera urtekotuen kopurua
+KE norm. + urtek.: kontratu-egoera normalizatu eta urtekotuen kopurua
+KE par.: parekatzen diren kontratu-egoeren kopurua.
+CCASAn 4 ehuneko puntuko soldata-arrakala osoa dago gizonen alde (0 ehuneko puntu balio parekagarrietan). Datu hori EAEko soldata-arrakalaren azpitik dago; hura % 24koa da. Hala ere, aurrera egiten jarraitu behar da arrakala erabat desagerrarazteko. Beheranzko joera ikusten da 2021eko azken ordainsari-erregistroarekin alderatuta. Horretarako, soldata-arrakalak mailaka aztertzen dira, haien arrazoi nagusiak non egon daitezkeen identifikatzeko. Hurrengo tauletan ageri dira datu horiek. Tauletan honela markatzen dira:
+Laranjaz, 0 eta +25 (gizonen aldekoak) edo -25 (emakumeen aldekoak) bitarteko arrakalak.
+Gorriz, 25etik gorakoak (gizonen aldekoak) edo -25etik beherakoak (emakumeen aldekoak).
+Eta berdez, 0koak.
+Gainera, sexu bakarra ordezkatuta dagoen profiletan ez da egokia lanbide-profilaren araberako soldata-arrakala aztertzea.
+Ikusten denez, oinarrizko soldatari eta maila-osagarriari dagozkien profilaren araberako soldata-arrakalak, batez ere, honako hauen ondorio dira: eszedentziak, baja medikoak, amatasun-baimenak eta zaintzagatiko lanaldi-murrizketak. Azken bi horiek, batez ere, emakumeek hartu dituzte.
+Gainerako ordainsari-kontzeptuei dagokienez (familia-laguntza, aparteko orduen konpentsazioa, jantzi-plusa, Mutua Foralaren gauzazko ordainsaria, interesen gauzazko ordainsaria, ikasketetarako laguntza eta aparteko orduak), ez da egokia horiek parekatzea, ez baitaude pertsonaren kontratu-egoeraren ezta lanaldiaren mende ere. Aldeak pertsonen egoera pertsonal desberdinen ondorio dira, Hitzarmenean jasotako eta nominan islatzen diren laguntza jakin batzuk eskuratzeko aukeraren arabera.
+Ez da egokia, halaber, % 25eko erretiro partzialean dauden pertsonentzako osagarria parekatzea; izan ere, urteko soldata gordinaren % 93ra arteko osagarria da, eta, normalizatzean, errealitatea desitxuratzen du: pertsona horri benetan lanaldiaren % 100ean legokiokeena baino ordainsari askoz handiagoa ezartzen dio.
+Balio efektiboen batez bestekoak, 2021ean:
+Balio efektiboen batez bestekoak, 2023an:
+Balio efektiboen batez bestekoak, 2024an:
+Balio efektiboen batez bestekoak, 2025ean
+Balio parekatuen batez bestekoa, 2021ean:
+Balio parekatuen batez bestekoa, 2023an:
+Balio parekatuen batez bestekoa, 2024an:
+Balio parekatuen batez bestekoa, 2025ean:
+01 ESKALA EDO 01 LANBIDE-TALDEA: ARLOKO ARDURADUNAK
+Balio parekatuak kontuan hartuta, oinarrizko soldataren eta maila-osagarriaren aldeak murriztu egiten dira, eta alderantzikatu ere bai. Zehazki, % 25eko txanda-kontratua duen emakume batengatik.
+Soldata-osagarri parekatuen aldeari dagokionez, arrazoi hauek daude:
+Alde negatiboa zenbait gizonen eszedentziaren eta baja medikoaren ondorio da, baita gizon baten barne-sustapen berriaren ondorio ere.
+Txanda-kontratuetan, soldata-arrakala kalkulatzeko ez da egokia erretiro-osagarria urtekotzea, kontzeptu hori ez baitagokio lanaldiaren % 25ari. Egokia da, ordea, osagarri pertsonala eta gainerako kontzeptuak urtekotzea.
+Hala ere, nabarmen murrizten den arren, osagarri pertsonalean dagoen aldea handia da oraindik.
+03 ESKALA EDO 03 LANBIDE-TALDEA: PROIEKTU-BURUAK
+Oinarrizko soldataren eta soldata-osagarri efektiboen aldeak:
+2025eko urriaren 1ean N2 mailatik N3 mailara igo diren 4 proiektu-buru gizonen eta proiektu-buru emakume baten azken kontratu-egoera; beraz, haien maila-osagarria N2tik N3ra igaro da.
+2025/12/09an proiektu-buru izatera sustatu eta N1 mailan sartu diren 3 proiektu-buru gizonen azken kontratu-egoera.
+2025ean txanda-kontratua hartu duten 3 proiektu-buruen (2 gizon eta emakume bat) azken kontratu-egoera.
+Bi gizonek eta emakume batek hartu dute txanda-kontratua.
+Balio parekatuak kontuan hartuta, aldeak murriztu egiten dira, eta alderantzikatu ere bai. Oinarrizko soldataren eta soldata-osagarri parekatuen aldeari dagokionez, alderdi hauek ikusten dira:
+Maila-osagarria: sei proiektu-buru emakumeetatik bakarra dago N3 mailan; gizonen artean, berriz, 4 daude N3 mailan (15 proiektu-buru gizonetatik).
+Gainera, 15 gizon horien artean, kontuan hartzen da gizon bat barne-sustapenaren bidez proiektu-buru izatera iritsi zela (2024ko irailaren 1ean) eta proiektu-buruen N1 mailan jarraitzen duela; beraz, haren maila-osagarria N1ekoa da.
+Txanda-kontratuan, soldata-arrakala kalkulatzeko ez da egokia «Osagarria» kontzeptua zenbatzea, ezin baita urtekotu.
+Oinarrizko soldataren eta maila-osagarriaren aldeak emakume baten eta gizon baten baja medikoen ondorio dira.
+2025eko uztailean enpresatik irten zen gizon baten azken kontratu-egoera hartzen da kontuan; beraz, haren ordainsaria ez da zenbatzen, eta ez da urtekotzen.
+Nabarmentzekoa da antzinatasunaren arrakala emakumeen aldekoa dela, antzinatasun gutxien duten proiektu-buruak gizonak direlako guztiak.
+Era berean, osagarri pertsonala emakumeen aldekoa da.
+Soldataz kanpoko kontzeptuetako desbideratzea gizon baten eta emakume baten baja medikoen ondorio da.
+05 ESKALA EDO 05 LANBIDE-TALDEA: AHOLKULARITZA
+Soldata efektiboetan emakumeen aldeko aldeak arrazoi hauen ondorio dira:
+Gizon bat aholkularitza-taldean sartu da 2025eko ekainean.
+2025eko urrian gizon batek txanda-kontratua hartu du, eta lanaldia % 67,7ra murriztu du. Gainera, ordainketa zuzeneko aldi baterako ezintasunagatiko bajan dago; horrek % 67,7 hori baino murrizketa handiagoa dakar, aldi baterako ezintasunaren prestazioa zuzenean GSINek ordaintzen duelako.
+Osagarri pertsonalaren arrakala ez da aplikatzen, talde honetan ez baitago. (Emakumeak bakarrik jasotzen du.)
+Ordainsarien aldeak, parekatu ondoren, murriztu egiten dira, eta alderantzikatu ere bai, balio parekatuak kontuan hartuta.
+2025eko ekainean sartu zen gizon baten azken kontratu-egoera hartzen da kontuan.
+2025eko urrian txanda-kontratua hartu zuen gizon baten kontratua hartzen da kontuan.
+Soldata-osagarri parekatuen aldeari dagokionez, alderdi hauek ikusten dira:
+Oinarrizko soldataren eta maila-osagarriaren aldeak gizon baten baja medikoaren ondorio dira. Gainera, gizon hori GSINen ordainketa zuzenera igaro da txanda-kontratua formalizatu zenetik.
+06 ESKALA EDO 06 LANBIDE-TALDEA: SISTEMA-ANALISTAK
+Ordainsari efektiboetan, oinarrizko soldataren eta soldata-osagarrien aldeak arrazoi hauen ondorio dira:
+2025ean gizon bat eta emakume bat sartu dira (2025eko urtarrilaren 14an eta 2025eko maiatzaren 5ean, hurrenez hurren), 5. mailan.
+Sistema-analista diren bi gizon enpresatik irten dira 2025eko otsailean eta urrian.
+2025eko martxoan eszedentzia eskatu duen gizon baten egoera.
+2025/07/01ean N1 mailatik N2 mailara igo diren hiru gizonen egoera. (2025/06/30era arte N1 mailako ordainsariak jaso dituzte.)
+2025/07/01ean N1 mailatik N2 mailara igo diren bi emakumeren egoera. (2025/06/30era arte N1 mailako ordainsariak jaso dituzte.)
+N2 mailatik N3 mailara igo diren lau sistema-analistaren egoera (3 gizon eta emakume bat). (2025/10/01etik aurrera jasotzen dute N3 maila.)
+Lanaldiaren % 25eko txanda-kontratua zuen eta 2025eko uztailean enpresatik behin betiko irten zen gizon bat hartzen da kontuan.
+Parekatzearekin, alde efektiboak murriztu egiten dira, eta alderantzikatu ere bai, arrazoi hauengatik:
+2025/07/01ean N1 mailatik N2 mailara igo diren hiru gizonen azken kontratu-egoera hartzen da kontuan.
+2025/07/01ean N1 mailatik N2 mailara igo diren bi emakumeren azken kontratu-egoera hartzen da kontuan.
+2025/10/01ean N2 mailatik N3 mailara igo diren 3 gizonen eta emakume baten azken kontratu-egoera hartzen da kontuan.
+Lanaldiaren % 25eko txanda-kontratua zuen eta 2025eko uztailean enpresatik behin betiko irten zen gizona urtekotu egiten da. (Erretiro-osagarria, ordea, ez.)
+Oinarrizko soldataren eta soldata-osagarri parekatuen aldeari dagokionez, alderdi hauek ikusten dira:
+2025ean bi gizonek aitatasun-baimena izan dute, eta gizon batek baja medikoa.
+Gizon batek bi hilabeteko eszedentzia izan du 2025ean.
+Gizon bat 2025eko urtarrilaren 14an sartu da enpresan. (5. mailan sartu da, bere N1 mailan.)
+Gizon bat enpresatik irten da N5 mailarekin. (Bere N1 maila.)
+Bi gizonen egoera: 2024ko urtarrilaren 15ean eta 2024ko ekainaren 1ean sartu ziren enpresan, 5. mailan (beren N1 maila), eta 2025ean maila horretan jarraitu dute.
+Emakume baten egoera: 2025eko maiatzaren 5ean sartu zen enpresan, N5 mailan (bere N1 maila), eta 2025ean maila horretan jarraitu du.
+Osagarri pertsonaleko aldeak oraindik ere badirau. Sei gizonek eta emakume batek dute osagarri pertsonala. Gizonetako bat baja medikoan egon da; horregatik da osagarri pertsonala negatiboa, emakumeen aldekoa.
+07 ESKALA EDO 07 LANBIDE-TALDEA: SISTEMA-ANALISTAK (UT)
+Balio parekatuak kontuan hartuta, oinarrizko soldataren eta soldata-osagarrien aldeak berdin-berdin mantentzen dira.
+Oinarrizko soldataren eta soldata-osagarri efektiboen zein parekatuen aldeari dagokionez, alderdi hauek ikusten dira:
+Oinarrizko soldataren eta soldata-kontzeptuen aldea emakume baten amatasun-bajaren eta eszedentziaren ondorio da, eta ez da aldatzen kontzeptuak parekatu arren.
+08 ESKALA EDO 08 LANBIDE-TALDEA: ANALISTA FUNTZIONALAK
+Oinarrizko soldataren eta soldata-osagarri efektiboen aldeak arrazoi hauen ondorio dira:
+Antzinatasun-osagarria handiagoa da talde honetako emakumeen artean.
+2025ean 4 gizon sartu dira enpresan, bat otsailean eta hiru 2025eko irailean, beren N1 mailan (5. maila).
+2025eko uztailaren 16an bitarteko kontratua eta N5 maila zituen emakume bat borondatez irten da enpresatik.
+2025ean hiru emakume sartu dira enpresan, bi ekainean eta bat 2025eko urrian, beren N1 mailan (N5).
+2024an sartu ziren gizon bat eta emakume bat N5 mailan (beren N1 maila) jarraitzen dute.
+2023an sartu zen emakume batek urtearen zati batean jarraitu du N5 mailan (bere N1 maila).
+2023aren amaieran sartu zen emakume batek urte osoan jarraitu du N5 mailan (bere N1 maila).
+Laburpena: 7 emakume eta 5 gizon N5 mailan.
+Bi emakumek txanda-kontratua dute: batek % 25eko murrizketa du, eta besteak % 67,7ko lanaldi-murrizketarekin hartu du txanda-kontratua.
+2025eko otsailean gizon bat enpresatik irten da.
+2025eko urrian bi gizon eta emakume bat N5 mailatik N6 mailara igo dira.
+Laburpena: bi gizon eta emakume bat 7. mailan.
+Sei emakumeren baja medikoak (horietako bi oso esanguratsuak) eta gizon baten baja medikoa.
+Gizon batek aitatasun-baimena izan du.
+Baina soldata-osagarrien aldeak murriztu egiten dira, eta alderantzikatu ere bai, balio parekatuak kontuan hartuta.
+Arrazoiak hauek dira:
+2025ean zehar izandako altak eta bajak urtekotu egiten dira, bai sarrera berrienak, bai barne-sustapenenak.
+2025/07/01ean maila igo duen emakume baten azken kontratu-egoera hartzen da kontuan.
+2025/10/01ean N2 mailatik N3 mailara igo diren gizon baten eta emakume baten azken kontratu-egoera hartzen da kontuan.
+Txanda-kontratua duten bi emakume hartzen dira kontuan: batek % 25eko murrizketa du, eta besteak % 67,7ko lanaldi-murrizketarekin hartu du txanda-kontratua.
+Nabarmentzekoa da emakumeen antzinatasun handiagoa.
+Oinarrizko soldataren eta soldata-osagarri parekatuen aldeari dagokionez, alderdi hauek ikusten dira:
+2023-2024 eta 2025 artean sartu diren zazpi emakumeren egoera: horietako seik urte osoan jarraitu dute 5. mailan (beren N1 maila), eta batek 2025/07/01era arte.
+2023-2024 eta 2025 artean sartu diren bost gizonen egoera: urte osoan jarraitu dute 5. mailan (beren N1 maila).
+Txanda-kontratuan, soldata-arrakala kalkulatzeko ez da egokia «Osagarria» kontzeptua zenbatzea, ezin baita urtekotu.
+Oinarrizko soldataren eta gainerako soldata-kontzeptuen aldea sei emakumeren eta gizon baten baja medikoen ondorio da.
+Gainera, bi emakumek eta gizon batek aldi baterako maila-osagarria jaso dute.
+Gizon batek aitatasun-baimena izan du.
+09 ESKALA EDO 09 LANBIDE-TALDEA: SEGURTASUN-ANALISTAK
+Balio parekatuak kontuan hartuta, oinarrizko soldataren eta soldata-osagarrien aldeak murriztu egiten dira.
+Arrazoiak hauek dira:
+Maila igo duen emakumearen azken kontratu-egoera hartzen da kontuan (N5 mailatik N6 mailara); 2023ko irailaren 15ean sartu zen 5. mailan (lanbide-profilaren N1 maila).
+Oinarrizko soldataren eta soldata-osagarri parekatuen aldeari dagokionez, alderdi hauek ikusten dira:
+2024ko urtarrilaren 15ean 5. mailan sartu zen eta maila horretan jarraitzen duen gizon baten egoera hartzen da kontuan (lanbide-profilaren N1 maila).
+Gizonen antzinatasun handiagoa.
+Nabarmentzekoa da antzinatasun-kontzeptuak eragindako soldata-osagarrien aldea, gizonaren aldekoa.
+12 ESKALA EDO 12 LANBIDE-TALDEA: PROGRAMATZAILEAK
+Balio parekatuak kontuan hartuta, oinarrizko soldataren aldeak desagertu egiten dira, eta alderantzikatu ere bai.
+Arrazoiak hauek dira:
+Emakume baten lanaldi murriztua hartzen da kontuan.
+2025/07/01ean maila igo duten gizon baten eta emakume baten azken kontratu-egoera hartzen da kontuan (sarrerako N5 mailatik N6 mailara).
+Soldata-osagarri parekatuen aldeari dagokionez, alderdi hauek ikusten dira:
+2026/10/01ean N6 mailara (bere N3 maila) igo den emakume baten azken kontratu-egoera hartzen da kontuan.
+18 ESKALA EDO 18 LANBIDE-TALDEA: EKOIZPEN-TEKNIKARIAK
+Balio parekatuak kontuan hartuta, oinarrizko soldataren aldeak murriztu egiten dira, eta alderantzikatu ere bai.
+Oinarrizko soldataren eta soldata-osagarri parekatuen aldeari dagokionez, alderdi hauek ikusten dira:
+Emakume baten baja medikoa.
+Gizon baten osagarri pertsonala.
+Gainera, 2025/10/01ean bere N3 mailara igo den emakume baten azken kontratu-egoera hartzen da kontuan.
+LANBIDE-SAILKAPENARI, ORDAINSARIEI ETA SOLDATA-AUDITORIEI BURUZKO ONDORIOAK
+Ordainsari-sistema eta lanbide-sailkapen objektibo eta gardena.
+Langile guztien ordainsari-erregistroa dago, batez bestekoen, medianen eta arrakala osoen eta profilen araberakoen analisiarekin.
+Soldata-arrakala osoa EAEko arrakalaren azpitik dago: 4 ehuneko puntu (0 ehuneko puntu balio parekagarrietan).
+Oinarrizko soldataren arrakala desagertu edo nabarmen murrizten da balio parekagarriak kalkulatzean.
+Soldata-osagarrietako arrakalari dagokionez, arrakalarik handiena osagarri pertsonalean eta antzinatasun-osagarrian dago.
+Arloko eta Unitate fokaleko arduradunak ia guztiak gizonak dira.
+Sartu berriak, gehienbat, gizonak dira.
+SOLDATA-ALDEA MURRIZTEKO PROPOSAMENAK
+Garai hartan, 2016an, CCASAk lanbide-taldeen araberako soldata-tarteen sistema ezartzea erabaki zuen; ordura arte ez zegoen halakorik.
+Hala jaso zen CCASAren hitzarmenaren 18. artikuluan. Horren ondorioz, osagarri pertsonal bat sortu zen zenbait pertsonarentzat: hitzarmena indarrean sartu zen unean, mailen ordainsari-sistema ezarri zelako, aplikatu beharrekoak baino zenbateko handiagoak jasotzen zituztenentzat.
+Oso garrantzitsua da hitzarmenaren betebeharra mantentzea, hau da, osagarri hori etorkizunean CCASAko beste inongo langileri ez zabaltzea eta haren zenbatekoa ez handitzea.
+CCASAko lanbide-profil batzuetan soldata-aldea egotearen arrazoi nagusietako bat osagarri pertsonala denez, ezinbestekoa da osagarri horrek enpresan duen presentzia murrizten jarraitzeko politikari eustea.
+Sarrera berriak eta barne-sustapenak: era berean, garrantzitsua da maila-igoeren ordainsari-politikari eustea (N1etik N2ra) sartu berriei eta ordainsari-mailetan ibilbide handiagoa duten lanbide-profiletara sustatu berri diren pertsonei, justifikatu gabeko soldata-aldeak sor ez daitezen.
+CCASAko barne-sustapenetako gardentasun-politikarekin jarraitzea.
+Era berean, ezinbestekoa da lanpostuen deskribapena eta sailkapena mantentzea.
+Urtero berrikustea, soldata-erregistroaren bidez, soldata-arrakalaren emaitzaren bilakaera.
+LEGE-ALDERDI INTERESGARRIAK
+Ordainsari-auditoria duten enpresen erregistroa:
+Ordainsari-auditoria duten enpresek lanpostuen balorazio-prozesutik ateratzen diren taldekatzeen ordainsarien batez bestekoak eta medianak sartu behar dituzte (balio bereko lanpostuak). Datu horiek sexuaren arabera behar bezala banakatuta egon behar dute, eta benetan ordaindutako ordainsari guztiak jaso behar dituzte, ordainsariaren izaeraren arabera banakatuta: oinarrizko soldata, osagarri bakoitza eta soldataz kanpoko ordainsari bakoitza, ordainsari bakoitza bereizita zehaztuta.
+Ordainsari-kontzeptuen taldekatzea
+— LEren 28.2 art.: «Enpresaburuak erregistro bat eraman behar du, bere langileen soldaten, soldata-osagarrien eta soldataz kanpoko ordainsarien batez besteko balioekin, sexuaren arabera banakatuta eta lanbide-taldeen, lanbide-kategorien edo lanpostu berdinen edo balio berekoen arabera banatuta».
+— 902/2020 ED, 5.2 art.: «Aldi berean, informazio hori ordainsariaren izaeraren arabera banakatuta egon beharko da, oinarrizko soldata, osagarri bakoitza eta soldataz kanpoko ordainsari bakoitza barne, ordainsari bakoitza bereizita zehaztuta».
+— Ordainsari-tresnaren erabilera-gida: erregistroak «enpresek ordaintzen dituzten ordainsari-kontzeptu guztiei eta bakoitzari buruzko informazioa eman beharko du, taldekatu gabe».
+Tresnak gehienez 30 soldata-kontzeptu eta 5 soldataz kanpoko kontzeptu jakinarazteko aukera ematen du, eta gehiago badaude soilik onartzen du haiek taldekatzea. Kasu horretan, honela taldekatuko dira: a) «behar-beharrezkoa dena (hau da, betiere erabilgarri dauden 30ak erabiliz)», eta b) «haien arteko antzekotasun-irizpideari jarraituz».
+«Aparteko orduen» eta «ordu osagarrien» kontzeptuko ordainsaria erregistroan sartu behar da, lan-kantitateagatiko soldata-osagarriak baitira, eta berariazko kontzeptu gisa sartu behar dira erregistroan.
+• Aparteko ordainsariak ez dira soldata-osagarri independente gisa jakinarazten; haien zenbatekoa osatzen dituzten kontzeptuei gehitzen zaie.
+• Kaleratze-kalte-ordainak ere jaso behar dira, arauak ez baitu salbuespenik aurreikusten erregistroan jakinarazi beharreko kontzeptuei dagokienez.
+Lanpostu-aldaketei buruzko informazioa
+— Ordainsari efektiboak: «Beraz, pertsona bera hainbat lerrotan ager daiteke, erreferentziako aldian izan dituen kontratu-egoera desberdinak beste».
+— Ordainsari parekatuak: «pertsona batek erreferentziako aldian kontratu-egoera bat baino gehiago izan baditu, azkena hartuko da kontuan».
+Ordainsari-auditoria duten enpresen ordainsari-erregistroak jaso behar duen informazio gehigarria
+Ordainsari-auditoria egin behar duten enpresen ordainsari-erregistroak enpresako balio bereko lanen taldekatzeen batez besteko aritmetikoak eta medianak islatu behar ditu, auditoria horren esparruan enpresak egindako lanpostuen ebaluazioaren emaitzen arabera.
+Gainera, sexu bateko langileen ordainsarien batez bestekoa beste sexukoena baino gutxienez % 25 handiagoa bada, soldata-masa osoa edo ordaindutako ordainsarien batez bestekoa hartuta, enpresak justifikazio bat sartu behar du erregistroan, alde hori sexuarekin zerikusirik ez duten arrazoiengatik dagoela egiaztatzeko.
+2025eko berritasuna:
+Eskalen edo ordainsari-mailen araberako analisia:
+Aurten, lehen aldiz, maila-osagarrien araberako analisia sartu da.
+Maila edo eskala bakoitzaren barruan, enpresako lanbide-profil desberdinak daude taldekatuta.
+1. TALDEA
+SAILEKO/ARLOKO ARDURADUNA
+2. TALDEA
+3. TALDEA
+PROIEKTU-BURUA
+4. TALDEA
+6. TALDEA
+SISTEMA-ANALISTA (UT)
+Emakumeak
+Gizonak
+BATEZ BESTEKOA
+MEDIANA
+50.079 €
+Emakumeak
+Gizonak
+46.362 €
+48.256 €
+Emakumeak
+Gizonak
+BATEZ BESTEKOA
+52.596 €
+55.440 €
+Emakumeak
+Gizonak
+BATEZ BESTEKOA
+MEDIANA
+47.107
+Laguntza teknikoa
+Aurkibidea
+▶ Aurkezpena
+Ordainsari-erregistroa · 2025eko ekitaldia
+Arabako Kalkulu Gunea, A.B.
+Soldata-erregistroaren txostena
+Arabako Kalkulu Gunearen 2025eko soldata-erregistroaren txostena
+Ikusi txostena ↓
+Testu osoa
+2025eko soldata-erregistroaren txostena
+01 · Sarrera
+02 · Lanbide-sailkapena
+03 · Ordainsari-sistema
+04 · 2025eko emaitzak
+05 · Ondorioak
+06 · Proposamenak
+07 · Lege-alderdiak
+08 · 2025eko berritasuna
+Sarrera
+Lanbide-sailkapeneko sistema
+Ordainsari-sistema
+2025eko ekitaldiko ordainsari-erregistroaren emaitzak
+Lanbide-sailkapenari, ordainsariei eta soldata-auditoriei buruzko ondorioak
+Soldata-aldea murrizteko proposamenak
+Lege-alderdi interesgarriak
+2025eko berritasuna: eskalen edo ordainsari-mailen araberako analisia
+Eskema
+Langileen Estatutuaren Legearen testu bateginaren 28. artikuluan ezarritakoa betez, Arabako Kalkulu Gunea, A.B.k (aurrerantzean, CCASA) 2025eko ekitaldiko ordainsari-erregistroa egin du.
+Normalizatu
+Lanaldi bera urte osoan.
+Urtekotu
+Urte osoan emandako zerbitzuen iraupen bera.
+Irakurri atal osoa
+Normalizatu:
+lanaldi bera urte osoan. Ordainsariak lanaldi berera normalizatu behar dira (lanaldi osoa). Horretarako, metodologia hau erabiltzen da: «normalizatzea» zenbatekoak eraldatzea da, lanaldiaren ehunekoaren irizpidearen arabera alderagarriak izan daitezen. Lanaldi osoko zenbatekoak hartuko dira kontuan. Lanaldi osoa ez duten pertsonak sartzen badira (kontratuagatik eta/edo lanaldi-murrizketagatik), haien ordainsariak proportzioan handitu beharko dira, lanaldi osora iritsi arte.
+Urtekotu:
+urte osoan emandako zerbitzuen iraupen bera. Urtebete baino aldi laburragoetan jasotako ordainsariak urtekotu egin behar dira. Horretarako, metodologia hau erabiltzen da: «urtekotzea». Kontuan hartutako urte osoko zenbatekoak hartuko dira (erreferentziako aldia). Ordainsari efektiboak proportzioan handitu beharko dira, urte osora iritsi arte.
+Kontziliazio-arrazoiengatik helburuak bete ez izana (AGren epaiak: 2009/12/09, 8/2008 errekurtsoa; 2015/05/27, 103/2014 errekurtsoa; 2017/01/10, 283/2015 errekurtsoa, eta 2020/09/23, 70/2019 errekurtsoa).
+lanbide-profil
+ordainsari-maila
+ondoz ondoko ordainsari-maila
+Lanbide-profil bakoitzak ondoz ondoko 3 ordainsari-maila ditu esleituta, profil bakoitzeko erantzukizun-mailaren arabera, 2025eko Lanpostuen Zerrendan ageri den bezala.
+UNITATE FOKALEKO ARDURADUNA
+ADMINISTRAZIOKO ETA GIZA BALIABIDEETAKO KOORDINAZIOA
+5. TALDEA
+AHOLKULARITZA
+SISTEMA-ANALISTA
+7. TALDEA
+8. TALDEA
+ANALISTA FUNTZIONALA
+9. TALDEA
+SEGURTASUN-ANALISTA
+10. TALDEA
+PLATAFORMA TEKNOLOGIKOAREN ARKITEKTOA
+11. TALDEA
+KALITATE-KUDEAKETA
+12. TALDEA
+PROGRAMAZIOA
+13. TALDEA
+ADMINISTRAZIO OROKORREKO TEKNIKARIA
+14. TALDEA
+MIKROINFORMATIKAKO LAGUNTZA TEKNIKOKO ESPEZIALISTA
+15. TALDEA
+IU/UX DISEINATZAILEA
+16. TALDEA
+EROSKETA-TEKNIKARIA
+17. TALDEA
+ZERBITZUEN KUDEAKETA
+18. TALDEA
+EKOIZPEN-TEKNIKARIA
+19. TALDEA
+SISTEMA-TEKNIKARIA
+20. TALDEA
+MIKROINFORMATIKAKO LAGUNTZA TEKNIKOKO TEKNIKARIA
+21. TALDEA
+ERABILTZAILEEN ARRETA-ZENTROKO (CAU) TEKNIKARIA
+22. TALDEA
+ADMINISTRARIAK
+23. TALDEA
+GIDARIA/ATEZAINA
+30. TALDEA
+ZUZENDARI-KUDEATZAILEA
+CCASAk hitzarmen kolektiboak arautzen duen ordainsari-sistema du. Ordainsari-sistema hori Hitzarmen Kolektiboaren 18. artikuluan arautzen da.
+1. ANALISIA:
+Ordainsari efektiboak
+2. ANALISIA:
+Ordainsari parekatuak
+ORDAINSARI-KONTZEPTUAK.
+A. Lanaldi bera urte osoan.
+Ordainsariak lanaldi berera normalizatu behar dira (lanaldi osoa).
+Lanaldi partzialeko kontratua duten pertsonak. (Erretiro partzialean dauden langileak)
+Lanaldi-murrizketak.
+Pertsona batek hilean 2.000 €-ko ordainsari efektiboa badu lanaldiaren % 80ko kontratuarekin, haren soldata «normalizatu» egin beharko da, 1,25ez biderkatuta (1/% 80 = 1,25); beraz, ordainsari normalizatua 2.500 €-koa izango da.
+Pertsona batek 1.500 €-ko ordainsari efektiboa badu % 100eko lanaldiarekin, ordainsari normalizatu bera izango luke % 50eko lanaldiarekin lan egin eta 750 € kobratuko lituzkeen pertsona batek. 750 €-ko zifra normalizatzeko, zenbateko hori % 50ez zatituko litzateke, eta emaitza 1.500 € izango litzateke (beraz, kasu honetan zenbateko normalizatuak berdinak izango lirateke).
+B. Urte osoan emandako zerbitzuen iraupen bera.
+Urtebete baino aldi laburragoetan jasotako ordainsariak urtekotu egin behar dira.
+Urte osoan kontratatuta egon ez diren pertsonen iraupen jakineko kontratuak, urtea hasi ondoren kontratatu dituztelako edo urtea amaitu aurretik kontratua azkendu zaielako.
+Urteko uneren batean kontratua etenda duten pertsonak, LEren 45. artikuluko edozein arrazoirengatik, edo eszedentzian daudenak.
+Langile guztien ordainsari efektibo osoen batez bestekoak eta medianak, sexuaren arabera · 2025ean
+BATEZ BESTEKOA · Emakumeak
+BATEZ BESTEKOA · Gizonak
+MEDIANA · Emakumeak
+MEDIANA · Gizonak
+Batez bestekoak eta soldata-arrakalak, langile guztiak kontuan hartuta · Ordainsaria, guztira (Ef.) / Ordainsaria, guztira (Par.)
+Ordainsaria, guztira (Ef.)
+Ordainsaria, guztira (Par.)
+CCASAn 4 ehuneko puntuko soldata-arrakala osoa dago gizonen alde (0 ehuneko puntu balio parekagarrietan). Datu hori EAEko soldata-arrakalaren azpitik dago; hura % 24koa da. Hala ere, aurrera egiten jarraitu behar da arrakala erabat desagerrarazteko.
+Lanbide-profilaren araberako arrakalak · 2025
+Lanbide-profilaren araberako balio efektiboen eta parekatuen batez bestekoak, 2025ean
+Balio efektiboak, 2025
+Profila
+Soldata-arrakala, guztira
+Oinarrizko soldataren arrakala
+Maila-osagarriaren arrakala
+Osagarri pertsonalaren arrakala
+Antzinatasunaren arrakala
+Arloko arduradunak
+Proiektu-buruak
+Aholkularitza
+N/A
+Sistema-analistak
+Analistak (UT)
+Analista funtzionalak
+Segurtasun-analistak
+Programatzaileak
+Ekoizpen-teknikariak
+Balio parekatuak, 2025
+0 eta +25 bitartean (gizonen aldekoak) edo -25 bitartean (emakumeen aldekoak)
+25etik gorakoak (gizonen aldekoak) edo -25etik beherakoak (emakumeen aldekoak)
+Profilez profil · soldata-arrakala osoa, 2023-2025
+Balio efektiboak
+Balio parekatuak
+Arrakala osoa, efektiboa, 2025
+Arrakala osoa, parekatua, 2025
+Balio parekatuak kontuan hartuta, oinarrizko soldataren eta maila-osagarriaren aldeak murriztu egiten dira, eta alderantzikatu ere bai.
+Osagarri pertsonaleko aldeak oraindik ere badirau.
+Lanbide-profilaren araberako bilakaera · 2023 eta 2024
+Lanbide-profilaren araberako balio efektiboen eta parekatuen batez bestekoak
+Balio efektiboak, 2023
+Balio parekatuak, 2023
+Balio efektiboak, 2024
+Balio parekatuak, 2024
+Balio multzo baten batez bestekoa lortzeko, balio guztien batura balio kopuruaz zatitzen da.
+Balio multzo baten mediana erdiko posizioan dagoen balioa da, balioak txikienetik handienera ordenatzen direnean.
+soldata-kontzeptu
+soldataz kanpoko kontzeptu
+Tresnak gehienez 30 soldata-kontzeptu eta 5 soldataz kanpoko kontzeptu jakinarazteko aukera ematen du, eta gehiago badaude soilik onartzen du haiek taldekatzea.
+Aparteko ordainsariak ez dira soldata-osagarri independente gisa jakinarazten; haien zenbatekoa osatzen dituzten kontzeptuei gehitzen zaie.
+Kaleratze-kalte-ordainak ere jaso behar dira, arauak ez baitu salbuespenik aurreikusten erregistroan jakinarazi beharreko kontzeptuei dagokienez.
+Eskalen edo ordainsari-mailen araberako arrakalak · 2025
+Eskalen edo ordainsari-mailen araberako balio efektiboen eta parekatuen batez bestekoak
+Eskala edo maila
+Arloko arduradunak / 01 eskala
+Administrariak, TSM eta ekoizpen-teknikariak / 04 eskala
+5. maila / 05 eskala
+6. maila / 06 eskala
+7. maila / 07 eskala
+8. maila / 08 eskala
+Negozio-unitatea eta PB, 9. maila / 09 eskala
+02 · Lanbide-sailkapeneko sistema
+04 · 2025eko ekitaldiko ordainsari-erregistroaren emaitzak
+05 · Lanbide-sailkapenari, ordainsariei eta soldata-auditoriei buruzko ondorioak
+06 · Soldata-aldea murrizteko proposamenak
+07 · Lege-alderdi interesgarriak
+08 · 2025eko berritasuna: eskalen edo ordainsari-mailen araberako analisia
+Arabako Kalkulu Gunea, A.B. · 2025eko soldata-erregistroaren txostena
+← Aurrekoa
+Hurrengoa →
+✕ Irakurketa modua
+CCASA · Arabako Kalkulu Gunea / Centro de Cálculo de Álava
+Red Kuorum
+Txostenaren egitura
+Txostenaren atalak
+(Gizonei dagokien zenbatekoa – Emakumeei dagokien zenbatekoa) / Gizonei dagokien zenbatekoa, ehunekotan
+Erregistroan kontuan hartutako ordainsari-kontzeptuen taula: balioa, izen laburra, deskribapena, ordainsari mota, mota, normalizagarria eta urtekogarria
+Ordainsaria, guztira (Ef.): 2021 % 6, 2023 % 4, 2024 % 1, 2025 % 4. Ordainsaria, guztira (Par.): 2021 % 4, 2023 % 1, 2024 % -1, 2025 % 0
+Soldata-arrakala osoa, Arloko arduradunak: efektiboak 2023 % 17, 2024 % 28, 2025 % 18; parekatuak 2023 % -5, 2024 % -11, 2025 % -16
+Soldata-arrakala osoa, Proiektu-buruak: efektiboak 2023 % -16, 2024 % -14, 2025 % -46; parekatuak 2023 % -3, 2024 % 0, 2025 % -7
+Soldata-arrakala osoa, Aholkularitza: efektiboak 2023 % -38, 2024 % 17, 2025 % -70; parekatuak 2023 % -6, 2024 % -8, 2025 % 8
+Soldata-arrakala osoa, Sistema-analistak: efektiboak 2023 % -14, 2024 % -4, 2025 % 5; parekatuak 2023 % -2, 2024 % 0, 2025 % -2
+Soldata-arrakala osoa, Analistak (UT): efektiboak 2023 % 8, 2024 % 5, 2025 % 30; parekatuak 2023 % 8, 2024 % 5, 2025 % 30
+Soldata-arrakala osoa, Analista funtzionalak: efektiboak 2023 % 1, 2024 % -29, 2025 % -3; parekatuak 2023 % -10, 2024 % -2, 2025 % -9
+Soldata-arrakala osoa, Segurtasun-analistak: efektiboak 2023 % 76, 2024 % -1, 2025 % 52; parekatuak 2023 % 18, 2024 % 15, 2025 % -1
+Soldata-arrakala osoa, Programatzaileak: efektiboak 2023 % 2, 2024 % -20, 2025 % 42; parekatuak 2023 % 0, 2024 % 4, 2025 % -9
+Soldata-arrakala osoa, Ekoizpen-teknikariak: efektiboak 2023 % -45, 2024 % 10, 2025 % 28; parekatuak 2023 % 7, 2024 % 10, 2025 % -16
+Zenbateko efektiboak, 2021, langile guztiak
+Zenbateko efektiboak, 2023, langile guztiak
+Zenbateko efektiboak, 2024, langile guztiak
+Zenbateko efektiboak, 2025, langile guztiak
+Zenbateko parekatuak, 2021, langile guztiak
+Zenbateko parekatuak, 2023, langile guztiak
+Zenbateko parekatuak, 2024, langile guztiak
+Zenbateko parekatuak, 2025, langile guztiak
+Profilaren araberako arrakalak, balio efektiboak, 2021
+Profilaren araberako arrakalak, balio efektiboak, 2023
+Profilaren araberako arrakalak, balio efektiboak, 2024
+Profilaren araberako arrakalak, balio efektiboak, 2025
+Profilaren araberako arrakalak, balio parekatuak, 2021
+Profilaren araberako arrakalak, balio parekatuak, 2023
+Profilaren araberako arrakalak, balio parekatuak, 2024
+Profilaren araberako arrakalak, balio parekatuak, 2025
+Balio efektiboen batez bestekoak, eskalaren edo ordainsari-mailaren arabera
+Balio parekatuen batez bestekoa, eskalaren edo ordainsari-mailaren arabera
+Aurkezpen modua
+SOLDATA-ARRAKALA, GUZTIRA
+OINARRIZKO SOLDATAREN ARRAKALA
+MAILA-OSAGARRIAREN ARRAKALA
+OSAGARRI PERTSONALAREN ARRAKALA
+ANTZINATASUNAREN ARRAKALA
+ARLOKO ARDURADUNAK
+PROIEKTU-BURUAK
+AHOLKULARITZA
+SISTEMA-ANALISTAK
+ANALISTAK (UT)
+ANALISTA FUNTZIONALAK
+SEGURTASUN-ANALISTAK
+PROGRAMATZAILEAK
+EKOIZPEN-TEKNIKARIAK
+ARLOKO ARDURADUNAK
+PROIEKTU-BURUAK
+AHOLKULARITZA
+SISTEMA-ANALISTAK
+ANALISTA FUNTZIONALAK
+PROGRAMATZAILEAK
+EKOIZPEN-TEKNIKARIAK
+MIKROINFORMATIKAKO LAGUNTZA TEKNIKOKO TEKNIKARIAK
+ARLOKO ARDURADUNAK / 01 ESKALA
+ADMINISTRARIAK / TSM / EKOIZPEN-TEKNIKARIAK (04 ESKALA)
+5. MAILA / 05 ESKALA
+6. MAILA / 06 ESKALA
+7. MAILA / 07 ESKALA
+8. MAILA / 08 ESKALA
+NEGOZIO-UNITATEA ETA PB, 9. MAILA (09 ESKALA)
+Arloko arduradunak / 01 eskala
+Administrariak, TSM eta ekoizpen-teknikariak / 04 eskala
+5. maila / 05 eskala
+6. maila / 06 eskala
+7. maila / 07 eskala
+8. maila / 08 eskala
+Negozio-unitatea eta PB, 9. maila / 09 eskala
+Balioa
+Izen laburra
+Deskribapena
+Ordains.
+Mota
+Normalizagarria
+Urtekogarria
+S.BASE
+Oinarrizko soldata
+Oinarrizko soldata
+Dirua
+Oinarrizko soldata
+Bai
+Bai
+Conc.Sal.01
+Maila-osagarria
+Maila-osagarria
+Dirua
+Soldata-osagarria
+Bai
+Bai
+Conc.Sal.02
+Osagarri pertsonala
+Osagarri pertsonala
+Dirua
+Soldata-osagarria
+Bai
+Bai
+Conc.Sal.03
+Antzinatasuna
+Antzinatasuna
+Dirua
+Soldata-osagarria
+Bai
+Bai
+Conc.Sal.04
+Enpresaren familia-laguntza
+Enpresaren familia-laguntza
+Dirua
+Soldata-osagarria
+Bai
+Bai
+Conc.Sal.05
+Aparteko orduen konpentsazioa
+Aparteko orduen konpentsazioa
+Dirua
+Soldata-osagarria
+Ez
+Ez
+Conc.Sal.06
+Osagarria
+Erretiro partzialean dauden pertsonek jasotako osagarria
+Dirua
+Soldata-osagarria
+Ez
+Ez
+Conc.Sal.07
+Jantzi-plusa
+Gidari/atezain profilak jasotako osagarria
+Dirua
+Soldata-osagarria
+Ez
+Ez
+Conc.Sal.08
+Aldi baterako maila-osagarria
+Aldi baterako maila-osagarria
+Dirua
+Soldata-osagarria
+Ez
+Ez
+Conc.Sal.09
+Gauzazko ordainsaria MF
+Gauzazko ordainsaria – Mutua Foral
+Gauzazkoa
+Soldata-osagarria
+Ez
+Ez
+Conc.Sal.10
+Gauzazko ordainsaria, interesak
+Gauzazko ordainsaria – interesak
+Gauzazkoa
+Soldata-osagarria
+Ez
+Ez
+Conc.Sal.11
+Ikasketetarako laguntza
+Ikasketetarako laguntza
+Dirua
+Soldata-osagarria
+Ez
+Ez
+Conc.Sal.12
+Jaiotza-laguntza
+Jaiotza-laguntza
+Dirua
+Soldata-osagarria
+Ez
+Ez
+Conc.Sal.13
+Interes-hobaria
+Ohiko etxebizitzarako maileguen interes-hobaria
+Dirua
+Soldata-osagarria
+Ez
+Ez
+Conc.Sal.14
+Aparteko orduak
+Lanegunetako eguneko aparteko orduak
+Dirua
+Soldata-osagarria
+Ez
+Ez
+Conc.Sal.15
+Aparteko orduak
+Lanegunetako gaueko aparteko orduak
+Dirua
+Soldata-osagarria
+Ez
+Ez
+Conc.Sal.16
+Aparteko orduak
+Jaiegunetako eguneko aparteko orduak
+Dirua
+Soldata-osagarria
+Ez*
+Ez
+Conc.Sal.17
+Aparteko orduak
+Jaiegunetako gaueko aparteko orduak
+Dirua
+Soldata-osagarria
+Ez
+Ez
+Conc.Sal.18
+Aparteko orduak
+Ezinbesteko kasuetako aparteko orduak
+Dirua
+Soldata-osagarria
+Ez
+Ez
+Conc.Sal.19
+Gaixotasun-prestazioa E.K.
+Enpresaren kargurako gaixotasun-prestazioa
+Dirua
+Soldata-osagarria
+Ez
+Bai
+Conc.Sal.20
+ABE osagarria
+Aldi baterako ezintasunaren osagarria
+Dirua
+Soldata-osagarria
+Ez*
+Bai
+Conc.Sal.21
+Lan-harremana amaitzeagatiko kalte-ordainak
+Obra-kontratu tenporalen amaierako kalte-ordainak
+Dirua
+Soldata-osagarria
+Ez
+Ez
+Conc.Sal.22
+Elkarkidetza
+Elkarkidetza pentsio-plana
+Gauzazkoa
+Soldata-osagarria
+Ez
+Ez
+Conc.Sal.23
+Gauzazko ordainsaria MF ABE
+Gauzazko ordainsaria – Mutua Foral ABE
+Gauzazkoa
+Soldata-osagarria
+Ez
+Ez
+Conc.Sal.24
+Oporren zati proportzionala
+Oporren zati proportzionala
+Dirua
+Soldata-osagarria
+Ez
+Ez
+Conc.Sal.25
+Aparteko ordainsariaren hainbanaketa-likidazioa
+Aparteko ordainsariaren hainbanaketa-likidazioa
+Dirua
+Soldata-osagarria
+Ez
+Ez
+C.Extra.01
+Gaixotasuna
+Gaixotasun-prestazioa
+Dirua
+Soldataz kanpokoa
+Ez
+Bai
+C.Extra.02
+Istripua
+Istripu-prestazioa
+Dirua
+Soldataz kanpokoa
+Ez
+Bai
+TALDEA
+SAILEKO/ARLOKO ARDURADUNA
+UNITATE FOKALEKO ARDURADUNA
+PROIEKTU-BURUA
+ADMINISTRAZIOKO ETA GIZA BALIABIDEETAKO KOORDINAZIOA
+AHOLKULARITZA
+SISTEMA-ANALISTA
+SISTEMA-ANALISTA (UT)
+ANALISTA FUNTZIONALA
+SEGURTASUN-ANALISTA
+PLATAFORMA TEKNOLOGIKOAREN ARKITEKTOA
+KALITATE-KUDEAKETA
+PROGRAMAZIOA
+ADMINISTRAZIO OROKORREKO TEKNIKARIA
+MIKROINFORMATIKAKO LAGUNTZA TEKNIKOKO ESPEZIALISTA
+IU/UX DISEINATZAILEA
+EROSKETA-TEKNIKARIA
+ZERBITZUEN KUDEAKETA
+EKOIZPEN-TEKNIKARIA
+SISTEMA-TEKNIKARIA
+MIKROINFORMATIKAKO LAGUNTZA TEKNIKOKO TEKNIKARIA
+ERABILTZAILEEN ARRETA-ZENTROKO (CAU) TEKNIKARIA
+ADMINISTRARIAK
+GIDARIA/ATEZAINA
+ZUZENDARI-KUDEATZAILEA
+Emakumeak
+Gizonak
+BATEZ BESTEKOA
+MEDIANA
+ Brechas de género en el mercado laboral en Euskadi [Genero-arrakalak Euskadiko lan-merkatuan]. Sara de la Rica, Lucía Gorjón, Ainhoa Vega. ISEAK Fundazioa / Emakunde. 2019ko otsaila.

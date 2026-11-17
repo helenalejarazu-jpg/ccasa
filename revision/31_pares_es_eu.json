@@ -1,0 +1,1853 @@
+{
+ "pares": [
+  {
+   "id": "p:0",
+   "es": "INFORME REGISTRO SALARIAL DEL CENTRO DE CÁLCULO DE ÁLAVA 2025",
+   "eu": "ARABAKO KALKULU GUNEAREN 2025EKO SOLDATA-ERREGISTROAREN TXOSTENA"
+  },
+  {
+   "id": "p:1",
+   "es": "En cumplimiento de lo establecido en el articulo 28 del Texto Refundido de la Ley del Estatuto de los Trabajadores, el Centro de Calculo de Alava, S.A., en adelante CCASA, ha elaborado el registro retributivo correspondiente al ejercicio 2025. Para ello ha utilizado la herramienta de Registro Retributivo del Ministerio de Trabajo y Economia Social y Ministerio de Igualdad. ",
+   "eu": "Langileen Estatutuaren Legearen testu bateginaren 28. artikuluan ezarritakoa betez, Arabako Kalkulu Guneak, A.B.k (aurrerantzean, CCASA) 2025eko ekitaldiko ordainsari-erregistroa egin du. Horretarako, Lan eta Gizarte Ekonomia Ministerioaren eta Berdintasun Ministerioaren Ordainsari Erregistroaren tresna erabili du."
+  },
+  {
+   "id": "p:3",
+   "es": "Este registro retributivo se ha hecho en el marco del Decreto 902/2020 cumpliendo las normas que este establece.",
+   "eu": "Ordainsari-erregistro hau 902/2020 Errege Dekretuaren esparruan egin da, eta dekretu horrek ezarritako arauak betetzen ditu."
+  },
+  {
+   "id": "p:4",
+   "es": "El registro retributivo debe incluir los valores medios -media aritmética y mediana- de salarios, complementos salariales y percepciones extrasalariales efectivamente percibidos por la plantilla durante el periodo de referencia, desglosados por sexo, y distribuidos por grupos profesionales, categorías profesionales, nivel, puesto o cualquier otro sistema de clasificación aplicable. ",
+   "eu": "Ordainsari-erregistroak honako hauen batez besteko balioak jaso behar ditu (batez besteko aritmetikoa eta mediana): langileek erreferentziako aldian benetan jasotako soldatak, soldata-osagarriak eta soldataz kanpoko ordainsariak. Balio horiek sexuaren arabera banakatuta egon behar dute, eta lanbide-taldeen, lanbide-kategorien, mailaren, lanpostuaren edo aplikatu beharreko beste edozein sailkapen-sistemaren arabera banatuta."
+  },
+  {
+   "id": "p:6",
+   "es": "El registro debe recoger toda la información fidedigna acerca de las retribuciones efectivamente percibidas en el periodo de referencia por las personas trabajadoras en la empresa, para cada una de sus situaciones contractuales, y sus promedios y medianas deben estar desglosados por sexo, por categorías, grupos profesionales, niveles, puestos o cualquier otro sistema de clasificación que sea utilizado en la empresa.",
+   "eu": "Erregistroak enpresako langileek erreferentziako aldian benetan jasotako ordainsariei buruzko informazio fidagarri guztia jaso behar du, kontratu-egoera bakoitzerako. Batez bestekoak eta medianak sexuaren arabera banakatuta egon behar dute, baita kategorien, lanbide-taldeen, mailen, lanpostuen edo enpresak erabiltzen duen beste edozein sailkapen-sistemaren arabera ere."
+  },
+  {
+   "id": "p:8",
+   "es": "La Herramienta del registro retributivo, además de la información fidedigna de las retribuciones efectivamente satisfechas y correspondientes a las diferentes situaciones contractuales agrupadas de acuerdo con el sistema de clasificación profesional de la empresa y durante el periodo de referencia del año natural desagregadas por sexo (importes efectivos), incluye la denominada “equiparación” (normalización y/o anualización) de las retribuciones, a fin proporcionar un dato adicional de comparabilidad (importes equiparables).",
+   "eu": "Ordainsari-erregistroaren tresnak benetan ordaindutako ordainsariei buruzko informazio fidagarria jasotzen du (zenbateko efektiboak). Ordainsari horiek kontratu-egoeren arabera daude, enpresaren lanbide-sailkapeneko sistemaren arabera taldekatuta, urte naturaleko erreferentziako aldikoak dira eta sexuaren arabera banakatuta daude. Horrez gain, tresnak ordainsarien «parekatzea» deritzona ere jasotzen du (normalizatzea eta/edo urtekotzea), alderatzeko datu gehigarri bat emateko (zenbateko parekagarriak)."
+  },
+  {
+   "id": "p:10",
+   "es": "Para equiparar las retribuciones la herramienta utiliza los siguientes criterios de equiparación:",
+   "eu": "Ordainsariak parekatzeko, tresnak parekatze-irizpide hauek erabiltzen ditu:"
+  },
+  {
+   "id": "p:12",
+   "es": "Normalizar: Misma jornada a lo largo del año. Debe realizarse una normalización de las retribuciones a la misma jornada (jornada completa). Para ello se utiliza la metodología: “Normalizar” es transformar las cantidades de manera que resulten comparables atendiendo al criterio de porcentaje de jornada. Las cantidades por considerar serán para el caso de jornada completa. En el caso de que se estén incluyendo personas que no tengan jornada completa (por contrato, y/o por reducción de jornada), las retribuciones deberán aumentarse proporcionalmente hasta jornada completa.",
+   "eu": "Normalizatu: lanaldi bera urte osoan. Ordainsariak lanaldi berera normalizatu behar dira (lanaldi osoa). Horretarako, metodologia hau erabiltzen da: «normalizatzea» zenbatekoak eraldatzea da, lanaldiaren ehunekoaren irizpidearen arabera alderagarriak izan daitezen. Lanaldi osoko zenbatekoak hartuko dira kontuan. Lanaldi osoa ez duten pertsonak sartzen badira (kontratuagatik eta/edo lanaldi-murrizketagatik), haien ordainsariak proportzioan handitu beharko dira, lanaldi osora iritsi arte."
+  },
+  {
+   "id": "p:15",
+   "es": "Anualizar: Misma duración de los servicios prestados a lo largo del año. Debe realizarse una anualización de las retribuciones percibidas en periodos inferiores al año. Para ello se utiliza la metodología: “Anualizar” Las cantidades a considerar serán para el año completo considerado (periodo de referencia). Las retribuciones efectivas deberán aumentarse proporcionalmente hasta el año.",
+   "eu": "Urtekotu: urte osoan emandako zerbitzuen iraupen bera. Urtebete baino aldi laburragoetan jasotako ordainsariak urtekotu egin behar dira. Horretarako, metodologia hau erabiltzen da: «urtekotzea». Kontuan hartutako urte osoko zenbatekoak hartuko dira (erreferentziako aldia). Ordainsari efektiboak proportzioan handitu beharko dira, urte osora iritsi arte."
+  },
+  {
+   "id": "p:19",
+   "es": "La diferencia porcentual entre mujeres y hombres está calculada de la siguiente manera:",
+   "eu": "Emakumeen eta gizonen arteko ehuneko-aldea honela kalkulatu da:"
+  },
+  {
+   "id": "p:22",
+   "es": "El resultado se expresa como un porcentaje. Si el valor es positivo, significa que la cantidad correspondiente a las mujeres es inferior a la de los hombres, en el porcentaje expresado. Si es negativo, la interpretación es la contraria.",
+   "eu": "Emaitza ehuneko gisa adierazten da. Balioa positiboa bada, emakumeei dagokien zenbatekoa gizonei dagokiena baino txikiagoa da, adierazitako ehunekoan. Negatiboa bada, alderantziz interpretatu behar da."
+  },
+  {
+   "id": "p:24",
+   "es": "Diferencias: ",
+   "eu": "Aldeak:"
+  },
+  {
+   "id": "p:26",
+   "es": "Justificadas",
+   "eu": "Justifikatuak"
+  },
+  {
+   "id": "p:28",
+   "es": "No estamos ante trabajos comparables (no son iguales o no tienen el mismo valor). Estando ante trabajos comparables, existe una razón objetiva que explica la diferencia:",
+   "eu": "Lan alderagarriak ez dira (ez dira berdinak edo ez dute balio bera). Lan alderagarriak izanik ere, aldea azaltzen duen arrazoi objektibo bat dago:"
+  },
+  {
+   "id": "p:29",
+   "es": "La situación del mercado de trabajo (STJCE 27‐10‐1993).",
+   "eu": "Lan-merkatuaren egoera (EEBJAren epaia, 1993-10-27)."
+  },
+  {
+   "id": "p:30",
+   "es": "La antigüedad en la empresa (STJUE 3‐10‐ 2006).",
+   "eu": "Enpresako antzinatasuna (EBJAren epaia, 2006-10-3)."
+  },
+  {
+   "id": "p:31",
+   "es": "La formación profesional (STJCE 11‐5‐ 1999).",
+   "eu": "Lanbide-heziketa (EEBJAren epaia, 1999-5-11)."
+  },
+  {
+   "id": "p:32",
+   "es": "La flexibilidad (STJCE 17‐10‐1989).",
+   "eu": "Malgutasuna (EEBJAren epaia, 1989-10-17)."
+  },
+  {
+   "id": "p:33",
+   "es": "La fuerza física, siempre y cuando sea un factor efectivamente necesario y no opere como único elemento de valoración (STJCE 1‐7‐1986 y STC 250/2000).",
+   "eu": "Indar fisikoa, baldin eta benetan beharrezko faktorea bada eta balorazio-elementu bakarra ez bada (EEBJAren epaia, 1986-7-1, eta KAren 250/2000 epaia)."
+  },
+  {
+   "id": "p:34",
+   "es": "La productividad (STSJE 31‐5‐1995).",
+   "eu": "Produktibitatea (EEAJNren epaia, 1995-5-31)."
+  },
+  {
+   "id": "p:36",
+   "es": "No justificadas:",
+   "eu": "Justifikatu gabeak:"
+  },
+  {
+   "id": "p:38",
+   "es": "Que estamos ante categorías diferentes (STC 145/1991).",
+   "eu": "Kategoria desberdinak izatea (KAren 145/1991 epaia)."
+  },
+  {
+   "id": "p:39",
+   "es": "Que los trabajadores realizan diferentes funciones (STC 58/1994).",
+   "eu": "Langileek eginkizun desberdinak betetzea (KAren 58/1994 epaia)."
+  },
+  {
+   "id": "p:40",
+   "es": "Que los trabajadores prestan servicios en diferentes departamentos (STS 14‐5‐2014, Rº 2328/2013).",
+   "eu": "Langileek sail desberdinetan zerbitzuak ematea (AGren epaia, 2014-5-14, 2328/2013 errekurtsoa)."
+  },
+  {
+   "id": "p:41",
+   "es": "Que la desigualdad proviene de lo previsto en el convenio colectivo (SSTC 145/1991 y 147/1995).",
+   "eu": "Desberdintasuna hitzarmen kolektiboan aurreikusitakotik etortzea (KAren 145/1991 eta 147/1995 epaiak)."
+  },
+  {
+   "id": "p:42",
+   "es": "Que la desigualdad proviene de una situación heredada del empresario anterior (STSJ Canarias 21‐12‐2006, Rº 485/2006).",
+   "eu": "Desberdintasuna aurreko enpresaburuarengandik jasotako egoera batetik etortzea (Kanarietako JANen epaia, 2006-12-21, 485/2006 errekurtsoa)."
+  },
+  {
+   "id": "p:43",
+   "es": "•    Que no se han cumplido los objetivos por razones de conciliación (SSTS  9‐12‐2009, Rº 8/2008, 27‐5‐2015, Rº 103/2014, 10‐1‐2017, Rº283/2015 y 23‐9‐2020, Rº 70/2019)",
+   "eu": "•    Kontziliazio-arrazoiengatik helburuak bete ez izana (AGren epaiak: 2009-12-9, 8/2008 errekurtsoa; 2015-5-27, 103/2014 errekurtsoa; 2017-1-10, 283/2015 errekurtsoa, eta 2020-9-23, 70/2019 errekurtsoa)."
+  },
+  {
+   "id": "p:45",
+   "es": "En el caso de CCASA que cuenta con representación legal de las personas trabajadoras, el acceso al registro se facilitará a las personas trabajadoras a través de la citada representación, teniendo derecho aquellas a conocer el contenido íntegro del mismo. ",
+   "eu": "CCASAk langileen legezko ordezkaritza du; horregatik, ordezkaritza horren bidez emango zaie langileei erregistrorako sarbidea, eta langileek eskubidea dute haren eduki osoa ezagutzeko."
+  },
+  {
+   "id": "p:47",
+   "es": "SISTEMA DE CLASIFICACIÓN PROFESIONAL",
+   "eu": "LANBIDE-SAILKAPENEKO SISTEMA"
+  },
+  {
+   "id": "p:48",
+   "es": "En la empresa CCASA, se ha desarrollado un sistema de clasificación profesional desde hace algunos años (2016) que es el que actualmente está vigente. Este sistema parte de una definición de 23 perfiles profesionales y 12 niveles retributivos. ",
+   "eu": "CCASAn lanbide-sailkapeneko sistema bat garatu zen duela urte batzuk (2016an), eta gaur egun indarrean dagoena hori da. Sistema horrek 23 lanbide-profil eta 12 ordainsari-maila definitzen ditu."
+  },
+  {
+   "id": "p:49",
+   "es": "Cada perfil profesional tiene asignados 3 niveles retributivos consecutivos, como se muestra en la Relación de Puestos de Trabajo de 2025, según el nivel de responsabilidad dentro de cada perfil. Lo normal es que cuando una persona entra en la empresa se le asigna el primer nivel de la franja correspondiente a su perfil profesional y luego va subiendo a los siguientes niveles. Esto queda reflejado de la siguiente manera en el Convenio colectivo, en el artículo 17.",
+   "eu": "Lanbide-profil bakoitzak ondoz ondoko 3 ordainsari-maila ditu esleituta, profil bakoitzeko erantzukizun-mailaren arabera, 2025eko Lanpostuen Zerrendan ageri den bezala. Ohikoena da pertsona bat enpresan sartzen denean bere lanbide-profilari dagokion tarteko lehen maila esleitzea, eta, ondoren, hurrengo mailetara igotzea. Hala jasotzen da Hitzarmen Kolektiboaren 17. artikuluan:"
+  },
+  {
+   "id": "p:50",
+   "es": "Artículo 17.- PERFILES PROFESIONALES Y NIVELES DE DESARROLLO",
+   "eu": "17. artikulua.- LANBIDE-PROFILAK ETA GARAPEN-MAILAK"
+  },
+  {
+   "id": "p:51",
+   "es": "A) Cada empleado o empleada tendrá asignado un perfil profesional determinado según la actividad que desarrolle en su trabajo, el cual figurará en el recibo de nómina. ",
+   "eu": "A) Langile bakoitzak lanbide-profil jakin bat izango du esleituta, bere lanean egiten duen jardueraren arabera, eta nominan agertuko da."
+  },
+  {
+   "id": "p:52",
+   "es": "B) Cada uno de los perfiles profesionales existentes en CCASA posee un recorrido de niveles determinado. ",
+   "eu": "B) CCASAn dauden lanbide-profil bakoitzak maila-ibilbide jakin bat du."
+  },
+  {
+   "id": "p:53",
+   "es": "C) Se establece en el documento adjunto como Anexo I la relación de perfiles profesionales y niveles de desarrollo del CCASA. En líneas generales, todos los perfiles de la empresa se distribuirán en diferentes recorridos, dentro de los 12 niveles establecidos. Asimismo, se establece en el Anexo II, los importes de salario base y complemento de nivel correspondientes a 2017. ",
+   "eu": "C) Erantsitako dokumentuan, I. eranskinean, CCASAko lanbide-profilen eta garapen-mailen zerrenda ezartzen da. Oro har, enpresako profil guztiak ibilbide desberdinetan banatuko dira, ezarritako 12 mailen barruan. Halaber, II. eranskinean ezartzen dira 2017ko oinarrizko soldataren eta maila-osagarriaren zenbatekoak."
+  },
+  {
+   "id": "p:54",
+   "es": "D) Cuando a un empleado o a una empleada se le asigne uno de los perfiles profesionales existentes, se le notificará el recorrido de niveles que corresponde con su perfil, así como su situación en los mismos, ",
+   "eu": "D) Langile bati dauden lanbide-profiletako bat esleitzen zaionean, bere profilari dagokion maila-ibilbidea jakinaraziko zaio, baita ibilbide horretan duen egoera ere."
+  },
+  {
+   "id": "p:55",
+   "es": "E) Corresponde a la Empresa el establecimiento de un organigrama de puestos existentes, así como una definición, de las funciones relativas a cada perfil profesional. ",
+   "eu": "E) Enpresari dagokio dauden lanpostuen organigrama ezartzea, baita lanbide-profil bakoitzari dagozkion eginkizunak definitzea ere."
+  },
+  {
+   "id": "p:56",
+   "es": "(Acuerdo convenio colectivo del CCASA 2020 / 2021)",
+   "eu": "(CCASAren 2020/2021eko hitzarmen kolektiboaren erabakia)"
+  },
+  {
+   "id": "p:57",
+   "es": "La agrupación según la clasificación profesional de la empresa se muestra en la siguiente tabla:",
+   "eu": "Enpresaren lanbide-sailkapenaren araberako taldekatzea taula honetan ageri da:"
+  },
+  {
+   "id": "p:62",
+   "es": "SISTEMA RETRIBUTIVO",
+   "eu": "ORDAINSARI-SISTEMA"
+  },
+  {
+   "id": "p:63",
+   "es": "CONCEPTOS RETRIBUTIVOS La empresa CCASA dispone de un sistema retributivo regulado por Convenio Colectivo. Este sistema retributivo se regula en el Artículo 18 del Convenio Colectivo.",
+   "eu": "ORDAINSARI-KONTZEPTUAK. CCASAk hitzarmen kolektiboak arautzen duen ordainsari-sistema du. Ordainsari-sistema hori Hitzarmen Kolektiboaren 18. artikuluan arautzen da."
+  },
+  {
+   "id": "p:64",
+   "es": "RETRIBUCIONES. DEFINICIONES",
+   "eu": "ORDAINSARIAK. DEFINIZIOAK"
+  },
+  {
+   "id": "p:65",
+   "es": "1. Los importes anuales se distribuirán en 12 mensualidades naturales más una paga extraordinaria en junio y otra en Navidad.",
+   "eu": "1. Urteko zenbatekoak 12 hileko naturaletan banatuko dira, eta horiez gain aparteko ordainsari bat ekainean eta beste bat Gabonetan."
+  },
+  {
+   "id": "p:66",
+   "es": "2. Las mensualidades se abonarán al personal empleado antes del día 30 del mes en curso. ",
+   "eu": "2. Hilekoak hilaren 30a baino lehen ordainduko zaizkie langileei."
+  },
+  {
+   "id": "p:67",
+   "es": "3. Las pagas extraordinarias se abonarán los meses de junio y diciembre y en proporción a los días trabajados en el primer semestre del año la de Junio y en el segundo semestre del año la correspondiente a Navidad. ",
+   "eu": "3. Aparteko ordainsariak ekainean eta abenduan ordainduko dira: ekainekoa, urteko lehen seihilekoan lan egindako egunen proportzioan, eta Gabonetakoa, bigarren seihilekoan lan egindako egunen proportzioan."
+  },
+  {
+   "id": "p:68",
+   "es": "4. Cada perfil profesional tendrá una estructura compuesta por Salario Base, que será el mismo para todos los perfiles profesionales de la empresa y un Complemento de Nivel, que va en función del nivel dentro de cada perfil.",
+   "eu": "4. Lanbide-profil bakoitzak egitura hau izango du: oinarrizko soldata, enpresako lanbide-profil guztietan berdina izango dena, eta maila-osagarria, profil bakoitzaren barruko mailaren araberakoa."
+  },
+  {
+   "id": "p:69",
+   "es": "5. Conceptos retributivos: ",
+   "eu": "5. Ordainsari-kontzeptuak:"
+  },
+  {
+   "id": "p:70",
+   "es": "A) Sueldo base. - Será único para todos los perfiles profesionales de la empresa. ",
+   "eu": "A) Oinarrizko soldata.- Bakarra izango da enpresako lanbide-profil guztietan."
+  },
+  {
+   "id": "p:71",
+   "es": "B) Complemento de nivel. - Es un concepto directamente relacionado con cada uno de los niveles establecidos, dentro de los recorridos posibles de los perfiles profesionales. ",
+   "eu": "B) Maila-osagarria.- Ezarritako maila bakoitzarekin zuzenean lotutako kontzeptua da, lanbide-profilen ibilbide posibleen barruan."
+  },
+  {
+   "id": "p:72",
+   "es": "C) Complemento de tareas. - Establecido para aquellas personas a las que temporalmente les sean asignadas tareas de especial responsabilidad. ",
+   "eu": "C) Zeregin-osagarria.- Aldi baterako erantzukizun bereziko zereginak esleitzen zaizkien pertsonentzat ezarria."
+  },
+  {
+   "id": "p:73",
+   "es": "D) Plus salarial de mantenimiento de vestuario para el perfil profesional de chofer-choferesa/ordenanza. - Establecido como compensación de gastos que obligatoriamente correrán a cargo del o de la profesional en concepto de adquisición y conservación de su ropa de trabajo. ",
+   "eu": "D) Jantziak mantentzeko soldata-plusa, gidari/atezain lanbide-profilerako.- Gastuen konpentsazio gisa ezarria; izan ere, profesionalak bere kargu hartu behar ditu nahitaez lan-arropa erosteko eta zaintzeko gastuak."
+  },
+  {
+   "id": "p:74",
+   "es": "E) Antigüedad. - Se contabilizará por trienios y se comenzará a abonar en el mes en el que se cumpla el trienio. ",
+   "eu": "E) Antzinatasuna.- Hirurtekoka zenbatuko da, eta hirurtekoa betetzen den hilean hasiko da ordaintzen."
+  },
+  {
+   "id": "p:75",
+   "es": "F) Complemento personal. - Para su percepción habrán de reunirse los siguientes requisitos: formar parte de la plantilla del CCASA en el momento de la entrada en vigor del presente convenio, estar percibiendo cantidades superiores a las que resulten de aplicación por el sistema de niveles. No se hará extensivo en un futuro a ninguna otra persona que forme parte de la plantilla del CCASA, y no aumentará en su importe. ",
+   "eu": "F) Osagarri pertsonala.- Jasotzeko, baldintza hauek bete behar dira: hitzarmen hau indarrean sartzen den unean CCASAko langilea izatea, eta mailen sistema aplikatuta dagozkionak baino zenbateko handiagoak jasotzen egotea. Etorkizunean ez zaio CCASAko beste inongo langileri zabalduko, eta zenbatekoa ez da handituko."
+  },
+  {
+   "id": "p:77",
+   "es": "Los conceptos retributivos que se han tenido en cuenta en el registro retributivo se recogen en la siguiente tabla: ",
+   "eu": "Ordainsari-erregistroan kontuan hartu diren ordainsari-kontzeptuak taula honetan jasotzen dira:"
+  },
+  {
+   "id": "p:86",
+   "es": "En el caso de CCASA se han realizado dos tipos de análisis. ",
+   "eu": "CCASAren kasuan, bi analisi mota egin dira."
+  },
+  {
+   "id": "p:87",
+   "es": "1. ANÁLISIS 1: Retribuciones efectivas",
+   "eu": "1. LEHEN ANALISIA: Ordainsari efektiboak"
+  },
+  {
+   "id": "p:88",
+   "es": "El registro debe recoger toda la información fidedigna acerca de las retribuciones efectivamente percibidas en el periodo de referencia por las personas trabajadoras en la empresa, para cada una de sus situaciones contractuales, y sus promedios y medianas deben estar desglosados por sexo, por categorías, grupos profesionales, niveles, puestos o cualquier otro sistema de clasificación que sea utilizado en la empresa.",
+   "eu": "Erregistroak enpresako langileek erreferentziako aldian benetan jasotako ordainsariei buruzko informazio fidagarri guztia jaso behar du, kontratu-egoera bakoitzerako. Batez bestekoak eta medianak sexuaren arabera banakatuta egon behar dute, baita kategorien, lanbide-taldeen, mailen, lanpostuen edo enpresak erabiltzen duen beste edozein sailkapen-sistemaren arabera ere."
+  },
+  {
+   "id": "p:89",
+   "es": "En definitiva, los datos retributivos deben estar agrupados o distribuidos en función del sistema de clasificación profesional que exista en la empresa.",
+   "eu": "Azken batean, ordainsari-datuak enpresako lanbide-sailkapeneko sistemaren arabera taldekatuta edo banatuta egon behar dute."
+  },
+  {
+   "id": "p:91",
+   "es": "2. ANÁLISIS 2 Retribuciones equiparadas.",
+   "eu": "2. BIGARREN ANALISIA: Ordainsari parekatuak."
+  },
+  {
+   "id": "p:92",
+   "es": "La Herramienta del registro retributivo, además de la información fidedigna de las retribuciones efectivamente satisfechas y correspondientes a las diferentes situaciones contractuales agrupadas de acuerdo con el sistema de clasificación profesional de la empresa y durante el periodo de referencia del año natural desagregadas por sexo (importes efectivos), incluye la denominada “equiparación” (normalización y/o anualización) de las retribuciones, a fin proporcionar un dato adicional de comparabilidad (importes equiparables).",
+   "eu": "Ordainsari-erregistroaren tresnak benetan ordaindutako ordainsariei buruzko informazio fidagarria jasotzen du (zenbateko efektiboak). Ordainsari horiek kontratu-egoeren arabera daude, enpresaren lanbide-sailkapeneko sistemaren arabera taldekatuta, urte naturaleko erreferentziako aldikoak dira eta sexuaren arabera banakatuta daude. Horrez gain, tresnak ordainsarien «parekatzea» deritzona ere jasotzen du (normalizatzea eta/edo urtekotzea), alderatzeko datu gehigarri bat emateko (zenbateko parekagarriak)."
+  },
+  {
+   "id": "p:93",
+   "es": "Criterios de equiparación",
+   "eu": "Parekatze-irizpideak"
+  },
+  {
+   "id": "p:94",
+   "es": "A. Misma jornada a lo largo del año. Debe realizarse una normalización de las retribuciones a la misma jornada (jornada completa).",
+   "eu": "A. Lanaldi bera urte osoan. Ordainsariak lanaldi berera normalizatu behar dira (lanaldi osoa)."
+  },
+  {
+   "id": "p:95",
+   "es": "• Supuestos:",
+   "eu": "• Kasuak:"
+  },
+  {
+   "id": "p:96",
+   "es": "a.\tPersonas con contrato a tiempo parcial. (Personal jubilado a tiempo parcial)",
+   "eu": "a.\tLanaldi partzialeko kontratua duten pertsonak. (Erretiro partzialean dauden langileak)"
+  },
+  {
+   "id": "p:97",
+   "es": "b.\tReducciones de jornada.",
+   "eu": "b.\tLanaldi-murrizketak."
+  },
+  {
+   "id": "p:98",
+   "es": "No así el complemento de jubilación, ya que, al normalizarlo, distorsiona la realidad, estableciendo una retribución para esa persona mucho más alta de lo que realmente le correspondería por estar al 100% de jornada.",
+   "eu": "Erretiro-osagarria, ordea, ez; izan ere, normalizatzean errealitatea desitxuratzen du, eta pertsona horri benetan lanaldiaren % 100ean legokiokeena baino ordainsari askoz handiagoa ezartzen dio."
+  },
+  {
+   "id": "p:99",
+   "es": "• Metodología: “Normalizar” es transformar las cantidades de manera que resulten comparables atendiendo al criterio de porcentaje de jornada. Las cantidades a considerar serán para el caso de jornada completa. En el caso de que se estén incluyendo personas que no tengan jornada completa (por contrato, y/o por reducción de jornada), las retribuciones deberán aumentarse proporcionalmente hasta jornada completa. Ejemplos:",
+   "eu": "• Metodologia: «normalizatzea» zenbatekoak eraldatzea da, lanaldiaren ehunekoaren irizpidearen arabera alderagarriak izan daitezen. Lanaldi osoko zenbatekoak hartuko dira kontuan. Lanaldi osoa ez duten pertsonak sartzen badira (kontratuagatik eta/edo lanaldi-murrizketagatik), haien ordainsariak proportzioan handitu beharko dira, lanaldi osora iritsi arte. Adibideak:"
+  },
+  {
+   "id": "p:100",
+   "es": "– Si una persona tiene una retribución efectiva de 2.000 € mensuales con un contrato del 80% de jornada, su salario deberá “normalizarse” multiplicándose por 1,25 (1/80% = 1,25), por lo que la retribución normalizada será de 2.500 €.",
+   "eu": "– Pertsona batek hilean 2.000 €-ko ordainsari efektiboa badu lanaldiaren % 80ko kontratuarekin, haren soldata «normalizatu» egin beharko da, 1,25ez biderkatuta (1/% 80 = 1,25); beraz, ordainsari normalizatua 2.500 €-koa izango da."
+  },
+  {
+   "id": "p:101",
+   "es": "– Si una persona tiene una retribución efectiva de 1.500 € por una jornada del 100%, tendría la misma retribución normalizada que una persona que, trabajando con una jornada del 50%, cobrase 750 €. La normalización de la cifra de 750 € se haría dividiendo esa cantidad entre 50%, lo que da el resultado de 1.500 € (de modo que las cantidades normalizadas serían iguales, en este caso).",
+   "eu": "– Pertsona batek 1.500 €-ko ordainsari efektiboa badu % 100eko lanaldiarekin, ordainsari normalizatu bera izango luke % 50eko lanaldiarekin lan egin eta 750 € kobratuko lituzkeen pertsona batek. 750 €-ko zifra normalizatzeko, zenbateko hori % 50ez zatituko litzateke, eta emaitza 1.500 € izango litzateke (beraz, kasu honetan zenbateko normalizatuak berdinak izango lirateke)."
+  },
+  {
+   "id": "p:102",
+   "es": "B. Misma duración de los servicios prestados a lo largo del año. Debe realizarse una anualización de las retribuciones percibidas en periodos inferiores al año.",
+   "eu": "B. Urte osoan emandako zerbitzuen iraupen bera. Urtebete baino aldi laburragoetan jasotako ordainsariak urtekotu egin behar dira."
+  },
+  {
+   "id": "p:103",
+   "es": "• Supuestos:",
+   "eu": "• Kasuak:"
+  },
+  {
+   "id": "p:104",
+   "es": "a.\tContratos de duración determinada de personas que no hayan estado contratadas durante todo el año por haber sido contratadas una vez iniciado el mismo o haber extinguido sus contratos antes de finalizar el año.",
+   "eu": "a.\tUrte osoan kontratatuta egon ez diren pertsonen iraupen jakineko kontratuak, urtea hasi ondoren kontratatu dituztelako edo urtea amaitu aurretik kontratua azkendu zaielako."
+  },
+  {
+   "id": "p:105",
+   "es": "b.\tPersonas que se encuentran en situación de suspensión del contrato por cualquier causa del art. 45 ET o excedencia en algún momento del año.",
+   "eu": "b.\tUrteko uneren batean kontratua etenda duten pertsonak, LEren 45. artikuluko edozein arrazoirengatik, edo eszedentzian daudenak."
+  },
+  {
+   "id": "p:106",
+   "es": "• Metodología: Las cantidades a considerar serán para el año completo considerado (periodo de referencia). Las retribuciones efectivas deberán aumentarse proporcionalmente hasta el año (por ejemplo, si una persona ha estado empleada por 6 meses, su retribución deberá “anualizarse” multiplicándose por 2).",
+   "eu": "• Metodologia: kontuan hartutako urte osoko zenbatekoak hartuko dira (erreferentziako aldia). Ordainsari efektiboak proportzioan handitu beharko dira, urte osora iritsi arte (adibidez, pertsona batek 6 hilabetez lan egin badu, haren ordainsaria «urtekotu» egin beharko da, 2z biderkatuta)."
+  },
+  {
+   "id": "p:107",
+   "es": "A los únicos efectos de poder realizar y facilitar la comparabilidad y aplicar los criterios de equiparación descritos, cuando una persona haya tenido más de una situación contractual diferente en el período de referencia, se tendrá en cuenta la última.",
+   "eu": "Alderagarritasuna egin eta errazteko eta deskribatutako parekatze-irizpideak aplikatzeko soilik: pertsona batek erreferentziako aldian kontratu-egoera bat baino gehiago izan baditu, azkena hartuko da kontuan."
+  },
+  {
+   "id": "p:108",
+   "es": "Es posible que haya algunos conceptos retributivos que no estén sujetos a este ajuste (que no sean normalizables ni anualizables) porque la empresa los abone íntegramente a todas las personas trabajadoras independientemente de la jornada efectiva trabajada o periodo trabajado, lo que se deberá indicar oportunamente.",
+   "eu": "Baliteke ordainsari-kontzeptu batzuk doikuntza horren mende ez egotea (ez normalizagarriak ez urtekogarriak izatea), enpresak langile guztiei osorik ordaintzen dizkielako, benetan egindako lanaldia edo lan egindako aldia edozein dela ere. Hori behar bezala adierazi beharko da."
+  },
+  {
+   "id": "p:109",
+   "es": "Algunos ejemplos pueden ser (si aplica en cada caso): Ayuda familiar, ayuda a estudios, retribución en especie, horas extras y Elkarkidetza, las diferencias obedecen a las diferentes situaciones personales que son accesibles a las personas que cumplan unos determinados requisitos del convenio o el abono íntegro del Complemento para las personas jubiladas a tiempo parcial. Tampoco resulta procedente anualizarlas, siendo más fiel y realista tener en cuenta las retribuciones efectivas por estos conceptos.",
+   "eu": "Adibide batzuk (kasu bakoitzean aplikatzen bada): familia-laguntza, ikasketetarako laguntza, gauzazko ordainsaria, aparteko orduak eta Elkarkidetza. Kasu horietan, aldeak egoera pertsonal desberdinen ondorio dira: hitzarmenaren baldintza jakin batzuk betetzen dituzten pertsonek eskura dituzten egoerak, edo erretiro partzialean dauden pertsonei osagarria osorik ordaintzea. Ez da egokia horiek urtekotzea ere; fidelagoa eta errealistagoa da kontzeptu horiengatiko ordainsari efektiboak kontuan hartzea."
+  },
+  {
+   "id": "p:112",
+   "es": "Los importes efectivos tienen carácter obligatorio mientras que los importes equiparados tienen carácter voluntario.",
+   "eu": "Zenbateko efektiboak nahitaezkoak dira; zenbateko parekatuak, berriz, borondatezkoak."
+  },
+  {
+   "id": "p:114",
+   "es": "El registro deberá incluir la justificación a que se refiere el artículo 28.3 del Estatuto de los Trabajadores, cuando la media aritmética o la mediana de las retribuciones totales en la empresa de las personas trabajadoras de un sexo sea superior a las del otro en, al menos, un veinticinco por ciento.",
+   "eu": "Erregistroak Langileen Estatutuaren 28.3 artikuluan aipatzen den justifikazioa jaso beharko du, baldin eta enpresako sexu bateko langileen ordainsari osoen batez besteko aritmetikoa edo mediana beste sexukoena baino gutxienez ehuneko hogeita bost handiagoa bada."
+  },
+  {
+   "id": "p:116",
+   "es": "Con lo cual, en este diagnóstico se recogen a continuación, los datos extraídos con ambos análisis.",
+   "eu": "Hortaz, diagnostiko honetan bi analisietatik ateratako datuak jasotzen dira jarraian."
+  },
+  {
+   "id": "p:119",
+   "es": "RESULTADOS REGISTRO RETRIBUTIVO EJERCICIO 2025:",
+   "eu": "2025EKO EKITALDIKO ORDAINSARI-ERREGISTROAREN EMAITZAK:"
+  },
+  {
+   "id": "p:121",
+   "es": "Promedio y Mediana",
+   "eu": "Batez bestekoa eta mediana"
+  },
+  {
+   "id": "p:123",
+   "es": "• El promedio de un conjunto de valores se obtiene al dividir la suma de todos ellos por el número de valores. ",
+   "eu": "• Balio multzo baten batez bestekoa lortzeko, balio guztien batura balio kopuruaz zatitzen da."
+  },
+  {
+   "id": "p:124",
+   "es": "• La mediana de un conjunto de valores es el valor que ocupa la posición central al ordenarlos de menor a mayor. ",
+   "eu": "• Balio multzo baten mediana erdiko posizioan dagoen balioa da, balioak txikienetik handienera ordenatzen direnean."
+  },
+  {
+   "id": "p:127",
+   "es": "Medias y Medianas total retribuciones efectivas del total de la plantilla según sexo:",
+   "eu": "Langile guztien ordainsari efektibo osoen batez bestekoak eta medianak, sexuaren arabera:"
+  },
+  {
+   "id": "p:129",
+   "es": "\t\tEn 2021",
+   "eu": "\t\t2021ean"
+  },
+  {
+   "id": "p:132",
+   "es": "\t\tEn 2023",
+   "eu": "\t\t2023an"
+  },
+  {
+   "id": "p:136",
+   "es": "\t\tEn 2024",
+   "eu": "\t\t2024an"
+  },
+  {
+   "id": "p:142",
+   "es": "\t\tEn 2025",
+   "eu": "\t\t2025ean"
+  },
+  {
+   "id": "p:147",
+   "es": "Medias y Brechas salariales en el total de la plantilla y por perfiles profesional 2021-2025: ",
+   "eu": "Batez bestekoak eta soldata-arrakalak, langile guztiak eta lanbide-profilak kontuan hartuta, 2021-2025:"
+  },
+  {
+   "id": "p:149",
+   "es": "Importes efectivos: ",
+   "eu": "Zenbateko efektiboak:"
+  },
+  {
+   "id": "p:151",
+   "es": "En 2021",
+   "eu": "2021ean"
+  },
+  {
+   "id": "p:153",
+   "es": "En 2023",
+   "eu": "2023an"
+  },
+  {
+   "id": "p:157",
+   "es": "En 2024",
+   "eu": "2024an"
+  },
+  {
+   "id": "p:168",
+   "es": "En 2025",
+   "eu": "2025ean"
+  },
+  {
+   "id": "p:172",
+   "es": "Medias y Brechas salariales en el total de la plantilla y por perfiles profesionales: ",
+   "eu": "Batez bestekoak eta soldata-arrakalak, langile guztiak eta lanbide-profilak kontuan hartuta:"
+  },
+  {
+   "id": "p:174",
+   "es": "Importes equiparados:",
+   "eu": "Zenbateko parekatuak:"
+  },
+  {
+   "id": "p:175",
+   "es": "En 2021",
+   "eu": "2021ean"
+  },
+  {
+   "id": "p:178",
+   "es": "En 2023",
+   "eu": "2023an"
+  },
+  {
+   "id": "p:181",
+   "es": "En 2024",
+   "eu": "2024an"
+  },
+  {
+   "id": "p:184",
+   "es": "En 2025",
+   "eu": "2025ean"
+  },
+  {
+   "id": "p:189",
+   "es": "Nº: Número de trabajadores/as",
+   "eu": "Kop.: langile kopurua"
+  },
+  {
+   "id": "p:190",
+   "es": "Nº SC: Numero de situaciones contractuales diferentes dentro del periodo de referencia",
+   "eu": "KE kop.: erreferentziako aldiko kontratu-egoera desberdinen kopurua"
+  },
+  {
+   "id": "p:191",
+   "es": "Nº SC Norm: Numero de situaciones contractuales normalizadas",
+   "eu": "KE norm. kop.: kontratu-egoera normalizatuen kopurua"
+  },
+  {
+   "id": "p:192",
+   "es": "Nº SC Anualiz: Numero de situaciones contractuales anualizadas",
+   "eu": "KE urtek. kop.: kontratu-egoera urtekotuen kopurua"
+  },
+  {
+   "id": "p:193",
+   "es": "Nº SC Norm y Anualiz: Numero de situaciones contractuales normalizadas y anualizadas",
+   "eu": "KE norm. eta urtek. kop.: kontratu-egoera normalizatu eta urtekotuen kopurua"
+  },
+  {
+   "id": "p:194",
+   "es": "Nº SC Eq: Numero de situaciones contractuales que son objeto de equiparación.",
+   "eu": "KE par. kop.: parekatzen diren kontratu-egoeren kopurua."
+  },
+  {
+   "id": "p:196",
+   "es": "Se observa en CCASA una brecha salarial total de 4 puntos porcentuales (0 puntos porcentuales en los valores equiparables) a favor de los hombres. Este dato está por debajo de la brecha salarial de la CAE que es de 24%.  Aun así, es preciso seguir avanzando para eliminarla por completo. Se observa la tendencia descendente desde con respecto al último registro retributivo de 2021. Para ello, se procede a un análisis de las brechas salariales por niveles para así identificar dónde pueden estar las principales causas de estas. En las siguientes tablas se muestran estos datos. En ella se marcan:",
+   "eu": "CCASAn 4 ehuneko puntuko soldata-arrakala osoa dago gizonen alde (0 ehuneko puntu balio parekagarrietan). Datu hori EAEko soldata-arrakalaren azpitik dago; hura % 24koa da. Hala ere, aurrera egiten jarraitu behar da arrakala erabat desagerrarazteko. Beheranzko joera ikusten da 2021eko azken ordainsari-erregistroarekin alderatuta. Horretarako, soldata-arrakalak mailaka aztertzen dira, haien arrazoi nagusiak non egon daitezkeen identifikatzeko. Hurrengo tauletan ageri dira datu horiek. Tauletan honela markatzen dira:"
+  },
+  {
+   "id": "p:198",
+   "es": "Con color naranja a aquellas brechas que están entre 0 y + 25 (favorables a los hombres) o -25 (favorables a las mujeres), ",
+   "eu": "Laranjaz, 0 eta +25 (gizonen aldekoak) edo -25 (emakumeen aldekoak) bitarteko arrakalak."
+  },
+  {
+   "id": "p:199",
+   "es": "Con color rojo las que están por encima (favorables a los hombres) o por debajo (favorables a las mujeres) de los 25 ",
+   "eu": "Gorriz, 25etik gorakoak (gizonen aldekoak) edo -25etik beherakoak (emakumeen aldekoak)."
+  },
+  {
+   "id": "p:200",
+   "es": "Y en verde las que son 0.",
+   "eu": "Eta berdez, 0koak."
+  },
+  {
+   "id": "p:202",
+   "es": "Además, en aquellos perfiles en los que hay un solo sexo representado, no procede análisis de brecha salarial por perfil profesional. ",
+   "eu": "Gainera, sexu bakarra ordezkatuta dagoen profiletan ez da egokia lanbide-profilaren araberako soldata-arrakala aztertzea."
+  },
+  {
+   "id": "p:204",
+   "es": "Se observa que las brechas salariales por perfil referidas a salario base y complemento de nivel se deben fundamentalmente a: excedencias, bajas médicas, permisos de maternidad y reducciones de jornadas por cuidados, estas dos últimas a las que se han acogido principalmente las mujeres.",
+   "eu": "Ikusten denez, oinarrizko soldatari eta maila-osagarriari dagozkien profilaren araberako soldata-arrakalak, batez ere, honako hauen ondorio dira: eszedentziak, mediku-bajak, amatasun-baimenak eta zaintzagatiko lanaldi-murrizketak. Azken bi horiek, batez ere, emakumeek hartu dituzte."
+  },
+  {
+   "id": "p:205",
+   "es": "En cuanto al resto de conceptos retributivos: Ayuda familiar, Compensación de horas extras, Plus de vestuario, Retribución en especie Mutua Foral, Retribución en especie intereses, Ayuda a estudios, y horas extraordinarias no procede su equiparación, al no depender de la situación contractual de la persona, ni tampoco de su jornada. Las diferencias se deben a las diferentes situaciones personales de las personas en función del acceso a determinadas ayudas recogidas en el Convenio y que se reflejan en nómina.",
+   "eu": "Gainerako ordainsari-kontzeptuei dagokienez (familia-laguntza, aparteko orduen konpentsazioa, jantzi-plusa, Mutua Foralaren gauzazko ordainsaria, interesen gauzazko ordainsaria, ikasketetarako laguntza eta aparteko orduak), ez da egokia horiek parekatzea, ez baitaude pertsonaren kontratu-egoeraren ezta lanaldiaren mende ere. Aldeak pertsonen egoera pertsonal desberdinen ondorio dira, Hitzarmenean jasotako eta nominan islatzen diren laguntza jakin batzuk eskuratzeko aukeraren arabera."
+  },
+  {
+   "id": "p:206",
+   "es": "Tampoco procede el complemento para personas con jubilación parcial al 25% al tratarse de un complemento al 93 % de su salario bruto anual, por lo que, al normalizarlo, distorsiona la realidad, estableciendo una retribución para esa persona mucho más alta de lo que realmente le correspondería por estar al 100% de jornada",
+   "eu": "Ez da egokia, halaber, % 25eko erretiro partzialean dauden pertsonentzako osagarria parekatzea; izan ere, urteko soldata gordinaren % 93ko osagarria da, eta, normalizatzean, errealitatea desitxuratzen du: pertsona horri benetan lanaldiaren % 100ean legokiokeena baino ordainsari askoz handiagoa ezartzen dio."
+  },
+  {
+   "id": "p:208",
+   "es": "Medias valores efectivos en 2021:",
+   "eu": "Balio efektiboen batez bestekoak, 2021ean:"
+  },
+  {
+   "id": "p:212",
+   "es": "Medias valores efectivos en 2023:",
+   "eu": "Balio efektiboen batez bestekoak, 2023an:"
+  },
+  {
+   "id": "p:216",
+   "es": "Medias valores efectivos en 2024:",
+   "eu": "Balio efektiboen batez bestekoak, 2024an:"
+  },
+  {
+   "id": "p:225",
+   "es": "Medias valores efectivos en 2025",
+   "eu": "Balio efektiboen batez bestekoak, 2025ean"
+  },
+  {
+   "id": "p:231",
+   "es": "Media valores equiparados en 2021:",
+   "eu": "Balio parekatuen batez bestekoa, 2021ean:"
+  },
+  {
+   "id": "p:236",
+   "es": "Media valores equiparados en 2023:",
+   "eu": "Balio parekatuen batez bestekoa, 2023an:"
+  },
+  {
+   "id": "p:240",
+   "es": "Media valores equiparados en 2024:",
+   "eu": "Balio parekatuen batez bestekoa, 2024an:"
+  },
+  {
+   "id": "p:243",
+   "es": "Media valores equiparados en 2025:",
+   "eu": "Balio parekatuen batez bestekoa, 2025ean:"
+  },
+  {
+   "id": "p:247",
+   "es": "ESCALA 01 O GRUPO PROFESIONAL 01 RESPONSABLES DE ÁREA",
+   "eu": "01 ESKALA EDO 01 LANBIDE-TALDEA: ARLOKO ARDURADUNAK"
+  },
+  {
+   "id": "p:248",
+   "es": "Las diferencias en el salario base y complemento de nivel, se reducen e incluso se invierten, al tener en cuenta los valores equiparados. En concreto por una persona mujer con contrato de relevo al 25 %.",
+   "eu": "Balio parekatuak kontuan hartuta, oinarrizko soldataren eta maila-osagarriaren aldeak murriztu egiten dira, eta alderantzikatu ere bai. Zehazki, % 25eko txanda-kontratua duen emakume batengatik."
+  },
+  {
+   "id": "p:249",
+   "es": "En cuanto a la diferencia de los complementos salariales equiparados se debe: ",
+   "eu": "Soldata-osagarri parekatuen aldeari dagokionez, arrazoi hauek daude:"
+  },
+  {
+   "id": "p:250",
+   "es": "La diferencia negativa se debe a la excedencia y baja médica de varios hombres y a la reciente promoción interna de un hombre.",
+   "eu": "Alde negatiboa zenbait gizonen eszedentziaren eta mediku-bajaren ondorio da, baita gizon baten barne-sustapen berriaren ondorio ere."
+  },
+  {
+   "id": "p:251",
+   "es": "En los contratos de relevo, no procede la anualización del Complemento de jubilación, para la brecha salarial, al ser un concepto retributivo que no puede anualizarse al no corresponderse con el 25 % de jornada. Si en cambio procede la anualización de su complemento personal, y resto de conceptos.",
+   "eu": "Txanda-kontratuetan, soldata-arrakala kalkulatzeko ez da egokia erretiro-osagarria urtekotzea, ezin baita urtekotu, ez baitagokio lanaldiaren % 25ari. Bai, ordea, osagarri pertsonala eta gainerako kontzeptuak urtekotzea."
+  },
+  {
+   "id": "p:252",
+   "es": "No obstante lo anterior, aunque se reduce significativamente, resulta igualmente elevada la diferencia existente en el complemento personal. ",
+   "eu": "Hala ere, nabarmen murrizten den arren, osagarri pertsonalean dagoen aldea handia da oraindik."
+  },
+  {
+   "id": "p:255",
+   "es": "ESCALA 03 O GRUPO PROFESIONAL 03 JEFATURAS DE PROYECTO",
+   "eu": "03 ESKALA EDO 03 LANBIDE-TALDEA: PROIEKTU-BURUAK"
+  },
+  {
+   "id": "p:256",
+   "es": "Las diferencias en el salario base y complementos salariales efectivos:",
+   "eu": "Oinarrizko soldataren eta soldata-osagarri efektiboen aldeak:"
+  },
+  {
+   "id": "p:257",
+   "es": "La última situación contractual de 4 JP hombres y 1 JP mujer que han progresado de nivel N2 a N3 el 1 de octubre de 2025 por lo que su complemento de nivel ha pasado de N2 a N3.",
+   "eu": "2025eko urriaren 1ean N2 mailatik N3 mailara igo diren 4 proiektu-buru gizonen eta proiektu-buru emakume baten azken kontratu-egoera; beraz, haien maila-osagarria N2tik N3ra igaro da."
+  },
+  {
+   "id": "p:258",
+   "es": "La última situación contractual de 3 JP hombres que han promocionado a JP el 09/12/2025 accediendo al nivel N1",
+   "eu": "2025/12/09an proiektu-buru izatera sustatu eta N1 mailan sartu diren 3 proiektu-buru gizonen azken kontratu-egoera."
+  },
+  {
+   "id": "p:259",
+   "es": "Última situación contractual de 3 JP (2 hombres y 1 mujer) que han accedido al contrato de relevo en 2025.",
+   "eu": "2025ean txanda-kontratua hartu duten 3 proiektu-buruen (2 gizon eta emakume bat) azken kontratu-egoera."
+  },
+  {
+   "id": "p:260",
+   "es": "Hay dos hombres y una mujer que han accedido al contrato de relevo.",
+   "eu": "Bi gizonek eta emakume batek hartu dute txanda-kontratua."
+  },
+  {
+   "id": "p:261",
+   "es": "Se reducen, e incluso se invierten, al tener en cuenta los valores equiparados. En cuanto a la diferencia del salario base y de los complementos salariales equiparados, se observan los siguientes aspectos: ",
+   "eu": "Balio parekatuak kontuan hartuta, aldeak murriztu egiten dira, eta alderantzikatu ere bai. Oinarrizko soldataren eta soldata-osagarri parekatuen aldeari dagokionez, alderdi hauek ikusten dira:"
+  },
+  {
+   "id": "p:262",
+   "es": "Complemento de Nivel: De las seis JP mujeres,  únicamente una está en el N3, frente a  4 JP hombres que están en el N3 (de 15 JP hombres)",
+   "eu": "Maila-osagarria: sei proiektu-buru emakumeetatik bakarra dago N3 mailan; gizonen artean, berriz, 4 daude N3 mailan (15 proiektu-buru gizonetatik)."
+  },
+  {
+   "id": "p:263",
+   "es": "Además, dentro de esos 15 hombres, se tiene en cuenta 1 hombre que ha accedido por promoción interna a JP (el 1 de septiembre de 2024) y permanece en el N1 de JP, por lo que el complemento de nivel es N1.",
+   "eu": "Gainera, 15 gizon horien artean, kontuan hartzen da gizon bat barne-sustapenaren bidez proiektu-buru izatera iritsi zela (2024ko irailaren 1ean) eta proiektu-buruen N1 mailan jarraitzen duela; beraz, haren maila-osagarria N1ekoa da."
+  },
+  {
+   "id": "p:264",
+   "es": "En el contrato de relevo, no procede el cómputo del Complemento, para la brecha salarial, al ser un concepto retributivo que no puede anualizarse.",
+   "eu": "Txanda-kontratuan, soldata-arrakala kalkulatzeko ez da egokia osagarria zenbatzea, ezin baita urtekotu."
+  },
+  {
+   "id": "p:265",
+   "es": "Las diferencias de salarios base y complemento de nivel se deben a unas bajas médicas de una mujer, y de un hombre.",
+   "eu": "Oinarrizko soldataren eta maila-osagarriaren aldeak emakume baten eta gizon baten mediku-bajen ondorio dira."
+  },
+  {
+   "id": "p:266",
+   "es": "Tiene en cuenta la última situación contractual de un hombre que fue baja en julio de 2025, por lo que no computa su retribución y tampoco se anualiza.",
+   "eu": "2025eko uztailean enpresatik irten zen gizon baten azken kontratu-egoera hartzen da kontuan; beraz, haren ordainsaria ez da zenbatzen, eta ez da urtekotzen."
+  },
+  {
+   "id": "p:267",
+   "es": "Resulta reseñable que la brecha resultante en antigüedad es a favor de las mujeres debido a que las jefaturas de proyecto más noveles son todas ocupadas por hombres.",
+   "eu": "Nabarmentzekoa da antzinatasunaren arrakala emakumeen aldekoa dela, proiektu-buruen lanpostu berrienak gizonek betetzen dituztelako guztiak."
+  },
+  {
+   "id": "p:268",
+   "es": "Igualmente, el complemento personal es a favor de las mujeres",
+   "eu": "Era berean, osagarri pertsonala emakumeen aldekoa da."
+  },
+  {
+   "id": "p:269",
+   "es": "La desviación en los conceptos extrasalariales se debe a las bajas médicas de un hombre y de una mujer.",
+   "eu": "Soldataz kanpoko kontzeptuetako desbideratzea gizon baten eta emakume baten mediku-bajen ondorio da."
+  },
+  {
+   "id": "p:271",
+   "es": "ESCALA 05 O GRUPO PROFESIONAL 05 CONSULTORÍA",
+   "eu": "05 ESKALA EDO 05 LANBIDE-TALDEA: AHOLKULARITZA"
+  },
+  {
+   "id": "p:272",
+   "es": "Las diferencias en los salarios efectivos a favor de las mujeres se deben a los siguientes motivos:",
+   "eu": "Soldata efektiboetan emakumeen aldeko aldeak arrazoi hauengatik daude:"
+  },
+  {
+   "id": "p:273",
+   "es": "Un hombre se ha incorporado al colectivo de consultoría en junio de 2025",
+   "eu": "Gizon bat aholkularitza-taldean sartu da 2025eko ekainean."
+  },
+  {
+   "id": "p:274",
+   "es": "Un hombre ha accedido al contrato de relevo de un hombre que ha accedido al mismo en octubre de 2025 reduciendo su jornada al 67,7 por ciento, pero además está de baja de IT por pago directo, suponiendo una reducción aún mayor del 67,7 % al estar la prestación de IT a cargo directo del INSS. ",
+   "eu": "Gizon batek txanda-kontratua hartu du, 2025eko urrian txanda-kontratua hartu zuen beste gizon baten ordez, eta lanaldia % 67,7ra murriztu du. Gainera, ordainketa zuzeneko aldi baterako ezintasunagatiko bajan dago; horrek % 67,7 hori baino murrizketa handiagoa dakar, aldi baterako ezintasunaren prestazioa zuzenean GSINek ordaintzen duelako."
+  },
+  {
+   "id": "p:275",
+   "es": "No aplica la brecha de complemento personal , porque no hay en este colectivo. (Únicamente lo percibe la mujer).",
+   "eu": "Osagarri pertsonalaren arrakala ez da aplikatzen, talde honetan ez baitago. (Emakumeak bakarrik jasotzen du.)"
+  },
+  {
+   "id": "p:277",
+   "es": "Las diferencias de las retribuciones una vez equiparadas se reducen e incluso se invierten  al tener en cuenta los valores equiparados. ",
+   "eu": "Ordainsarien aldeak, parekatu ondoren, murriztu egiten dira, eta alderantzikatu ere bai, balio parekatuak kontuan hartuta."
+  },
+  {
+   "id": "p:278",
+   "es": "Se tiene en cuenta la última situación contractual de un hombre que se ha incorporado en junio de 2025.",
+   "eu": "2025eko ekainean sartu zen gizon baten azken kontratu-egoera hartzen da kontuan."
+  },
+  {
+   "id": "p:279",
+   "es": "Se tiene en cuenta el contrato de relevo de un hombre que ha accedido al mismo en octubre de 2025.",
+   "eu": "2025eko urrian txanda-kontratua hartu zuen gizon baten kontratua hartzen da kontuan."
+  },
+  {
+   "id": "p:280",
+   "es": "En cuanto a la diferencia de los complementos salariales equiparados, se observan los siguientes aspectos: ",
+   "eu": "Soldata-osagarri parekatuen aldeari dagokionez, alderdi hauek ikusten dira:"
+  },
+  {
+   "id": "p:281",
+   "es": "Las diferencias de salarios base y complemento de nivel se deben a una baja médica de un hombre. Además este hombre ha pasado a pago directo del INSS desde la formalización del contrato de relevo.",
+   "eu": "Oinarrizko soldataren eta maila-osagarriaren aldeak gizon baten mediku-bajaren ondorio dira. Gainera, gizon hori GSINen ordainketa zuzenera igaro da txanda-kontratua formalizatu zenetik."
+  },
+  {
+   "id": "p:283",
+   "es": "ESCALA 06 O GRUPO PROFESIONAL 06 ANALISTAS DE SISTEMAS",
+   "eu": "06 ESKALA EDO 06 LANBIDE-TALDEA: SISTEMA-ANALISTAK"
+  },
+  {
+   "id": "p:284",
+   "es": "Las diferencias en el salario base y complementos salariales en las retribuciones efectivas, se deben a los siguientes motivos:",
+   "eu": "Ordainsari efektiboetan, oinarrizko soldataren eta soldata-osagarrien aldeak arrazoi hauengatik daude:"
+  },
+  {
+   "id": "p:285",
+   "es": "A lo largo de 2025 se han incorporado 1 hombre y una mujer (el 14 de enero de 2025, y 5 de mayo de 2025, respectivamente) accediendo en el Nivel 5.",
+   "eu": "2025ean gizon bat eta emakume bat sartu dira (2025eko urtarrilaren 14an eta 2025eko maiatzaren 5ean, hurrenez hurren), 5. mailan."
+  },
+  {
+   "id": "p:286",
+   "es": "Dos analistas de sistemas hombres son baja en la empresa en febrero y en octubre de 2025.",
+   "eu": "Sistema-analista diren bi gizon enpresatik irten dira 2025eko otsailean eta urrian."
+  },
+  {
+   "id": "p:287",
+   "es": "La situación de un hombre que ha solicitado excedencia en marzo de 2025",
+   "eu": "2025eko martxoan eszedentzia eskatu duen gizon baten egoera."
+  },
+  {
+   "id": "p:288",
+   "es": "La situación de tres hombres que han sido progresados de nivel N1 a N2 el 01/07/2025. (Han percibido las retribuciones de su N1 hasta el 30/06/2025)",
+   "eu": "2025/07/01ean N1 mailatik N2 mailara igo diren hiru gizonen egoera. (2025/06/30era arte N1 mailako ordainsariak jaso dituzte.)"
+  },
+  {
+   "id": "p:289",
+   "es": "La situación de dos mujeres que han sido progresados de nivel N1 a N2 el 01/07/2025. (Han percibido las retribuciones de su N1 hasta el 30/06/2025)",
+   "eu": "2025/07/01ean N1 mailatik N2 mailara igo diren bi emakumeren egoera. (2025/06/30era arte N1 mailako ordainsariak jaso dituzte.)"
+  },
+  {
+   "id": "p:290",
+   "es": "La situación de cuatro analistas de sistemas (3 hombres y 1 mujer) que han sido progresados de nivel N2 a N3. (Perciben el N3 a partir del 01/10/2025.)",
+   "eu": "N2 mailatik N3 mailara igo diren lau sistema-analistaren egoera (3 gizon eta emakume bat). (2025/10/01etik aurrera jasotzen dute N3 maila.)"
+  },
+  {
+   "id": "p:291",
+   "es": "Se tiene en cuenta un hombre con contrato de relevo que está al 25 % de jornada que ha sido baja definitiva en la empresa en julio de 2025.",
+   "eu": "Lanaldiaren % 25eko txanda-kontratua zuen eta 2025eko uztailean enpresatik behin betiko irten zen gizon bat hartzen da kontuan."
+  },
+  {
+   "id": "p:293",
+   "es": "Con la equiparación, las diferencias efectivas se reducen e incluso se invierten debido a los siguientes motivos:",
+   "eu": "Parekatzearekin, alde efektiboak murriztu egiten dira, eta alderantzikatu ere bai, arrazoi hauengatik:"
+  },
+  {
+   "id": "p:294",
+   "es": "Se tiene en cuenta la última situación contractual de tres hombres que han sido progresados de nivel N1 a N2 el 01/07/2025.",
+   "eu": "2025/07/01ean N1 mailatik N2 mailara igo diren hiru gizonen azken kontratu-egoera hartzen da kontuan."
+  },
+  {
+   "id": "p:295",
+   "es": "Se tiene en cuenta la última situación contractual de dos mujeres que han sido progresados de nivel N1 a N2 el 01/07/2025",
+   "eu": "2025/07/01ean N1 mailatik N2 mailara igo diren bi emakumeren azken kontratu-egoera hartzen da kontuan."
+  },
+  {
+   "id": "p:296",
+   "es": "Se tiene en cuenta la última situación contractual de 3 hombres y 1 mujer que han sido progresados de nivel N2 a N3 el 01/10/2025.",
+   "eu": "2025/10/01ean N2 mailatik N3 mailara igo diren 3 gizonen eta emakume baten azken kontratu-egoera hartzen da kontuan."
+  },
+  {
+   "id": "p:297",
+   "es": "Se anualiza el hombre con contrato de relevo que está al 25 % de jornada que ha sido baja definitiva en la empresa en julio de 2025. (No así con el complemento de jubilación)",
+   "eu": "Lanaldiaren % 25eko txanda-kontratua zuen eta 2025eko uztailean enpresatik behin betiko irten zen gizona urtekotu egiten da. (Erretiro-osagarria, ordea, ez.)"
+  },
+  {
+   "id": "p:299",
+   "es": "En cuanto a la diferencia del salario base y de los complementos salariales equiparados, se observan los siguientes aspectos: ",
+   "eu": "Oinarrizko soldataren eta soldata-osagarri parekatuen aldeari dagokionez, alderdi hauek ikusten dira:"
+  },
+  {
+   "id": "p:300",
+   "es": "La situación de paternidad de dos hombres en 2025 y de baja médica de un hombre en 2025.",
+   "eu": "2025ean bi gizonek aitatasun-baimena izan dute, eta gizon batek mediku-baja."
+  },
+  {
+   "id": "p:301",
+   "es": "La situación de excedencia de un hombre durante dos meses en 2025",
+   "eu": "Gizon batek bi hilabeteko eszedentzia izan du 2025ean."
+  },
+  {
+   "id": "p:302",
+   "es": "Un hombre que ha sido alta en la empresa el 14 de enero de 2025. (Se incorpora con el Nivel 5 que es su N1).",
+   "eu": "Gizon bat 2025eko urtarrilaren 14an sartu da enpresan. (5. mailan sartu da, bere N1 mailan.)"
+  },
+  {
+   "id": "p:303",
+   "es": "Un hombre que ha sido baja en la empresa con el N5. (Su N1)",
+   "eu": "Gizon bat enpresatik irten da N5 mailarekin. (Bere N1 maila.)"
+  },
+  {
+   "id": "p:304",
+   "es": "La situación de 2 hombres que han sido alta en la empresa (el 15 de enero de 2024 y el 1 de junio de 2024 con el Nivel 5 que es su N1 y en 2025 se han mantenido en ese nivel). ",
+   "eu": "Bi gizonen egoera: 2024ko urtarrilaren 15ean eta 2024ko ekainaren 1ean sartu ziren enpresan, 5. mailan (bere N1 maila), eta 2025ean maila horretan jarraitu dute."
+  },
+  {
+   "id": "p:305",
+   "es": "La situación de una mujer que ha sido alta en la empresa (el 5 de mayo de 2025 con el N5 que es su N1 y en 2025 se ha mantenido en ese nivel). ",
+   "eu": "Emakume baten egoera: 2025eko maiatzaren 5ean sartu zen enpresan, N5 mailan (bere N1 maila), eta 2025ean maila horretan jarraitu du."
+  },
+  {
+   "id": "p:306",
+   "es": "Todavía persiste, la diferencia en el complemento personal. Tienen complemento personal seis hombres y una mujer. Uno de los hombres ha estado de baja médica, lo que explica que el complemento personal sea negativo favorable a las mujeres. ",
+   "eu": "Osagarri pertsonaleko aldeak bere horretan jarraitzen du. Sei gizonek eta emakume batek dute osagarri pertsonala. Gizonetako bat mediku-bajan egon da; horregatik da osagarri pertsonala negatiboa, emakumeen aldekoa."
+  },
+  {
+   "id": "p:310",
+   "es": "ESCALA 07 O GRUPO PROFESIONAL 07 ANALISTAS DE SISTEMAS UT",
+   "eu": "07 ESKALA EDO 07 LANBIDE-TALDEA: SISTEMA-ANALISTAK (UT)"
+  },
+  {
+   "id": "p:311",
+   "es": "Las diferencias en el salario base y complementos salariales se mantienen exactamente iguales al tener en cuenta los valores equiparados ",
+   "eu": "Balio parekatuak kontuan hartuta, oinarrizko soldataren eta soldata-osagarrien aldeak berdin-berdin mantentzen dira."
+  },
+  {
+   "id": "p:312",
+   "es": "En cuanto a la diferencia del salario base y de los complementos salariales tanto efectivos como equiparados, se observan los siguientes aspectos: ",
+   "eu": "Oinarrizko soldataren eta soldata-osagarri efektiboen zein parekatuen aldeari dagokionez, alderdi hauek ikusten dira:"
+  },
+  {
+   "id": "p:314",
+   "es": "La diferencia del salario base y conceptos salariales se debe a la baja médica de maternidad, y excedencia de una mujer y no varían a pesar de la equiparación de conceptos.",
+   "eu": "Oinarrizko soldataren eta soldata-kontzeptuen aldea emakume baten amatasun-bajaren eta eszedentziaren ondorio da, eta ez da aldatzen kontzeptuak parekatu arren."
+  },
+  {
+   "id": "p:318",
+   "es": "ESCALA 08 O GRUPO PROFESIONAL 08 ANALISTAS FUNCIONALES",
+   "eu": "08 ESKALA EDO 08 LANBIDE-TALDEA: ANALISTA FUNTZIONALAK"
+  },
+  {
+   "id": "p:319",
+   "es": "Las diferencias en el Salario base y complementos salariales efectivos se deben a lo siguiente:",
+   "eu": "Oinarrizko soldataren eta soldata-osagarri efektiboen aldeak arrazoi hauengatik daude:"
+  },
+  {
+   "id": "p:320",
+   "es": "El complemento de antigüedad es superior en este colectivo de mujeres. ",
+   "eu": "Antzinatasun-osagarria handiagoa da talde honetako emakumeen artean."
+  },
+  {
+   "id": "p:321",
+   "es": "Han sido alta en la empresa en 2025 4 hombres, uno en febrero y tres en septiembre de 2025, en su N1 (Nivel 5).",
+   "eu": "2025ean 4 gizon sartu dira enpresan, bat otsailean eta hiru 2025eko irailean, bere N1 mailan (5. maila)."
+  },
+  {
+   "id": "p:322",
+   "es": "El 16 de julio de 2025 ha sido baja voluntaria una mujer con contrato de interinidad, y con un N5.",
+   "eu": "2025eko uztailaren 16an bitarteko kontratua eta N5 maila zituen emakume bat borondatez irten da enpresatik."
+  },
+  {
+   "id": "p:323",
+   "es": "Han sido alta en la empresa en 2025 tres mujeres, dos en junio y otra en octubre de 2025 en su N1 (N5)",
+   "eu": "2025ean hiru emakume sartu dira enpresan, bi ekainean eta bat 2025eko urrian, bere N1 mailan (N5)."
+  },
+  {
+   "id": "p:324",
+   "es": "Se mantienen en el N5 (su N1) un hombre y una mujer que se incorporaron en 2024.",
+   "eu": "2024an sartu ziren gizon bat eta emakume bat N5 mailan (bere N1 maila) jarraitzen dute."
+  },
+  {
+   "id": "p:325",
+   "es": "Se mantiene en el N5 parte del año (su N1) una mujer que se incorporó en 2023.",
+   "eu": "2023an sartu zen emakume batek urtearen zati batean jarraitu du N5 mailan (bere N1 maila)."
+  },
+  {
+   "id": "p:326",
+   "es": "Se mantiene en el N5 todo el año (su N1) una mujer que se incorporó a finales de 2023.",
+   "eu": "2023aren amaieran sartu zen emakume batek urte osoan jarraitu du N5 mailan (bere N1 maila)."
+  },
+  {
+   "id": "p:327",
+   "es": "Resumen: 7 mujeres y 5 hombres en el N5",
+   "eu": "Laburpena: 7 emakume eta 5 gizon N5 mailan."
+  },
+  {
+   "id": "p:328",
+   "es": "Hay dos mujeres con contrato de relevo, una de ellas con una reducción del 25 % y otra ha accedido al contrato de relevo con una reducción de jornada del 67,7% ",
+   "eu": "Bi emakumek txanda-kontratua dute: batek % 25eko murrizketa du, eta besteak % 67,7ko lanaldi-murrizketarekin hartu du txanda-kontratua."
+  },
+  {
+   "id": "p:329",
+   "es": "En febrero de 2025 es baja un hombre.",
+   "eu": "2025eko otsailean gizon bat enpresatik irten da."
+  },
+  {
+   "id": "p:330",
+   "es": "En octubre de 2025 progresan de nivel N5 a N6, dos hombres y una mujer.",
+   "eu": "2025eko urrian bi gizon eta emakume bat N5 mailatik N6 mailara igo dira."
+  },
+  {
+   "id": "p:331",
+   "es": "Resumen: dos hombres y una mujer en el nivel 7",
+   "eu": "Laburpena: bi gizon eta emakume bat 7. mailan."
+  },
+  {
+   "id": "p:332",
+   "es": "La baja médica de seis mujeres, siendo dos de ellas muy significativas, y la baja médica de un hombre.",
+   "eu": "Sei emakumeren mediku-bajak (horietako bi oso esanguratsuak) eta gizon baten mediku-baja."
+  },
+  {
+   "id": "p:333",
+   "es": "Un hombre ha estado de baja de paternidad",
+   "eu": "Gizon batek aitatasun-baimena izan du."
+  },
+  {
+   "id": "p:335",
+   "es": "Pero las diferencias en los complementos salariales se reducen, e incluso se revierten, al tener en cuenta los valores equiparados. ",
+   "eu": "Baina soldata-osagarrien aldeak murriztu egiten dira, eta alderantzikatu ere bai, balio parekatuak kontuan hartuta."
+  },
+  {
+   "id": "p:336",
+   "es": "Ello es debido a que:",
+   "eu": "Arrazoiak hauek dira:"
+  },
+  {
+   "id": "p:337",
+   "es": "Se anualizan las altas y bajas a lo largo del año 2025, tanto de nuevas incorporaciones como de promociones internas.",
+   "eu": "2025ean zehar izandako altak eta bajak urtekotu egiten dira, bai sarrera berrienak, bai barne-sustapenenak."
+  },
+  {
+   "id": "p:338",
+   "es": "Se tiene en cuenta la última situación contractual de una mujer que ha progresado de nivel el 1/07/2025.",
+   "eu": "2025/07/01ean maila igo duen emakume baten azken kontratu-egoera hartzen da kontuan."
+  },
+  {
+   "id": "p:339",
+   "es": "Se tiene en cuenta la última situación contractual de un hombre y de una mujer que han progresado de nivel N2 a N3 el 1/10/2025.",
+   "eu": "2025/10/01ean N2 mailatik N3 mailara igo diren gizon baten eta emakume baten azken kontratu-egoera hartzen da kontuan."
+  },
+  {
+   "id": "p:340",
+   "es": "Se tiene en cuenta dos mujeres con contrato de relevo, una de ellas con una reducción del 25 % y otra ha accedido al contrato de relevo con una reducción de jornada del 67,7% ",
+   "eu": "Txanda-kontratua duten bi emakume hartzen dira kontuan: batek % 25eko murrizketa du, eta besteak % 67,7ko lanaldi-murrizketarekin hartu du txanda-kontratua."
+  },
+  {
+   "id": "p:341",
+   "es": "Es reseñable la mayor antigüedad de las mujeres.",
+   "eu": "Nabarmentzekoa da emakumeen antzinatasun handiagoa."
+  },
+  {
+   "id": "p:342",
+   "es": "En cuanto a la diferencia del salario base y de los complementos salariales equiparados, se observan los siguientes aspectos: ",
+   "eu": "Oinarrizko soldataren eta soldata-osagarri parekatuen aldeari dagokionez, alderdi hauek ikusten dira:"
+  },
+  {
+   "id": "p:343",
+   "es": "La situación de siete mujeres que se han incorporado entre 2023-2024 y 2025 y que se han mantenido seis de ellas todo el año y una de ellas hasta 01/07/2025 en  el Nivel 5 que es su N1).",
+   "eu": "2023-2024 eta 2025 artean sartu diren zazpi emakumeren egoera: horietako seik urte osoan jarraitu dute 5. mailan (bere N1 maila), eta batek 2025/07/01era arte."
+  },
+  {
+   "id": "p:344",
+   "es": "La situación de cinco hombres que se han incorporado entre 2023-2024 y 2025 y que se han mantenido todo el año en  el Nivel 5 que es su N1).",
+   "eu": "2023-2024 eta 2025 artean sartu diren bost gizonen egoera: urte osoan jarraitu dute 5. mailan (bere N1 maila)."
+  },
+  {
+   "id": "p:345",
+   "es": "En el contrato de relevo, no procede el cómputo del Complemento, para la brecha salarial, al ser un concepto retributivo que no puede anualizarse.",
+   "eu": "Txanda-kontratuan, soldata-arrakala kalkulatzeko ez da egokia osagarria zenbatzea, ezin baita urtekotu."
+  },
+  {
+   "id": "p:346",
+   "es": "La diferencia del salario base y del resto de conceptos salariales se debe a las bajas médicas de seis mujeres y de un hombre.",
+   "eu": "Oinarrizko soldataren eta gainerako soldata-kontzeptuen aldea sei emakumeren eta gizon baten mediku-bajen ondorio da."
+  },
+  {
+   "id": "p:347",
+   "es": "Además, hay dos mujeres y un hombre que han percibido complemento de nivel transitorio.",
+   "eu": "Gainera, bi emakumek eta gizon batek aldi baterako maila-osagarria jaso dute."
+  },
+  {
+   "id": "p:348",
+   "es": "Un hombre ha estado de baja de paternidad",
+   "eu": "Gizon batek aitatasun-baimena izan du."
+  },
+  {
+   "id": "p:351",
+   "es": "ESCALA 09 O GRUPO PROFESIONAL 09 ANALISTAS DE SEGURIDAD",
+   "eu": "09 ESKALA EDO 09 LANBIDE-TALDEA: SEGURTASUN-ANALISTAK"
+  },
+  {
+   "id": "p:352",
+   "es": "Las diferencias en el salario base y los complementos salariales se reducen, al tener en cuenta los valores equiparados. ",
+   "eu": "Balio parekatuak kontuan hartuta, oinarrizko soldataren eta soldata-osagarrien aldeak murriztu egiten dira."
+  },
+  {
+   "id": "p:353",
+   "es": "Ello es debido a que:",
+   "eu": "Arrazoiak hauek dira:"
+  },
+  {
+   "id": "p:354",
+   "es": "Se tiene en cuenta la última situación contractual de la mujer que ha progresado de nivel (N5) a N6) que se incorporó el 15 de septiembre de 2023 en el nivel 5 (N1 del perfil profesional).",
+   "eu": "Maila igo duen emakumearen azken kontratu-egoera hartzen da kontuan (N5 mailatik N6 mailara); 2023ko irailaren 15ean sartu zen 5. mailan (lanbide-profilaren N1 maila)."
+  },
+  {
+   "id": "p:355",
+   "es": "En cuanto a la diferencia del salario base y de los complementos salariales equiparados, se observan los siguientes aspectos: ",
+   "eu": "Oinarrizko soldataren eta soldata-osagarri parekatuen aldeari dagokionez, alderdi hauek ikusten dira:"
+  },
+  {
+   "id": "p:356",
+   "es": "Se tiene en cuenta la situación de un hombre que se incorporó el 15 de enero de 2024 en el nivel 5 y se mantiene en ese nivel (N1 del perfil profesional).",
+   "eu": "2024ko urtarrilaren 15ean 5. mailan sartu zen eta maila horretan jarraitzen duen gizon baten egoera hartzen da kontuan (lanbide-profilaren N1 maila)."
+  },
+  {
+   "id": "p:357",
+   "es": "La mayor antigüedad de los hombres",
+   "eu": "Gizonen antzinatasun handiagoa."
+  },
+  {
+   "id": "p:359",
+   "es": "A destacar la diferencia en los complementos salariales motivados por el concepto de antigüedad favorable al hombre.",
+   "eu": "Nabarmentzekoa da antzinatasun-kontzeptuak eragindako soldata-osagarrien aldea, gizonaren aldekoa."
+  },
+  {
+   "id": "p:361",
+   "es": "ESCALA 12 O GRUPO PROFESIONAL 12 PROGRAMADORES/AS",
+   "eu": "12 ESKALA EDO 12 LANBIDE-TALDEA: PROGRAMATZAILEAK"
+  },
+  {
+   "id": "p:362",
+   "es": "Las diferencias en el salario base se eliminan, e incluso se revierten al tener en cuenta los valores equiparados. ",
+   "eu": "Balio parekatuak kontuan hartuta, oinarrizko soldataren aldeak desagertu egiten dira, eta alderantzikatu ere bai."
+  },
+  {
+   "id": "p:363",
+   "es": "Ello es debido a que:",
+   "eu": "Arrazoiak hauek dira:"
+  },
+  {
+   "id": "p:364",
+   "es": "Se tiene en cuenta la jornada reducida de una mujer.",
+   "eu": "Emakume baten lanaldi murriztua hartzen da kontuan."
+  },
+  {
+   "id": "p:365",
+   "es": "Se tiene en cuenta la última situación contractual de un hombre y de una mujer que han progresado de nivel el 1/07/2025 (de N5 de incorporación a N6).",
+   "eu": "2025/07/01ean maila igo duten gizon baten eta emakume baten azken kontratu-egoera hartzen da kontuan (sarrerako N5 mailatik N6 mailara)."
+  },
+  {
+   "id": "p:368",
+   "es": "En cuanto a la diferencia de los complementos salariales equiparados, se observan los siguientes aspectos: ",
+   "eu": "Soldata-osagarri parekatuen aldeari dagokionez, alderdi hauek ikusten dira:"
+  },
+  {
+   "id": "p:369",
+   "es": "Se tiene en cuenta la última situación contractual de una mujer que ha progresado de nivel a N6 (su N3) el 01/10/2026.",
+   "eu": "2026/10/01ean N6 mailara (bere N3 maila) igo den emakume baten azken kontratu-egoera hartzen da kontuan."
+  },
+  {
+   "id": "p:370",
+   "es": "ESCALA 18 O GRUPO PROFESIONAL 18 TÉCNICOS/AS DE PRODUCCIÓN",
+   "eu": "18 ESKALA EDO 18 LANBIDE-TALDEA: EKOIZPEN-TEKNIKARIAK"
+  },
+  {
+   "id": "p:371",
+   "es": "Las diferencias en el salario base se reducen e incluso se revierten al tener en cuenta los valores equiparados. ",
+   "eu": "Balio parekatuak kontuan hartuta, oinarrizko soldataren aldeak murriztu egiten dira, eta alderantzikatu ere bai."
+  },
+  {
+   "id": "p:373",
+   "es": "En cuanto a la diferencia del salario base y de los complementos salariales equiparados, se observan los siguientes aspectos: ",
+   "eu": "Oinarrizko soldataren eta soldata-osagarri parekatuen aldeari dagokionez, alderdi hauek ikusten dira:"
+  },
+  {
+   "id": "p:374",
+   "es": "La baja médica de una mujer.",
+   "eu": "Emakume baten mediku-baja."
+  },
+  {
+   "id": "p:375",
+   "es": "El concepto de complemento personal de un hombre ",
+   "eu": "Gizon baten osagarri pertsonaleko kontzeptua."
+  },
+  {
+   "id": "p:376",
+   "es": "Además, se tiene en cuenta la última situación contractual de una mujer que ha progresado de nivel a su N3 el 01/10/2025.",
+   "eu": "Gainera, 2025/10/01ean bere N3 mailara igo den emakume baten azken kontratu-egoera hartzen da kontuan."
+  },
+  {
+   "id": "p:378",
+   "es": "CONCLUSIONES CLASIFICACIÓN PROFESIONAL, RETRIBUCIONES Y AUTORÍAS SALARIALES",
+   "eu": "LANBIDE-SAILKAPENARI, ORDAINSARIEI ETA SOLDATA-AUDITORIEI BURUZKO ONDORIOAK"
+  },
+  {
+   "id": "p:379",
+   "es": "Sistema retributivo y clasificación profesional objetiva y transparente.",
+   "eu": "Ordainsari-sistema eta lanbide-sailkapen objektibo eta gardena."
+  },
+  {
+   "id": "p:380",
+   "es": "Se dispone de un registro retributivo de toda la plantilla con análisis de medias, medianas y brechas totales y por perfiles.",
+   "eu": "Langile guztien ordainsari-erregistroa dago, batez bestekoen, medianen eta arrakala osoen eta profilen araberakoen analisiarekin."
+  },
+  {
+   "id": "p:381",
+   "es": "Brecha salarial total por debajo de la brecha de la CAE, 4 puntos porcentuales (0 puntos porcentuales en valores equiparables).",
+   "eu": "Soldata-arrakala osoa EAEko arrakalaren azpitik dago: 4 ehuneko puntu (0 ehuneko puntu balio parekagarrietan)."
+  },
+  {
+   "id": "p:382",
+   "es": "La brecha salarial en el salario base se elimina o se reduce sensiblemente al calcular los valores equiparables.",
+   "eu": "Oinarrizko soldataren soldata-arrakala desagertu edo nabarmen murrizten da balio parekagarriak kalkulatzean."
+  },
+  {
+   "id": "p:383",
+   "es": "Respecto a la brecha salarial en los complementos salariales la mayor brecha salarial se da en el complemento personal y en el complemento de antigüedad.",
+   "eu": "Soldata-osagarrietako soldata-arrakalari dagokionez, arrakalarik handiena osagarri pertsonalean eta antzinatasun-osagarrian dago."
+  },
+  {
+   "id": "p:384",
+   "es": "Los responsables de área y de Unidad focal son casi todos hombres",
+   "eu": "Arloko eta Unitate fokaleko arduradunak ia guztiak gizonak dira."
+  },
+  {
+   "id": "p:385",
+   "es": "Las nuevas incorporaciones son mayoritariamente hombres",
+   "eu": "Sartu berriak, gehienbat, gizonak dira."
+  },
+  {
+   "id": "p:387",
+   "es": "PROPUESTAS QUE DISMINUYAN LA DIFERENCIA SALARIAL ",
+   "eu": "SOLDATA-ALDEA MURRIZTEKO PROPOSAMENAK"
+  },
+  {
+   "id": "p:388",
+   "es": "Ya en su momento, en 2016, CCASA optó por establecer un sistema de bandas salariales por grupos profesionales, inexistentes hasta la fecha.",
+   "eu": "Garai hartan, 2016an, CCASAk lanbide-taldeen araberako soldata-tarteen sistema ezartzea erabaki zuen; ordura arte ez zegoen halakorik."
+  },
+  {
+   "id": "p:389",
+   "es": "Así se recogió en el artículo 18 del convenio de CCASA, que dio lugar a la creación de un complemento personal a determinadas personas que, en el momento de entrada en vigor del convenio, y que, como consecuencia del establecimiento del mencionado sistema retributivo de niveles, estaban percibiendo cantidades superiores a las que resultaban de aplicación.",
+   "eu": "Hala jaso zen CCASAren hitzarmenaren 18. artikuluan. Horren ondorioz, osagarri pertsonal bat sortu zen hitzarmena indarrean sartu zen unean zenbait pertsonarentzat: aipatutako mailen ordainsari-sistema ezarri zenez, aplikatu beharrekoak baino zenbateko handiagoak jasotzen zituzten pertsonentzat."
+  },
+  {
+   "id": "p:390",
+   "es": "Resulta de vital importancia mantener la obligatoriedad del convenio de que no se haga extensivo en un futuro a ninguna otra persona que forme parte de la plantilla del CCASA, así como no incrementar su importe. ",
+   "eu": "Oso garrantzitsua da hitzarmenaren betebeharra mantentzea: etorkizunean ez zaio CCASAko beste inongo langileri zabalduko, eta ez da haren zenbatekoa handituko."
+  },
+  {
+   "id": "p:391",
+   "es": "Dado que una de las principales causas de que exista diferencia salarial en algunos perfiles profesionales del CCASA es la existencia del complemento personal, resulta imprescindible mantener la política de continuar disminuyendo la presencia del mismo en la empresa.",
+   "eu": "CCASAko lanbide-profil batzuetan soldata-aldea egotearen arrazoi nagusietako bat osagarri pertsonala denez, ezinbestekoa da osagarri horrek enpresan duen presentzia murrizten jarraitzeko politikari eustea."
+  },
+  {
+   "id": "p:394",
+   "es": "Nuevas incorporaciones y promociones internas: Resulta igualmente importante mantener la política retributiva de progresos de nivel (de N1 a N2) en personas recién incorporadas o personas recién promocionadas a perfiles profesionales de mayor recorrido en niveles retributivos para evitar que se generen diferencias salariales injustificadas.",
+   "eu": "Sarrera berriak eta barne-sustapenak: era berean, garrantzitsua da maila-igoeren ordainsari-politikari eustea (N1etik N2ra) sartu berriei eta ordainsari-mailetan ibilbide handiagoa duten lanbide-profiletara sustatu berri diren pertsonei, justifikatu gabeko soldata-aldeak sor ez daitezen."
+  },
+  {
+   "id": "p:395",
+   "es": "Continuar con la política de transparencia en las promociones internas del CCASA.",
+   "eu": "CCASAko barne-sustapenetako gardentasun-politikarekin jarraitzea."
+  },
+  {
+   "id": "p:396",
+   "es": "Igualmente, resulta imprescindible mantener una descripción y clasificación de los puestos de trabajo.",
+   "eu": "Era berean, ezinbestekoa da lanpostuen deskribapena eta sailkapena mantentzea."
+  },
+  {
+   "id": "p:397",
+   "es": "Revisar anualmente, a través de registro salarial, la evolución del resultado de la brecha salarial.",
+   "eu": "Urtero berrikustea, soldata-erregistroaren bidez, soldata-arrakalaren emaitzaren bilakaera."
+  },
+  {
+   "id": "p:399",
+   "es": "CUESTIONES LEGALES DE INTERÉS",
+   "eu": "INTERESEKO LEGE-GAIAK"
+  },
+  {
+   "id": "p:401",
+   "es": "Registro de empresas con auditoría retributiva:",
+   "eu": "Ordainsari-auditoria duten enpresen erregistroa:"
+  },
+  {
+   "id": "p:403",
+   "es": "Las empresas con auditoría retributiva deben incluir los promedios y medianas de las retribuciones de las agrupaciones que resulten del proceso de valoración de puestos de trabajo —puestos de igual valor— convenientemente desglosados por sexo, e incluyendo todas las retribuciones efectivamente satisfechas desagregadas en atención a la naturaleza de la retribución, incluyendo salario base, cada uno de los complementos y cada una de las percepciones extrasalariales, especificando de modo diferenciado cada percepción.",
+   "eu": "Ordainsari-auditoria duten enpresek lanpostuen balorazio-prozesutik ateratzen diren taldekatzeen ordainsarien batez bestekoak eta medianak sartu behar dituzte (balio bereko lanpostuak). Datu horiek sexuaren arabera behar bezala banakatuta egon behar dute, eta benetan ordaindutako ordainsari guztiak jaso behar dituzte, ordainsariaren izaeraren arabera banakatuta: oinarrizko soldata, osagarri bakoitza eta soldataz kanpoko ordainsari bakoitza, ordainsari bakoitza bereizita zehaztuta."
+  },
+  {
+   "id": "p:406",
+   "es": "Agrupación de conceptos retributivos ",
+   "eu": "Ordainsari-kontzeptuen taldekatzea"
+  },
+  {
+   "id": "p:407",
+   "es": "— Art. 28.2 ET: “El empresario está obligado a llevar un registro con los valores medios de los salarios, los complementos salariales y las percepciones extrasalariales de su plantilla, desagregados por sexo y distribuidos por grupos profesionales, categorías profesionales o puestos de trabajo iguales o de igual valor”.",
+   "eu": "— LEren 28.2 art.: «Enpresaburuak erregistro bat eraman behar du, bere langileen soldaten, soldata-osagarrien eta soldataz kanpoko ordainsarien batez besteko balioekin, sexuaren arabera banakatuta eta lanbide-taldeen, lanbide-kategorien edo lanpostu berdinen edo balio berekoen arabera banatuta»."
+  },
+  {
+   "id": "p:408",
+   "es": "— Art. 5.2 RD 902/2020: “A su vez, esa información deberá estar desagregada en atención a la naturaleza de la retribución, incluyendo salario base, cada uno de los complementos y cada una de las percepciones extrasalariales, especificando de modo diferenciado cada percepción”.",
+   "eu": "— 902/2020 ED, 5.2 art.: «Aldi berean, informazio hori ordainsariaren izaeraren arabera banakatuta egon beharko da, oinarrizko soldata, osagarri bakoitza eta soldataz kanpoko ordainsari bakoitza barne, ordainsari bakoitza bereizita zehaztuta»."
+  },
+  {
+   "id": "p:409",
+   "es": "— Guía de uso de la herramienta retributiva: El registro “deberá proporcionar información sobre todos y cada uno de los conceptos retributivos que abonen las empresas, sin agruparlos”.",
+   "eu": "— Ordainsari-tresnaren erabilera-gida: erregistroak «enpresek ordaintzen dituzten ordainsari-kontzeptu guztiei eta bakoitzari buruzko informazioa eman beharko du, taldekatu gabe»."
+  },
+  {
+   "id": "p:411",
+   "es": "La herramienta permite informar hasta 30 conceptos salariales y hasta 5 conceptos extrasalariales, permitiendo su agrupación únicamente en el supuesto de que existieran más. En tal caso, se agruparán: a) “lo estrictamente necesario (esto es, utilizando en todo caso los 30 disponibles); y b) “atendiendo a un criterio de similitud entre ellos”.",
+   "eu": "Tresnak 30 soldata-kontzeptu eta 5 soldataz kanpoko kontzeptu arte jakinarazteko aukera ematen du, eta gehiago badaude soilik onartzen du haiek taldekatzea. Kasu horretan, honela taldekatuko dira: a) «behar-beharrezkoa dena (hau da, beti erabilgarri dauden 30ak erabiliz)», eta b) «haien arteko antzekotasun-irizpideari jarraituz»."
+  },
+  {
+   "id": "p:413",
+   "es": "La retribución en concepto de “horas extraordinarias” y “horas complementarias”, debe incluirse en el registro al tratarse de complementos salariales por cantidad de trabajo y deben ser incluidos en el registro como un concepto específico.",
+   "eu": "«Aparteko orduen» eta «ordu osagarrien» kontzeptuko ordainsaria erregistroan sartu behar da, lan-kantitateagatiko soldata-osagarriak baitira, eta kontzeptu berezi gisa sartu behar dira erregistroan."
+  },
+  {
+   "id": "p:414",
+   "es": "• Las pagas extras no se informan como un complemento salarial independiente, sino que su cuantía se sumaría a los conceptos que integran.",
+   "eu": "• Aparteko ordainsariak ez dira soldata-osagarri independente gisa jakinarazten; haien zenbatekoa osatzen dituzten kontzeptuei gehitzen zaie."
+  },
+  {
+   "id": "p:415",
+   "es": "• También hay que reflejar las indemnizaciones por despido ya que la norma no prevé excepciones con respecto a los conceptos que deben ser informados en el registro.",
+   "eu": "• Kaleratze-kalte-ordainak ere jaso behar dira, arauak ez baitu salbuespenik aurreikusten erregistroan jakinarazi beharreko kontzeptuei dagokienez."
+  },
+  {
+   "id": "p:418",
+   "es": "Información sobre los cambios de puesto",
+   "eu": "Lanpostu-aldaketei buruzko informazioa"
+  },
+  {
+   "id": "p:419",
+   "es": "— Retribuciones efectivas: “Una misma persona puede por tanto aparecer en varias líneas, tantas como situaciones contractuales diferentes haya tenido durante el período de referencia.”",
+   "eu": "— Ordainsari efektiboak: «Beraz, pertsona bera hainbat lerrotan ager daiteke, erreferentziako aldian izan dituen kontratu-egoera desberdinak beste»."
+  },
+  {
+   "id": "p:420",
+   "es": "— Retribuciones equiparadas: “cuando una persona haya tenido más de una situación contractual diferente en el período de referencia, se tendrá en cuenta la última”.",
+   "eu": "— Ordainsari parekatuak: «pertsona batek erreferentziako aldian kontratu-egoera bat baino gehiago izan baditu, azkena hartuko da kontuan»."
+  },
+  {
+   "id": "p:423",
+   "es": "Información adicional que debe contener el registro retributivo de las empresas con auditoría retributiva",
+   "eu": "Ordainsari-auditoria duten enpresen ordainsari-erregistroak jaso behar duen informazio gehigarria"
+  },
+  {
+   "id": "p:424",
+   "es": " El registro retributivo de las empresas que hayan de realizar una auditoría retributiva debe reflejar las medias aritméticas y las medianas de las agrupaciones de los trabajos de igual valor en la empresa, conforme a los resultados de la evaluación de puestos de trabajo llevada a cabo por la empresa en el marco de aquélla.",
+   "eu": "Ordainsari-auditoria egin behar duten enpresen ordainsari-erregistroak enpresako balio bereko lanen taldekatzeen batez besteko aritmetikoak eta medianak islatu behar ditu, auditoria horren esparruan enpresak egindako lanpostuen ebaluazioaren emaitzen arabera."
+  },
+  {
+   "id": "p:425",
+   "es": "Además, si el promedio de las retribuciones de las personas trabajadoras de un sexo es superior a las del otro en un 25% o más, tomando el conjunto de la masa salarial o la media de las percepciones satisfechas, la empresa debe incluir en el registro una justificación de que dicha diferencia responde a motivos no relacionados con el sexo.",
+   "eu": "Gainera, sexu bateko langileen ordainsarien batez bestekoa beste sexukoena baino % 25 edo gehiago handiagoa bada, soldata-masa osoa edo ordaindutako ordainsarien batez bestekoa hartuta, enpresak justifikazio bat sartu behar du erregistroan, alde hori sexuarekin zerikusirik ez duten arrazoiengatik dagoela egiaztatzeko."
+  },
+  {
+   "id": "p:428",
+   "es": "Novedad 2025:",
+   "eu": "2025eko berritasuna:"
+  },
+  {
+   "id": "p:429",
+   "es": "Análisis por escalas o niveles retributivos:",
+   "eu": "Eskalen edo ordainsari-mailen araberako analisia:"
+  },
+  {
+   "id": "p:430",
+   "es": "Este año se ha incluido por primera vez el análisis según los complementos de nivel. ",
+   "eu": "Aurten, lehen aldiz, maila-osagarrien araberako analisia sartu da."
+  },
+  {
+   "id": "p:432",
+   "es": "Dentro de cada nivel o escala se encuentran agrupados los distintos perfiles profesionales en la empresa.",
+   "eu": "Maila edo eskala bakoitzaren barruan, enpresako lanbide-profil desberdinak daude taldekatuta."
+  },
+  {
+   "id": "t:0:0:0:0",
+   "es": "GRUPO 1",
+   "eu": "1. TALDEA"
+  },
+  {
+   "id": "t:0:0:1:0",
+   "es": "RESP. DE DPTO./ÁREA",
+   "eu": "SAILEKO/ARLOKO ARDURADUNA"
+  },
+  {
+   "id": "t:0:1:0:0",
+   "es": "GRUPO 2",
+   "eu": "2. TALDEA"
+  },
+  {
+   "id": "t:0:2:0:0",
+   "es": "GRUPO 3",
+   "eu": "3. TALDEA"
+  },
+  {
+   "id": "t:0:2:1:0",
+   "es": "JEFATURA DE PROYECTO",
+   "eu": "PROIEKTU-BURUA"
+  },
+  {
+   "id": "t:0:3:0:0",
+   "es": "GRUPO 4",
+   "eu": "4. TALDEA"
+  },
+  {
+   "id": "t:0:5:0:0",
+   "es": "GRUPO 6",
+   "eu": "6. TALDEA"
+  },
+  {
+   "id": "t:0:6:1:0",
+   "es": "ANALISTA DE SISTEMAS UT",
+   "eu": "SISTEMA-ANALISTA (UT)"
+  },
+  {
+   "id": "t:1:0:1:0",
+   "es": "Mujeres ",
+   "eu": "Emakumeak"
+  },
+  {
+   "id": "t:1:0:2:0",
+   "es": "Hombres",
+   "eu": "Gizonak"
+  },
+  {
+   "id": "t:1:1:0:0",
+   "es": "MEDIA",
+   "eu": "BATEZ BESTEKOA"
+  },
+  {
+   "id": "t:1:2:0:0",
+   "es": "MEDIANA",
+   "eu": "MEDIANA"
+  },
+  {
+   "id": "t:1:2:2:0",
+   "es": "50.079 €",
+   "eu": "50.079 €"
+  },
+  {
+   "id": "t:2:0:1:0",
+   "es": "Mujeres ",
+   "eu": "Emakumeak"
+  },
+  {
+   "id": "t:2:0:2:0",
+   "es": "Hombres",
+   "eu": "Gizonak"
+  },
+  {
+   "id": "t:2:1:1:0",
+   "es": "46.362 €",
+   "eu": "46.362 €"
+  },
+  {
+   "id": "t:2:1:2:0",
+   "es": "48.256 €",
+   "eu": "48.256 €"
+  },
+  {
+   "id": "t:3:0:1:0",
+   "es": "Mujeres ",
+   "eu": "Emakumeak"
+  },
+  {
+   "id": "t:3:0:2:0",
+   "es": "Hombres",
+   "eu": "Gizonak"
+  },
+  {
+   "id": "t:3:1:0:0",
+   "es": "MEDIA",
+   "eu": "BATEZ BESTEKOA"
+  },
+  {
+   "id": "t:3:1:1:0",
+   "es": "52.596 €",
+   "eu": "52.596 €"
+  },
+  {
+   "id": "t:3:2:2:0",
+   "es": "55.440 €",
+   "eu": "55.440 €"
+  },
+  {
+   "id": "t:4:0:1:0",
+   "es": "Mujeres ",
+   "eu": "Emakumeak"
+  },
+  {
+   "id": "t:4:0:2:0",
+   "es": "Hombres",
+   "eu": "Gizonak"
+  },
+  {
+   "id": "t:4:1:0:0",
+   "es": "MEDIA",
+   "eu": "BATEZ BESTEKOA"
+  },
+  {
+   "id": "t:4:2:0:0",
+   "es": "MEDIANA",
+   "eu": "MEDIANA"
+  },
+  {
+   "id": "t:4:2:2:0",
+   "es": "47.107",
+   "eu": "47.107"
+  }
+ ],
+ "tablas": {
+  "tablas_perfiles_cabeceras": [
+   "SOLDATA-ARRAKALA, GUZTIRA",
+   "OINARRIZKO SOLDATAREN ARRAKALA",
+   "MAILA-OSAGARRIAREN ARRAKALA",
+   "OSAGARRI PERTSONALAREN ARRAKALA",
+   "ANTZINATASUNAREN ARRAKALA"
+  ],
+  "perfiles": [
+   "ARLOKO ARDURADUNAK",
+   "PROIEKTU-BURUAK",
+   "AHOLKULARITZA",
+   "SISTEMA-ANALISTAK",
+   "ANALISTAK (UT)",
+   "ANALISTA FUNTZIONALAK",
+   "SEGURTASUN-ANALISTAK",
+   "PROGRAMATZAILEAK",
+   "EKOIZPEN-TEKNIKARIAK"
+  ],
+  "perfiles_2021": [
+   "ARLOKO ARDURADUNAK",
+   "PROIEKTU-BURUAK",
+   "AHOLKULARITZA",
+   "SISTEMA-ANALISTAK",
+   "ANALISTA FUNTZIONALAK",
+   "PROGRAMATZAILEAK",
+   "EKOIZPEN-TEKNIKARIAK",
+   "MIKROINFORMATIKAKO EUSKARRI-TEKNIKARIAK"
+  ],
+  "escalas": [
+   "ARLOKO ARDURADUNAK / 01 eskala",
+   "Administrariak / TSM / ekoizpen-teknikariak (04 eskala)",
+   "5. MAILA / 05 ESKALA",
+   "6. MAILA / 06 ESKALA",
+   "7. MAILA / 07 ESKALA",
+   "8. MAILA / 08 ESKALA",
+   "NEGOZIO-UNITATEA ETA PB, 9. MAILA (09 ESKALA)"
+  ],
+  "totales_ef": [
+   "",
+   "Kop.",
+   "KE kop.",
+   "Oinarrizko soldata Ef.",
+   "Maila-osagarria",
+   "Osagarri pertsonala",
+   "Antzinatasuna",
+   "Familia-laguntza",
+   "Soldata-osagarriak, guztira Ef.",
+   "SOLDATA, GUZTIRA Ef.",
+   "Gaixotasuna",
+   "Soldataz kanpokoak, guztira Ef.",
+   "ORDAINSARIA, GUZTIRA Ef."
+  ],
+  "totales_eq": [
+   "",
+   "Kop.",
+   "KE kop.",
+   "KE norm.",
+   "KE urtek.",
+   "KE norm. + urtek.",
+   "KE par.",
+   "Oinarrizko soldata Par.",
+   "Maila-osagarria",
+   "Osagarri pertsonala",
+   "Antzinatasuna",
+   "Soldata-osagarriak, guztira Par.",
+   "SOLDATA, GUZTIRA Par.",
+   "Soldataz kanpokoak, guztira Par.",
+   "ORDAINSARIA, GUZTIRA Par."
+  ],
+  "conceptos": [
+   [
+    "Balioa",
+    "Izen laburra",
+    "Deskribapena",
+    "Ordains.",
+    "Mota",
+    "Normalizagarria",
+    "Urtekogarria"
+   ],
+   [
+    "S.BASE",
+    "Oinarrizko soldata",
+    "Oinarrizko soldata",
+    "Dirua",
+    "Oinarrizko soldata",
+    "Bai",
+    "Bai"
+   ],
+   [
+    "Conc.Sal.01",
+    "Maila-osagarria",
+    "Maila-osagarria",
+    "Dirua",
+    "Soldata-osagarria",
+    "Bai",
+    "Bai"
+   ],
+   [
+    "Conc.Sal.02",
+    "Osagarri pertsonala",
+    "Osagarri pertsonala",
+    "Dirua",
+    "Soldata-osagarria",
+    "Bai",
+    "Bai"
+   ],
+   [
+    "Conc.Sal.03",
+    "Antzinatasuna",
+    "Antzinatasuna",
+    "Dirua",
+    "Soldata-osagarria",
+    "Bai",
+    "Bai"
+   ],
+   [
+    "Conc.Sal.04",
+    "Enpresaren familia-laguntza",
+    "Enpresaren familia-laguntza",
+    "Dirua",
+    "Soldata-osagarria",
+    "Bai",
+    "Bai"
+   ],
+   [
+    "Conc.Sal.05",
+    "Aparteko orduen konpentsazioa",
+    "Aparteko orduen konpentsazioa",
+    "Dirua",
+    "Soldata-osagarria",
+    "Ez",
+    "Ez"
+   ],
+   [
+    "Conc.Sal.06",
+    "Osagarria",
+    "Erretiro partzialean dauden pertsonek jasotako osagarria",
+    "Dirua",
+    "Soldata-osagarria",
+    "Ez",
+    "Ez"
+   ],
+   [
+    "Conc.Sal.07",
+    "Jantzi-plusa",
+    "Gidari/atezain profilak jasotako osagarria",
+    "Dirua",
+    "Soldata-osagarria",
+    "Ez",
+    "Ez"
+   ],
+   [
+    "Conc.Sal.08",
+    "Aldi baterako maila-osagarria",
+    "Aldi baterako maila-osagarria",
+    "Dirua",
+    "Soldata-osagarria",
+    "Ez",
+    "Ez"
+   ],
+   [
+    "Conc.Sal.09",
+    "Gauzazko ordainsaria MF",
+    "Gauzazko ordainsaria – Mutua Foral",
+    "Gauzazkoa",
+    "Soldata-osagarria",
+    "Ez",
+    "Ez"
+   ],
+   [
+    "Conc.Sal.10",
+    "Gauzazko ordainsaria, interesak",
+    "Gauzazko ordainsaria – interesak",
+    "Gauzazkoa",
+    "Soldata-osagarria",
+    "Ez",
+    "Ez"
+   ],
+   [
+    "Conc.Sal.11",
+    "Ikasketetarako laguntza",
+    "Ikasketetarako laguntza",
+    "Dirua",
+    "Soldata-osagarria",
+    "Ez",
+    "Ez"
+   ],
+   [
+    "Conc.Sal.12",
+    "Jaiotza-laguntza",
+    "Jaiotza-laguntza",
+    "Dirua",
+    "Soldata-osagarria",
+    "Ez",
+    "Ez"
+   ],
+   [
+    "Conc.Sal.13",
+    "Interes-hobaria",
+    "Ohiko etxebizitzarako maileguen interes-hobaria",
+    "Dirua",
+    "Soldata-osagarria",
+    "Ez",
+    "Ez"
+   ],
+   [
+    "Conc.Sal.14",
+    "Aparteko orduak",
+    "Lanegunetako eguneko aparteko orduak",
+    "Dirua",
+    "Soldata-osagarria",
+    "Ez",
+    "Ez"
+   ],
+   [
+    "Conc.Sal.15",
+    "Aparteko orduak",
+    "Lanegunetako gaueko aparteko orduak",
+    "Dirua",
+    "Soldata-osagarria",
+    "Ez",
+    "Ez"
+   ],
+   [
+    "Conc.Sal.16",
+    "Aparteko orduak",
+    "Jaiegunetako eguneko aparteko orduak",
+    "Dirua",
+    "Soldata-osagarria",
+    "Ez*",
+    "Ez"
+   ],
+   [
+    "Conc.Sal.17",
+    "Aparteko orduak",
+    "Jaiegunetako gaueko aparteko orduak",
+    "Dirua",
+    "Soldata-osagarria",
+    "Ez",
+    "Ez"
+   ],
+   [
+    "Conc.Sal.18",
+    "Aparteko orduak",
+    "Ezinbesteko kasuetako aparteko orduak",
+    "Dirua",
+    "Soldata-osagarria",
+    "Ez",
+    "Ez"
+   ],
+   [
+    "Conc.Sal.19",
+    "Gaixotasun-prestazioa E.K.",
+    "Enpresaren kargurako gaixotasun-prestazioa",
+    "Dirua",
+    "Soldata-osagarria",
+    "Ez",
+    "Bai"
+   ],
+   [
+    "Conc.Sal.20",
+    "ABE osagarria",
+    "Aldi baterako ezintasunaren osagarria",
+    "Dirua",
+    "Soldata-osagarria",
+    "Ez*",
+    "Bai"
+   ],
+   [
+    "Conc.Sal.21",
+    "Uzteagatiko kalte-ordainak",
+    "Obra-kontratu tenporalen amaierako kalte-ordainak",
+    "Dirua",
+    "Soldata-osagarria",
+    "Ez",
+    "Ez"
+   ],
+   [
+    "Conc.Sal.22",
+    "Elkarkidetza",
+    "Elkarkidetza pentsio-plana",
+    "Gauzazkoa",
+    "Soldata-osagarria",
+    "Ez",
+    "Ez"
+   ],
+   [
+    "Conc.Sal.23",
+    "Gauzazko ordainsaria MF ABE",
+    "Gauzazko ordainsaria – Mutua Foral ABE",
+    "Gauzazkoa",
+    "Soldata-osagarria",
+    "Ez",
+    "Ez"
+   ],
+   [
+    "Conc.Sal.24",
+    "Oporren zati proportzionala",
+    "Oporren zati proportzionala",
+    "Dirua",
+    "Soldata-osagarria",
+    "Ez",
+    "Ez"
+   ],
+   [
+    "Conc.Sal.25",
+    "Aparteko ordainsariaren hainbanaketa-likidazioa",
+    "Aparteko ordainsariaren hainbanaketa-likidazioa",
+    "Dirua",
+    "Soldata-osagarria",
+    "Ez",
+    "Ez"
+   ],
+   [
+    "C.Extra.01",
+    "Gaixotasuna",
+    "Gaixotasun-prestazioa",
+    "Dirua",
+    "Soldataz kanpokoa",
+    "Ez",
+    "Bai"
+   ],
+   [
+    "C.Extra.02",
+    "Istripua",
+    "Istripu-prestazioa",
+    "Dirua",
+    "Soldataz kanpokoa",
+    "Ez",
+    "Bai"
+   ]
+  ],
+  "celdas_clasificacion": {
+   "GRUPO": "TALDEA",
+   "RESP. DE DPTO./ÁREA": "SAILEKO/ARLOKO ARDURADUNA",
+   "RESP. UNIDAD FOCAL": "UNITATE FOKALEKO ARDURADUNA",
+   "JEFATURA DE PROYECTO": "PROIEKTU-BURUA",
+   "COORDINACIÓN ADMÓN Y RRHH": "ADMINISTRAZIOKO ETA GIZA BALIABIDEETAKO KOORDINAZIOA",
+   "CONSULTORÍA": "AHOLKULARITZA",
+   "ANALISTA DE SISTEMAS": "SISTEMA-ANALISTA",
+   "ANALISTA DE SISTEMAS UT": "SISTEMA-ANALISTA (UT)",
+   "ANALISTA FUNCIONAL": "ANALISTA FUNTZIONALA",
+   "ANALISTA DE SEGURIDAD": "SEGURTASUN-ANALISTA",
+   "ARQUITECTO/A PLATAFORMA TECNOLÓGICA": "PLATAFORMA TEKNOLOGIKOAREN ARKITEKTOA",
+   "GESTIÓN DE CALIDAD": "KALITATE-KUDEAKETA",
+   "PROGRAMACIÓN": "PROGRAMAZIOA",
+   "TÉCNICO ADMÓN GENERAL": "ADMINISTRAZIO OROKORREKO TEKNIKARIA",
+   "ESPECIALISTA SOPORTE MICROINFORMÁTICO": "MIKROINFORMATIKAKO EUSKARRI-ESPEZIALISTA",
+   "DISEÑADOR/A IU/UX": "IU/UX DISEINATZAILEA",
+   "TÉCNICA COMPRAS": "EROSKETA-TEKNIKARIA",
+   "GESTIÓN DE SERVICIOS": "ZERBITZUEN KUDEAKETA",
+   "TÉCNICO/A DE PRODUCCIÓN": "EKOIZPEN-TEKNIKARIA",
+   "TÉCNICO/A DE SISTEMAS": "SISTEMA-TEKNIKARIA",
+   "TÉCNICO/A DE SOPORTE MICROINFORMÁTICO": "MIKROINFORMATIKAKO EUSKARRI-TEKNIKARIA",
+   "TÉCNICO/A DE CAU": "ERABILTZAILEEN ARRETA ZENTROKO (CAU) TEKNIKARIA",
+   "PERSONAL ADMINISTRATIVO": "ADMINISTRARIAK",
+   "CHOFER/ORDENANZA": "GIDARIA/ATEZAINA",
+   "DIRECTOR/A-GERENTE": "ZUZENDARI-KUDEATZAILEA",
+   "Mujeres": "Emakumeak",
+   "Hombres": "Gizonak",
+   "MEDIA": "BATEZ BESTEKOA",
+   "MEDIANA": "MEDIANA"
+  }
+ },
+ "nota_pie": {
+  "es": "Brechas de género en el mercado laboral en Euskadi. Sara de la Rica, Lucía Gorjón, Ainhoa Vega. Fundación ISEAK/Emakunde. Febrero 2019.",
+  "eu": "Genero-arrakalak Euskadiko lan-merkatuan. Sara de la Rica, Lucía Gorjón, Ainhoa Vega. ISEAK Fundazioa / Emakunde. 2019ko otsaila."
+ }
+}

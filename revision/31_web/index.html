@@ -178,9 +178,11 @@ table.teu th,table.teu td{border:1px solid var(--line);padding:6px 8px;text-alig
 table.teu thead th{background:var(--pale);font-family:'Comfortaa';font-size:.72rem;text-align:center;line-height:1.25}
 table.teu tbody th{text-align:left;white-space:nowrap}
 table.teu tr.gap td,table.teu tr.gap th{background:#F4F0F7;font-weight:700}
-table.teu.conc td{text-align:left}table.teu.conc td.hl{background:#FFF3A6}
+table.teu.conc td{text-align:left;font-variant-numeric:normal}
+table.teu tbody th{font-variant-numeric:normal}table.teu.conc td.hl{background:#FFF3A6}
 .frac{display:flex;align-items:center;gap:16px;justify-content:center;margin:14px 0 18px;font-family:'Comfortaa';font-size:1rem}
 .frac .fr{display:flex;flex-direction:column;align-items:center;text-align:center}
+.frac .frac-x{white-space:nowrap}
 .frac .num{border-bottom:2px solid var(--ink);padding:0 8px 6px}.frac .den{padding-top:6px}
 </style>
 </head>
@@ -1279,7 +1281,7 @@ table.teu.conc td{text-align:left}table.teu.conc td.hl{background:#FFF3A6}
 <li><strong>Urtekotu:</strong> urte osoan emandako zerbitzuen iraupen bera. Urtebete baino aldi laburragoetan jasotako ordainsariak urtekotu egin behar dira. Horretarako, metodologia hau erabiltzen da: «urtekotzea». Kontuan hartutako urte osoko zenbatekoak hartuko dira (erreferentziako aldia). Ordainsari efektiboak proportzioan handitu beharko dira, urte osora iritsi arte.</li>
 </ul>
 <p>Emakumeen eta gizonen arteko ehuneko-aldea honela kalkulatu da:</p>
-<div aria-label="(Gizonei dagokien zenbatekoa – Emakumeei dagokien zenbatekoa) / Gizonei dagokien zenbatekoa × 100 %" class="frac" role="img"><div class="fr"><span class="num">Gizonei dagokien zenbatekoa – Emakumeei dagokien zenbatekoa</span><span class="den">Gizonei dagokien zenbatekoa</span></div><span class="pc">× 100 %</span></div>
+<div aria-label="(Gizonei dagokien zenbatekoa – Emakumeei dagokien zenbatekoa) / Gizonei dagokien zenbatekoa × 100 %" class="frac" role="img"><div class="fr"><span class="num">Gizonei dagokien zenbatekoa – Emakumeei dagokien zenbatekoa</span><span class="den">Gizonei dagokien zenbatekoa</span></div><span class="frac-x">× 100 %</span></div>
 <p>Emaitza ehuneko gisa adierazten da. Balioa positiboa bada, emakumeei dagokien zenbatekoa gizonei dagokiena baino txikiagoa da, adierazitako ehunekoan. Negatiboa bada, alderantziz interpretatu behar da.</p>
 <h4>Aldeak:</h4>
 <p><strong>Justifikatuak</strong></p>
@@ -1838,7 +1840,7 @@ table.teu.conc td{text-align:left}table.teu.conc td.hl{background:#FFF3A6}
 <li><strong>Urtekotu:</strong> urte osoan emandako zerbitzuen iraupen bera. Urtebete baino aldi laburragoetan jasotako ordainsariak urtekotu egin behar dira. Horretarako, metodologia hau erabiltzen da: «urtekotzea». Kontuan hartutako urte osoko zenbatekoak hartuko dira (erreferentziako aldia). Ordainsari efektiboak proportzioan handitu beharko dira, urte osora iritsi arte.</li>
 </ul>
 <p>Emakumeen eta gizonen arteko ehuneko-aldea honela kalkulatu da:</p>
-<div aria-label="(Gizonei dagokien zenbatekoa – Emakumeei dagokien zenbatekoa) / Gizonei dagokien zenbatekoa × 100 %" class="frac" role="img"><div class="fr"><span class="num">Gizonei dagokien zenbatekoa – Emakumeei dagokien zenbatekoa</span><span class="den">Gizonei dagokien zenbatekoa</span></div><span class="pc">× 100 %</span></div>
+<div aria-label="(Gizonei dagokien zenbatekoa – Emakumeei dagokien zenbatekoa) / Gizonei dagokien zenbatekoa × 100 %" class="frac" role="img"><div class="fr"><span class="num">Gizonei dagokien zenbatekoa – Emakumeei dagokien zenbatekoa</span><span class="den">Gizonei dagokien zenbatekoa</span></div><span class="frac-x">× 100 %</span></div>
 <p>Emaitza ehuneko gisa adierazten da. Balioa positiboa bada, emakumeei dagokien zenbatekoa gizonei dagokiena baino txikiagoa da, adierazitako ehunekoan. Negatiboa bada, alderantziz interpretatu behar da.</p>
 <h4>Aldeak:</h4>
 <p><strong>Justifikatuak</strong></p>
